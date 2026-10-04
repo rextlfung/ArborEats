@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ArborEats: food deals in Ann Arbor</title>
+    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <aside id="panel">
+      <header>
+        <h1>ArborEats</h1>
+        <p id="summary">Loading deals…</p>
+      </header>
+
+      <div class="filters">
+        <div class="chips" id="days" role="group" aria-label="Day"></div>
+        <div class="row">
+          <div class="chips" id="categories" role="group" aria-label="Type">
+            <button data-category="all" class="active">All</button>
+            <button data-category="food">Food</button>
+            <button data-category="drink">Drinks</button>
+          </div>
+          <label class="toggle"><input type="checkbox" id="now" /> On right now</label>
+        </div>
+        <div class="chips" id="owners" role="group" aria-label="Restaurant type">
+          <button data-owner="all" class="active">All places</button>
+          <button data-owner="local">Local only</button>
+          <button data-owner="chain">Chains only</button>
+        </div>
+        <input type="search" id="search" placeholder="Search restaurants or deals" />
+      </div>
+
+      <ol id="list"></ol>
+      <footer id="footer"></footer>
+    </aside>
+    <main id="map"></main>
+
+    <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "arboreats",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "restaurants": "node pipeline/1-restaurants.js",
+    "sources": "node pipeline/2-sources.js",
+    "scrape": "node pipeline/3-scrape.js",
+    "publish": "node pipeline/4-publish.js",
+    "pipeline": "npm run restaurants && npm run sources && npm run scrape && npm run publish",
+    "dev": "node pipeline/serve.js"
+  },
+  "dependencies": {
+    "@duckdb/node-api": "^1.5.6-r.1",
+    "cheerio": "^1.2.0",
+    "playwright": "^1.63.0",
+    "tesseract.js": "^7.0.0"
+  }
+}

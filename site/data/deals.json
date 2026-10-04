@@ -1,0 +1,3808 @@
+{
+  "generated_at": "2026-10-04T22:08:36.624Z",
+  "restaurants_checked": 424,
+  "restaurants": [
+    {
+      "id": "node/4787322481",
+      "name": "Alley Bar",
+      "lat": 42.2797182,
+      "lon": -83.7492861,
+      "type": "bar",
+      "chain": false,
+      "cuisine": [],
+      "address": "112 West Liberty Street",
+      "website": "http://www.a2alleybar.com/",
+      "instagram": "a2alleybar",
+      "deals": [
+        {
+          "title": "$6 Rotating Cocktails, $5 Wells ❤️‍🔥",
+          "description": "$6 Rotating Cocktails, $5 Wells ❤️‍🔥",
+          "price": "$6",
+          "days": [
+            "thu"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$6 Rotating Cocktails, $5 Wells ❤️‍🔥",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.a2alleybar.com/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "$15 Mint Juleps, available while supplies last Saturday May 2nd 🏇",
+          "description": "$15 Mint Juleps, available while supplies last Saturday May 2nd 🏇",
+          "price": "$15",
+          "days": [
+            "sat"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$15 Mint Juleps, available while supplies last Saturday May 2nd 🏇",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.a2alleybar.com/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "$10 Martini List",
+          "description": "$10 Martini List",
+          "price": "$10",
+          "days": [
+            "mon"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$10 Martini List",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.a2alleybar.com/weekly-lineup",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "BEER CAN TUESDAYS",
+          "description": "$3 Keystone",
+          "price": "$3",
+          "days": [
+            "mon"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$3 Keystone",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.a2alleybar.com/weekly-lineup",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "BEER CAN TUESDAYS",
+          "description": "$3 Miller High Life",
+          "price": "$3",
+          "days": [
+            "mon"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$3 Miller High Life",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.a2alleybar.com/weekly-lineup",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "BEER CAN TUESDAYS",
+          "description": "$4 High Noons",
+          "price": "$4",
+          "days": [
+            "mon"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$4 High Noons",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.a2alleybar.com/weekly-lineup",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "$5 Cocktails",
+          "description": "$5 Cocktails",
+          "price": "$5",
+          "days": [
+            "thu"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$5 Cocktails",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.a2alleybar.com/weekly-lineup",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "$5 Wells",
+          "description": "$5 Wells",
+          "price": "$5",
+          "days": [
+            "thu"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$5 Wells",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.a2alleybar.com/weekly-lineup",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Happy Hour",
+          "description": "50% Off Draft Beer",
+          "price": "50% Off",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "start_time": "17:00",
+          "end_time": "20:00",
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "50% Off Draft Beer",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.a2alleybar.com/weekly-lineup",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Happy Hour",
+          "description": "$10 Front Page Cocktails",
+          "price": "$10",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "start_time": "17:00",
+          "end_time": "20:00",
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$10 Front Page Cocktails",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.a2alleybar.com/weekly-lineup",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "SUN WN COLA $13.75 COCCHI AMERICANO $13.75 LEMON",
+          "description": "SUN WN COLA $13.75 COCCHI AMERICANO $13.75 LEMON",
+          "price": "$13.75",
+          "days": [
+            "sun"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "SUN WN COLA $13.75 COCCHI AMERICANO $13.75 LEMON :",
+          "confidence": "high",
+          "from_image": "https://images.squarespace-cdn.com/content/v1/60dc71a8927a991c5db276ea/70282f53-5b2c-44d0-a7cb-8629b9823fd6/2652342_AlleyBarMenu8-28-25_A-Front_082825.jpg",
+          "source_url": "https://www.a2alleybar.com/menu",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": ". © INDUSTRY NIGHT 2 HAPPY HOUR TRIVIA@ 8 PM WAYBACK WEDNESDAY: ~~ $5…",
+          "description": ". © INDUSTRY NIGHT 2 HAPPY HOUR TRIVIA@ 8 PM WAYBACK WEDNESDAY: ~~ $5 PICKLEBACKS EARLY HAPPY °",
+          "price": "$5",
+          "days": [
+            "wed"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": ". © INDUSTRY NIGHT 2 HAPPY HOUR TRIVIA@ 8 PM WAYBACK WEDNESDAY: ~~ $5 PICKLEBACKS EARLY HAPPY ° :",
+          "confidence": "high",
+          "from_image": "https://images.squarespace-cdn.com/content/v1/60dc71a8927a991c5db276ea/616b9df5-2920-4268-abc1-5a8fa27764f0/2652342_AlleyBarMenu8-28-25_Back_082825.jpg",
+          "source_url": "https://www.a2alleybar.com/menu",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "way/442876121",
+      "name": "Applebee's",
+      "lat": 42.2468755,
+      "lon": -83.7605725,
+      "type": "restaurant",
+      "chain": true,
+      "cuisine": [
+        "american"
+      ],
+      "address": "1005 W Eisenhower Pkwy",
+      "website": "https://restaurants.applebees.com/en-us/mi/ann-arbor/1005-w.-eisenhower-parkway-80061",
+      "instagram": "applebees",
+      "deals": [
+        {
+          "title": "$6 Spooky Sips at Applebee's - Halloween Cocktails & Mocktails",
+          "description": "$6 Spooky Sips at Applebee's - Halloween Cocktails & Mocktails",
+          "price": "$6",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "drink",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Image of $6 Spooky Sips at Applebee's - Halloween Cocktails & Mocktails",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://restaurants.applebees.com/en-us/mi/ann-arbor/1005-w.-eisenhower-parkway-80061",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "NEW $6 Spooky Sips",
+          "description": "NEW $6 Spooky Sips",
+          "price": "$6",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "NEW $6 Spooky Sips",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://restaurants.applebees.com/en-us/mi/ann-arbor/1005-w.-eisenhower-parkway-80061",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Applebee's® 2 for $25 - Featuring the NEW! O-M-Cheese-adilla Burger!",
+          "description": "Applebee's® 2 for $25 - Featuring the NEW! O-M-Cheese-adilla Burger!",
+          "price": "$25",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "Image of Applebee's® 2 for $25 - Featuring the NEW! O-M-Cheese-adilla Burger!",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://restaurants.applebees.com/en-us/mi/ann-arbor/1005-w.-eisenhower-parkway-80061",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Now on Applebee’s 2 for $25 menu.",
+          "description": "Now on Applebee’s 2 for $25 menu.",
+          "price": "$25",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "Now on Applebee’s 2 for $25 menu.",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://restaurants.applebees.com/en-us/mi/ann-arbor/1005-w.-eisenhower-parkway-80061",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/749007070",
+      "name": "Ashley's Ann Arbor",
+      "lat": 42.2780977,
+      "lon": -83.7409495,
+      "type": "pub",
+      "chain": false,
+      "cuisine": [],
+      "address": "338 South State Street",
+      "website": "https://www.ashleys.com/",
+      "instagram": "a2ashleys",
+      "deals": [
+        {
+          "title": "Plus $7 Smash burger and fries all night.",
+          "description": "Plus $7 Smash burger and fries all night.",
+          "price": "$7",
+          "days": [
+            "mon"
+          ],
+          "start_time": "19:00",
+          "end_time": "21:00",
+          "category": "food",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Plus $7 Smash burger and fries all night.",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://ashleys.com/ann-arbor-state-street-district-ashley-s-events",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/5007708559",
+      "name": "Cantina",
+      "lat": 42.2748283,
+      "lon": -83.7348227,
+      "type": "restaurant",
+      "chain": false,
+      "cuisine": [
+        "mexican"
+      ],
+      "address": "1140 South University Avenue",
+      "website": "https://www.cantinaannarbor.com/",
+      "instagram": "cantinaannarbor",
+      "deals": [
+        {
+          "title": "Cantina Pregame",
+          "description": "$1.50 draft beers, $3 margaritas and half-off fishbowls.",
+          "price": "$1.50 drafts",
+          "days": [
+            "fri",
+            "sat"
+          ],
+          "start_time": "20:00",
+          "end_time": "22:00",
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Half-off All Fishbowls",
+          "source_url": "https://cantinaannarbor.com/",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        }
+      ]
+    },
+    {
+      "id": "node/12896029117",
+      "name": "Chapala Mexican Restaurant",
+      "lat": 42.2827916,
+      "lon": -83.7486365,
+      "type": "restaurant",
+      "chain": false,
+      "cuisine": [
+        "mexican"
+      ],
+      "address": "211 North Main Street",
+      "website": "https://eatchapala.com/",
+      "instagram": "chapalaannarbor",
+      "deals": [
+        {
+          "title": "Monster Burrito Monday",
+          "description": "Monster burritos for $12 every Monday.",
+          "price": "$12",
+          "days": [
+            "mon"
+          ],
+          "start_time": "11:00",
+          "end_time": "22:00",
+          "category": "food",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": "Dine-in or takeout only",
+          "platform": "in_house",
+          "quote": "MONSTER Burrito Mondays! $12 Monster Burritos ! Dine in or take out only at Chapala !",
+          "source_url": "https://eatchapala.com/ann-arbor-ann-arbor-chapala-mexican-restaurant-specials-ann-arbor",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        },
+        {
+          "title": "Taco Tuesday",
+          "description": "Tacos Mexicanos for $3 each.",
+          "price": "$3",
+          "days": [
+            "tue"
+          ],
+          "start_time": "11:00",
+          "end_time": "22:00",
+          "category": "food",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Taco Tuesday - $3.00 tacos Mexicanos.",
+          "source_url": "https://eatchapala.com/ann-arbor-ann-arbor-chapala-mexican-restaurant-specials-ann-arbor",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        },
+        {
+          "title": "Quesadilla Wednesday",
+          "description": "Any quesadilla for $12 every Wednesday.",
+          "price": "$12",
+          "days": [
+            "wed"
+          ],
+          "start_time": "11:00",
+          "end_time": "22:00",
+          "category": "food",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Enjoy one of our delicious Quesadillas for just $12 every Wednesday!",
+          "source_url": "https://eatchapala.com/ann-arbor-ann-arbor-chapala-mexican-restaurant-specials-ann-arbor",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        },
+        {
+          "title": "Happy Hour",
+          "description": "Daily happy hour; the page lists no prices.",
+          "price": null,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "start_time": "15:00",
+          "end_time": "18:00",
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Happy Hour",
+          "source_url": "https://eatchapala.com/ann-arbor-ann-arbor-chapala-mexican-restaurant-specials-ann-arbor",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        }
+      ]
+    },
+    {
+      "id": "way/191023314",
+      "name": "Chili's",
+      "lat": 42.2559352,
+      "lon": -83.6867497,
+      "type": "restaurant",
+      "chain": true,
+      "cuisine": [
+        "tex-mex"
+      ],
+      "address": "3795 Washtenaw Avenue",
+      "website": "https://www.chilis.com/locations/us/michigan/ann-arbor/ann-arbor",
+      "instagram": "chilis",
+      "deals": [
+        {
+          "title": "Happy Hour",
+          "description": "$3 16 oz domestic drafts, $4 22 oz drafts, $5 house wine, $6 margarita of the month.",
+          "price": "from $3",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start_time": "15:00",
+          "end_time": "18:00",
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Miller Lite 16 oz",
+          "source_url": "https://www.chilis.com/locations/us/michigan/ann-arbor/ann-arbor",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        },
+        {
+          "title": "3 for Me: just pick your beverage, starter and main. Then get the bes…",
+          "description": "3 for Me: just pick your beverage, starter and main. Then get the best value meal; starting at $10.99.",
+          "price": "$10.99",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "3 for Me: just pick your beverage, starter and main. Then get the best value meal; starting at $10.99.",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.chilis.com/menu",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/5914646541",
+      "name": "Cold Stone Creamery",
+      "lat": 42.2557877,
+      "lon": -83.688083,
+      "type": "ice_cream",
+      "chain": true,
+      "cuisine": [
+        "ice cream"
+      ],
+      "address": "3597 Washtenaw Avenue",
+      "website": "https://www.coldstonecreamery.com/stores/21095",
+      "instagram": "coldstone",
+      "deals": [
+        {
+          "title": "A welcome Buy One, Get One FREE Creation™",
+          "description": "A welcome Buy One, Get One FREE Creation™",
+          "price": "Buy One, Get",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "A welcome Buy One, Get One FREE Creation™",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.coldstonecreamery.com/stores/ice-cream-near-ann-arbor/21095",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/5024950006",
+      "name": "Coratti's Pizzeria",
+      "lat": 42.2777257,
+      "lon": -83.742657,
+      "type": "restaurant",
+      "chain": true,
+      "cuisine": [
+        "pizza"
+      ],
+      "address": "512 East William Street",
+      "website": "https://www.corattispizzeria.com/ann-arbor",
+      "instagram": null,
+      "deals": [
+        {
+          "title": "Corattis Date Night Deals.jpg",
+          "description": "$45 DATE NIGHT DEAL",
+          "price": "$45",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "$45 DATE NIGHT DEAL",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.corattispizzeria.com/ann-arbor",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Enjoy 10% off at Coratti's Pizzeria",
+          "description": "Enjoy 10% off at Coratti's Pizzeria",
+          "price": "10% off",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "Enjoy 10% off at Coratti's Pizzeria",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.corattispizzeria.com/u-of-m-hospital-staff-discount",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "At Coratti’s Pizzeria, we’re proud to offer 10% off for University of…",
+          "description": "At Coratti’s Pizzeria, we’re proud to offer 10% off for University of Michigan hospital staff as a small thank you to the people who keep Ann Arbor running.",
+          "price": "10% off",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "At Coratti’s Pizzeria, we’re proud to offer 10% off for University of Michigan hospital staff as a small thank you to the people who keep Ann Arbor running.",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.corattispizzeria.com/u-of-m-hospital-staff-discount",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "10% off your order at Coratti's Pizzeria in Ann Arbor",
+          "description": "10% off your order at Coratti's Pizzeria in Ann Arbor",
+          "price": "10% off",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "10% off your order at Coratti's Pizzeria in Ann Arbor",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.corattispizzeria.com/u-of-m-hospital-staff-discount",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/13123598952",
+      "name": "Dunkin'",
+      "lat": 42.2779779,
+      "lon": -83.7409608,
+      "type": "fast_food",
+      "chain": true,
+      "cuisine": [
+        "donut",
+        "coffee shop"
+      ],
+      "address": "342 South State Street",
+      "website": "https://locations.dunkindonuts.com/en/mi/ann-arbor/342-south-state-street/365091",
+      "instagram": null,
+      "deals": [
+        {
+          "title": "$6 MEAL DEAL",
+          "description": "$6 MEAL DEAL",
+          "price": "$6",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "$6 MEAL DEAL",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.dunkindonuts.com/locations/us/mi/ann-arbor/342-south-state-street/store-365091/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Enjoy a medium Coffee; a Bacon, Egg, and Cheese Breakfast Sandwich; a…",
+          "description": "Enjoy a medium Coffee; a Bacon, Egg, and Cheese Breakfast Sandwich; and Hash Browns for $6! Terms & excl. apply.",
+          "price": "$6",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "Enjoy a medium Coffee; a Bacon, Egg, and Cheese Breakfast Sandwich; and Hash Browns for $6! Terms & excl. apply.",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.dunkindonuts.com/locations/us/mi/ann-arbor/342-south-state-street/store-365091/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/12329410630",
+      "name": "Firehouse Subs",
+      "lat": 42.2548674,
+      "lon": -83.6895257,
+      "type": "restaurant",
+      "chain": true,
+      "cuisine": [
+        "sandwich"
+      ],
+      "address": "3500 Washtenaw Avenue",
+      "website": "https://www.firehousesubs.com/store-locator/store/1ZSPnXZDeYJU9TycMBnFfk",
+      "instagram": null,
+      "deals": [
+        {
+          "title": "LIMITED-TIME",
+          "description": "If an MLB Postseason game goes to extra innings, your BOGO offer will go live the next day. Use code POST in the Firehouse Subs app or online. Valid for one day only.",
+          "price": "BOGO",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "If an MLB Postseason game goes to extra innings, your BOGO offer will go live the next day. Use code POST in the Firehouse Subs app or online. Valid for one day only.",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.firehousesubs.com/store-locator/store/1ZSPnXZDeYJU9TycMBnFfk",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/560917683",
+      "name": "Good Time Charley's",
+      "lat": 42.2748193,
+      "lon": -83.7348453,
+      "type": "bar",
+      "chain": false,
+      "cuisine": [],
+      "address": "1140 South University Avenue",
+      "website": "https://www.charleysannarbor.com/",
+      "instagram": null,
+      "deals": [
+        {
+          "title": "Happy Hour",
+          "description": "25% off all drinks and appetizers.",
+          "price": "25% off",
+          "days": [
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start_time": "15:00",
+          "end_time": "17:00",
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "25% off ALL DRINKS AND APPS 3-5pm",
+          "source_url": "https://www.charleysannarbor.com/happy-hour",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        },
+        {
+          "title": "Mug Club Monday",
+          "description": "Buy a mug for $15 and get your first drink fill-up.",
+          "price": "$15",
+          "days": [
+            "mon"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$15 mug purchase & first drink fill up",
+          "source_url": "https://www.charleysannarbor.com/",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        },
+        {
+          "title": "Burger Thursday",
+          "description": "Burger, fries and a soda.",
+          "price": "$6.99",
+          "days": [
+            "thu"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$6.99 Burger, Fries, and a soda.",
+          "source_url": "https://www.charleysannarbor.com/",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        }
+      ]
+    },
+    {
+      "id": "node/2758567958",
+      "name": "Grizzly Peak Brewing Company",
+      "lat": 42.2806364,
+      "lon": -83.7496376,
+      "type": "restaurant",
+      "chain": false,
+      "cuisine": [],
+      "address": "120 West Washington Street",
+      "website": "https://www.grizzlypeak.net/",
+      "instagram": "grizzlypeakbrewingco",
+      "deals": [
+        {
+          "title": "Happy Hour",
+          "description": "$4 PINTS",
+          "price": "$4",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start_time": "15:00",
+          "end_time": "18:00",
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$4 PINTS",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.grizzlypeak.net/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Happy Hour",
+          "description": "$8 APPETIZERS",
+          "price": "$8",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start_time": "15:00",
+          "end_time": "18:00",
+          "category": "food",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$8 APPETIZERS",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.grizzlypeak.net/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Happy Hour",
+          "description": "$10 PIZZAS",
+          "price": "$10",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start_time": "15:00",
+          "end_time": "18:00",
+          "category": "food",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$10 PIZZAS",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.grizzlypeak.net/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/12896035327",
+      "name": "Heidelberg Restaurant",
+      "lat": 42.2828938,
+      "lon": -83.7486484,
+      "type": "restaurant",
+      "chain": false,
+      "cuisine": [
+        "german",
+        "burger",
+        "sandwich"
+      ],
+      "address": "215 North Main Street",
+      "website": "https://heidelbergannarbor.com/",
+      "instagram": "The_heidelberg_ann_arbor",
+      "deals": [
+        {
+          "title": "Happy Hour",
+          "description": "$12 one-litre Das Boots and $4 well drinks.",
+          "price": "$4 wells",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "start_time": "16:00",
+          "end_time": "19:00",
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$12 1L Das Boots, $4 Well Drinks",
+          "source_url": "https://heidelbergannarbor.com/ann-arbor-heidelberg-restaurant-food-menu",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        }
+      ]
+    },
+    {
+      "id": "node/4945806627",
+      "name": "HopCat",
+      "lat": 42.2789296,
+      "lon": -83.7418442,
+      "type": "pub",
+      "chain": false,
+      "cuisine": [
+        "american"
+      ],
+      "address": "311 Maynard Street",
+      "website": "https://hopcat.com/ann-arbor",
+      "instagram": "hopcatbeerbar",
+      "deals": [
+        {
+          "title": "Happy Hour",
+          "description": "50% off apps, $4–6 select drafts, $6 mules, Meowgaritas and wine. Runs again from 9 PM to close.",
+          "price": "50% off apps",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start_time": "15:00",
+          "end_time": "18:00",
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": "Dine-in only. The page says both 'Mon-Fri' and 'Monday through Thursday'.",
+          "platform": "in_house",
+          "quote": "50% off Apps",
+          "source_url": "https://www.hopcat.com/ann-arbor/happy-hour",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        },
+        {
+          "title": "Burger & Beer Thursday",
+          "description": "Single patty burger, Cosmik Fries and any draft.",
+          "price": "$9",
+          "days": [
+            "thu"
+          ],
+          "start_time": "15:00",
+          "end_time": "18:00",
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Every Thursday from 3pm-6pm, enjoy a single patty burger, Cosmik Fries and any draft all for only $9!",
+          "source_url": "https://www.hopcat.com/ann-arbor/home",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        }
+      ]
+    },
+    {
+      "id": "way/339994751",
+      "name": "Knight's Steakhouse",
+      "lat": 42.2850494,
+      "lon": -83.7781232,
+      "type": "restaurant",
+      "chain": false,
+      "cuisine": [
+        "steak house"
+      ],
+      "address": "2324 Dexter Avenue",
+      "website": "https://knightsrestaurants.com/knights-steakhouse-dexter-avenue",
+      "instagram": "knightsondexter",
+      "deals": [
+        {
+          "title": "Lunch Specials for Saturday, October 3, 2026",
+          "description": "ARTUKE RED, ALAVESA, RIJOA '25 | 8OZ $14~5OZ $9.5~BTL $42",
+          "price": "$14",
+          "days": [
+            "sat"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "ARTUKE RED, ALAVESA, RIJOA '25 | 8OZ $14~5OZ $9.5~BTL $42",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://knightsrestaurants.com/knights-steakhouse-dexter-avenue",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Lunch Specials for Saturday, October 3, 2026",
+          "description": "SOCIAL VINES 'WINE TANGO FOXTROT' MICHIGAN '23 | 8OZ $16~5OZ $11~BTL $48",
+          "price": "$16",
+          "days": [
+            "sat"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "SOCIAL VINES 'WINE TANGO FOXTROT' MICHIGAN '23 | 8OZ $16~5OZ $11~BTL $48",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://knightsrestaurants.com/knights-steakhouse-dexter-avenue",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Lunch Specials for Saturday, October 3, 2026",
+          "description": "WHITE SANGRIA $9",
+          "price": "$9",
+          "days": [
+            "sat"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "WHITE SANGRIA $9",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://knightsrestaurants.com/knights-steakhouse-dexter-avenue",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Lunch Specials for Saturday, October 3, 2026",
+          "description": "Fresh Codfish, dipped in a vodka spiked beer batter & flash fried ~ served with French fries, lemon wedge and house tartar sauce. $17",
+          "price": "$17",
+          "days": [
+            "sat"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Fresh Codfish, dipped in a vodka spiked beer batter & flash fried ~ served with French fries, lemon wedge and house tartar sauce. $17",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://knightsrestaurants.com/knights-steakhouse-dexter-avenue",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Lunch Specials for Saturday, October 3, 2026",
+          "description": "Featuring two eggs prepared how you like, two pieces of bacon, two sausage links, home fries, and toast of your choice. $17",
+          "price": "$17",
+          "days": [
+            "sat"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Featuring two eggs prepared how you like, two pieces of bacon, two sausage links, home fries, and toast of your choice. $17",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://knightsrestaurants.com/knights-steakhouse-dexter-avenue",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Lunch Specials for Saturday, October 3, 2026",
+          "description": "Shaved prime rib, open faced sourdough, two poached eggs, arugula, horseradish hollandaise sauce, home fries $18",
+          "price": "$18",
+          "days": [
+            "sat"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Shaved prime rib, open faced sourdough, two poached eggs, arugula, horseradish hollandaise sauce, home fries $18",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://knightsrestaurants.com/knights-steakhouse-dexter-avenue",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/2508775052",
+      "name": "Little Caesars",
+      "lat": 42.2699606,
+      "lon": -83.7728719,
+      "type": "fast_food",
+      "chain": true,
+      "cuisine": [
+        "pizza"
+      ],
+      "address": "1944 West Stadium Boulevard",
+      "website": "https://littlecaesars.com/en-us/store/1213/",
+      "instagram": null,
+      "deals": [
+        {
+          "title": "15% OFF YOUR ORDER OF $15 OR MORE",
+          "description": "15% OFF YOUR ORDER OF $15 OR MORE",
+          "price": "15% OFF",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "15% OFF YOUR ORDER OF $15 OR MORE",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://littlecaesars.com/en-us/store/1213/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "20% OFF YOUR DELIVERY ORDER OF $20 OR MORE",
+          "description": "20% OFF YOUR DELIVERY ORDER OF $20 OR MORE",
+          "price": "20% OFF",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "20% OFF YOUR DELIVERY ORDER OF $20 OR MORE",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://littlecaesars.com/en-us/store/1213/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "$2 OFF WEBBERONI WITH YOUR ORDER OF $10 OR MORE",
+          "description": "$2 OFF WEBBERONI WITH YOUR ORDER OF $10 OR MORE",
+          "price": "$2 OFF",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "$2 OFF WEBBERONI WITH YOUR ORDER OF $10 OR MORE",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://littlecaesars.com/en-us/store/1213/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "way/381532676",
+      "name": "Little Caesars",
+      "lat": 42.2445939,
+      "lon": -83.6999207,
+      "type": "fast_food",
+      "chain": true,
+      "cuisine": [
+        "pizza"
+      ],
+      "address": "3000 Packard Road",
+      "website": "https://littlecaesars.com/en-us/store/101/",
+      "instagram": null,
+      "deals": [
+        {
+          "title": "15% OFF YOUR ORDER OF $15 OR MORE",
+          "description": "15% OFF YOUR ORDER OF $15 OR MORE",
+          "price": "15% OFF",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "15% OFF YOUR ORDER OF $15 OR MORE",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://littlecaesars.com/en-us/store/101/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "20% OFF YOUR DELIVERY ORDER OF $20 OR MORE",
+          "description": "20% OFF YOUR DELIVERY ORDER OF $20 OR MORE",
+          "price": "20% OFF",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "20% OFF YOUR DELIVERY ORDER OF $20 OR MORE",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://littlecaesars.com/en-us/store/101/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "$2 OFF WEBBERONI WITH YOUR ORDER OF $10 OR MORE",
+          "description": "$2 OFF WEBBERONI WITH YOUR ORDER OF $10 OR MORE",
+          "price": "$2 OFF",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "$2 OFF WEBBERONI WITH YOUR ORDER OF $10 OR MORE",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://littlecaesars.com/en-us/store/101/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/11139240503",
+      "name": "Mediterrano",
+      "lat": 42.2453693,
+      "lon": -83.7409118,
+      "type": "restaurant",
+      "chain": false,
+      "cuisine": [
+        "mediterranean"
+      ],
+      "address": "2900 South State Street",
+      "website": "https://www.mediterrano.com/",
+      "instagram": "mediterranoa2",
+      "deals": [
+        {
+          "title": "$24, Monday to Friday",
+          "description": "$24, Monday to Friday",
+          "price": "$24",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$24, Monday to Friday",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://mediterrano.com/menu",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/13970658549",
+      "name": "MilkShake Factory",
+      "lat": 42.2785249,
+      "lon": -83.7809468,
+      "type": "restaurant",
+      "chain": true,
+      "cuisine": [
+        "milkshake",
+        "chocolate"
+      ],
+      "address": "326 South Maple Road",
+      "website": "https://www.milkshakefactory.com/locations/mi-ann-arbor-326-south-maple-road/",
+      "instagram": "themilkshakefactory",
+      "deals": [
+        {
+          "title": "Thank you for your continued support. Join us as we commemorate this…",
+          "description": "Thank you for your continued support. Join us as we commemorate this milestone with BUY ONE GET ONE FREE on any of our handspun milkshakes…all day long!",
+          "price": "BUY ONE GET",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "Thank you for your continued support. Join us as we commemorate this milestone with BUY ONE GET ONE FREE on any of our handspun milkshakes…all day long!",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.milkshakefactory.com/locations/mi-ann-arbor-326-south-maple-road/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/8779519247",
+      "name": "Monty's Public House",
+      "lat": 42.244724,
+      "lon": -83.6974844,
+      "type": "pub",
+      "chain": false,
+      "cuisine": [
+        "pub",
+        "british",
+        "burger"
+      ],
+      "address": "3140 Packard Road",
+      "website": "https://www.montyspuba2.com/",
+      "instagram": "montyspub",
+      "deals": [
+        {
+          "title": "Margarita & Nachos Monday",
+          "description": "$5 Monty's margaritas and $6 half nachos; order both and save $1.",
+          "price": "$5 / $6",
+          "days": [
+            "mon"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$5 Monty's Margariitas & $6 Nachos [half] order both and save $1",
+          "source_url": "https://montyspuba2.com/",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        },
+        {
+          "title": "$2 Taco Tuesday",
+          "description": "A la carte tacos for $2.",
+          "price": "$2",
+          "days": [
+            "tue"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$2 Tacos [a la carte]",
+          "source_url": "https://montyspuba2.com/",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        },
+        {
+          "title": "All-Day Happy Hour Wednesday",
+          "description": "20% off apps, cocktails, drafts and wine all day.",
+          "price": "20% off",
+          "days": [
+            "wed"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "All Day Happy Hour, 20% off apps, cocktails, drafts & wine",
+          "source_url": "https://montyspuba2.com/",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        },
+        {
+          "title": "Burger & Lager Thursday",
+          "description": "$4 Monty's Pub Lager and $7 single Monty's Burger; order both and save $1.",
+          "price": "$4 / $7",
+          "days": [
+            "thu"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$4 Monty's Pub Lager $7 Monty's Burger [single], order both and save $1",
+          "source_url": "https://montyspuba2.com/",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        },
+        {
+          "title": "Friday Late Night",
+          "description": "$4 Wolverine and Slow Coast beers and spirits.",
+          "price": "$4",
+          "days": [
+            "fri"
+          ],
+          "start_time": "20:00",
+          "end_time": null,
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Late night specials 8pm-close: $4 wolverine & Slow Coast Beers & Spirits",
+          "source_url": "https://montyspuba2.com/",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        },
+        {
+          "title": "Happy Hour",
+          "description": "Happy hour on Monday and Tuesday afternoons; the page lists no prices.",
+          "price": null,
+          "days": [
+            "mon",
+            "tue"
+          ],
+          "start_time": "15:00",
+          "end_time": "18:00",
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Happy Hour 3-6 pm",
+          "source_url": "https://montyspuba2.com/",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        },
+        {
+          "title": "Monday: $5 MONTY'S MARGARITAS | $6 NACHOS [HALF]",
+          "description": "Monday: $5 MONTY'S MARGARITAS | $6 NACHOS [HALF]",
+          "price": "$5",
+          "days": [
+            "mon"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Monday: $5 MONTY'S MARGARITAS | $6 NACHOS [HALF]",
+          "confidence": "high",
+          "from_image": "https://montyspuba2.com/wp-content/uploads/2026/01/Daily-Specials-2-734x1024.png",
+          "source_url": "https://montyspuba2.com/drink-menu/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Monday: ORDER BOTH FOR $10 [SAVE $1]",
+          "description": "Monday: ORDER BOTH FOR $10 [SAVE $1]",
+          "price": "$10",
+          "days": [
+            "mon"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Monday: ORDER BOTH FOR $10 [SAVE $1]",
+          "confidence": "high",
+          "from_image": "https://montyspuba2.com/wp-content/uploads/2026/01/Daily-Specials-2-734x1024.png",
+          "source_url": "https://montyspuba2.com/drink-menu/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Wednesday: ALL DAY HAPPY HOUR | 20% OFF",
+          "description": "Wednesday: ALL DAY HAPPY HOUR | 20% OFF",
+          "price": "20% OFF",
+          "days": [
+            "wed"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Wednesday: ALL DAY HAPPY HOUR | 20% OFF",
+          "confidence": "high",
+          "from_image": "https://montyspuba2.com/wp-content/uploads/2026/01/Daily-Specials-2-734x1024.png",
+          "source_url": "https://montyspuba2.com/drink-menu/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Thursday: $4 MONTY'S PUB LAGER | $7 MONTY'S BURGER",
+          "description": "Thursday: $4 MONTY'S PUB LAGER | $7 MONTY'S BURGER",
+          "price": "$4",
+          "days": [
+            "thu"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Thursday: $4 MONTY'S PUB LAGER | $7 MONTY'S BURGER",
+          "confidence": "high",
+          "from_image": "https://montyspuba2.com/wp-content/uploads/2026/01/Daily-Specials-2-734x1024.png",
+          "source_url": "https://montyspuba2.com/drink-menu/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Thursday: ORDER BOTH FOR $10 [SAVE $1]",
+          "description": "Thursday: ORDER BOTH FOR $10 [SAVE $1]",
+          "price": "$10",
+          "days": [
+            "thu"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Thursday: ORDER BOTH FOR $10 [SAVE $1]",
+          "confidence": "high",
+          "from_image": "https://montyspuba2.com/wp-content/uploads/2026/01/Daily-Specials-2-734x1024.png",
+          "source_url": "https://montyspuba2.com/drink-menu/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Friday: $4 WOLVERINE & SLOW COAST BEER & SPIRITS",
+          "description": "Friday: $4 WOLVERINE & SLOW COAST BEER & SPIRITS",
+          "price": "$4",
+          "days": [
+            "fri"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Friday: $4 WOLVERINE & SLOW COAST BEER & SPIRITS",
+          "confidence": "high",
+          "from_image": "https://montyspuba2.com/wp-content/uploads/2026/01/Daily-Specials-2-734x1024.png",
+          "source_url": "https://montyspuba2.com/drink-menu/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "way/340028220",
+      "name": "P.F. Chang's",
+      "lat": 42.2414569,
+      "lon": -83.7451707,
+      "type": "restaurant",
+      "chain": true,
+      "cuisine": [
+        "asian"
+      ],
+      "address": "720 Briarwood Circle",
+      "website": "https://locations.pfchangs.com/mi/annarbor/720-briarwood-circle.html",
+      "instagram": "pfchangs",
+      "deals": [
+        {
+          "title": "Happy Hour",
+          "description": "$5.99 select beer, $6.99 select wine, $8.99 select cocktails and half-priced half apps.",
+          "price": "from $5.99",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start_time": "15:00",
+          "end_time": "18:00",
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$8.99 Select Cocktails and Half Priced Half Apps",
+          "source_url": "https://locations.pfchangs.com/mi/annarbor/720-briarwood-circle.html",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        },
+        {
+          "title": "Wine Wednesday",
+          "description": "Half off all bottles of wine and champagne, all day.",
+          "price": "half off",
+          "days": [
+            "wed"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "half off all bottles of wine and champagne all day long",
+          "source_url": "https://locations.pfchangs.com/mi/annarbor/720-briarwood-circle.html",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        }
+      ]
+    },
+    {
+      "id": "node/4396703026",
+      "name": "Papa John's",
+      "lat": 42.2724444,
+      "lon": -83.7764595,
+      "type": "fast_food",
+      "chain": true,
+      "cuisine": [
+        "pizza"
+      ],
+      "address": "2145 West Stadium Boulevard",
+      "website": "https://www.papajohns.com/",
+      "instagram": "papajohns",
+      "deals": [
+        {
+          "title": "Limited Time",
+          "description": "From$6.99/each",
+          "price": "$6.99",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "From$6.99/each",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.papajohns.com/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "2 or More for $6.99 Each, Papa Pairings",
+          "description": "2 or More for $6.99 Each, Papa Pairings",
+          "price": "$6.99",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "2 or More for $6.99 Each, Papa Pairings",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.papajohns.com/specials",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/3407102034",
+      "name": "Pizza Bob's",
+      "lat": 42.2717595,
+      "lon": -83.7407993,
+      "type": "restaurant",
+      "chain": false,
+      "cuisine": [
+        "pizza"
+      ],
+      "address": "800 South State Street",
+      "website": "https://www.pizzabobs.net/",
+      "instagram": "pizza_bobs",
+      "deals": [
+        {
+          "title": "$1.00 off Any Whole Sub",
+          "description": "$1.00 off Any Whole Sub",
+          "price": "$1.00 off",
+          "days": [
+            "mon",
+            "tue"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$1.00 off Any Whole Sub",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.pizzabobs.net/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "$1.00 off The Original Chipati™/The Chipopeye™",
+          "description": "$1.00 off The Original Chipati™/The Chipopeye™",
+          "price": "$1.00 off",
+          "days": [
+            "wed",
+            "thu"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$1.00 off The Original Chipati™/The Chipopeye™",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.pizzabobs.net/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "$1.00 off Calzone",
+          "description": "$1.00 off Calzone",
+          "price": "$1.00 off",
+          "days": [
+            "fri"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$1.00 off Calzone",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.pizzabobs.net/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Extra Large 1-Topping Pizza $15.38",
+          "description": "Extra Large 1-Topping Pizza $15.38",
+          "price": "$15.38",
+          "days": [
+            "sat"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Extra Large 1-Topping Pizza $15.38",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.pizzabobs.net/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "The Original Chipati™ and Small Shake $16.51",
+          "description": "The Original Chipati™ and Small Shake $16.51",
+          "price": "$16.51",
+          "days": [
+            "sun"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "The Original Chipati™ and Small Shake $16.51",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.pizzabobs.net/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/4787322469",
+      "name": "Pretzel Bell",
+      "lat": 42.2797286,
+      "lon": -83.7487993,
+      "type": "restaurant",
+      "chain": false,
+      "cuisine": [
+        "american"
+      ],
+      "address": "226 South Main Street",
+      "website": "https://www.thepretzelbell.com/",
+      "instagram": "pretzelbell",
+      "deals": [
+        {
+          "title": "Happy Hour: half off",
+          "description": "Half off all apps, draft beers and menu cocktails.",
+          "price": "half off",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start_time": "16:00",
+          "end_time": "18:00",
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "½ OFF ALL APPS, DRAFT BEERS, & MENU COCKTAILS",
+          "source_url": "https://www.thepretzelbell.com/",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        },
+        {
+          "title": "Happy Hour: burger, fries and a beer",
+          "description": "Smash burger with fries and a PBell Pilsner.",
+          "price": "$10",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start_time": "16:00",
+          "end_time": "18:00",
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$10 SMASH BURGER W. FRIES & A PBELL PILSNER",
+          "source_url": "https://www.thepretzelbell.com/",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        },
+        {
+          "title": "Happy Hour: Detroit-style pizza",
+          "description": "Classic Detroit-style pizzas for $11.",
+          "price": "$11",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start_time": "16:00",
+          "end_time": "18:00",
+          "category": "food",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$11 CLASSIC DETROIT-STYLE PIZZAS",
+          "source_url": "https://www.thepretzelbell.com/",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        },
+        {
+          "title": "Ladies Night",
+          "description": "girl dinner from 6–9pm – caesar salad, fries, & an espresso martini for $15",
+          "price": "$15",
+          "days": [
+            "fri"
+          ],
+          "start_time": "18:00",
+          "end_time": "21:00",
+          "category": "food",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "girl dinner from 6–9pm – caesar salad, fries, & an espresso martini for $15",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.thepretzelbell.com/down-bar",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/13276607054",
+      "name": "Rappourt",
+      "lat": 42.3041747,
+      "lon": -83.7067086,
+      "type": "bar",
+      "chain": false,
+      "cuisine": [],
+      "address": "2721 Plymouth Road",
+      "website": "https://www.rappourt.com/",
+      "instagram": "rappourtbrewbar",
+      "deals": [
+        {
+          "title": "Happy Hour",
+          "description": "HAPPY HOUR 2-6PM DAILY",
+          "price": null,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "start_time": "14:00",
+          "end_time": "18:00",
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "HAPPY HOUR 2-6PM DAILY",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.rappourt.com/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "way/288233309",
+      "name": "Red Robin",
+      "lat": 42.2416617,
+      "lon": -83.7402881,
+      "type": "restaurant",
+      "chain": true,
+      "cuisine": [
+        "burger"
+      ],
+      "address": "Briarwood Circle",
+      "website": "https://www.redrobin.com/locations/mi/annarbor/ann-arbor-499",
+      "instagram": "redrobinburgers",
+      "deals": [
+        {
+          "title": "Faves and deals",
+          "description": "$9.99 Big Yummm Burger Deal",
+          "price": "$9.99",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "$9.99 Big Yummm Burger Deal",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.redrobin.com/locations/mi/annarbor/ann-arbor-499",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Faves and deals",
+          "description": "Big Yummm Deals starting at $9.99",
+          "price": "$9.99",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "Big Yummm Deals starting at $9.99",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.redrobin.com/locations/mi/annarbor/ann-arbor-499",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Faves and deals",
+          "description": "The best burger deal in town just got better. With more choices, and more YUMMM® than ever, you can’t go wrong when you go BIG. Starting at only $9.99.",
+          "price": "$9.99",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "The best burger deal in town just got better. With more choices, and more YUMMM® than ever, you can’t go wrong when you go BIG. Starting at only $9.99.",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.redrobin.com/locations/mi/annarbor/ann-arbor-499",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/4794248902",
+      "name": "Rick's American Cafe",
+      "lat": 42.2744644,
+      "lon": -83.7344407,
+      "type": "bar",
+      "chain": false,
+      "cuisine": [],
+      "address": "611 Church Street",
+      "website": "https://ricksamericancafe.com/",
+      "instagram": "ricks_el",
+      "deals": [
+        {
+          "title": "Tequila Tuesday",
+          "description": "Half-off tequila drink specials.",
+          "price": "half off",
+          "days": [
+            "tue"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": "During the school year",
+          "platform": "in_house",
+          "quote": "Tequila Tuesday during the school year for half-off tequila drink specials",
+          "source_url": "https://www.ricksamericancafe.com/specials",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        },
+        {
+          "title": "$3 Thursday",
+          "description": "$3 drinks of all kinds and $6 beer pitchers.",
+          "price": "$3",
+          "days": [
+            "thu"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Thursdays for $3 drinks of all kinds and $6 beer pitchers",
+          "source_url": "https://www.ricksamericancafe.com/specials",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        }
+      ]
+    },
+    {
+      "id": "node/2887795514",
+      "name": "Scorekeepers",
+      "lat": 42.2789156,
+      "lon": -83.7421646,
+      "type": "pub",
+      "chain": false,
+      "cuisine": [],
+      "address": "310 Maynard Street",
+      "website": "http://scorekeepersa2.com/",
+      "instagram": null,
+      "deals": [
+        {
+          "title": "Specials",
+          "description": "$2.00 Tacos and $1.75 Domestic Bottled Beer 5-7",
+          "price": "$2.00",
+          "days": [
+            "tue"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$2.00 Tacos and $1.75 Domestic Bottled Beer 5-7",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "http://scorekeepersa2.com/specials/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Late night -after 9 Corona Night- Live DJ and drink specials",
+          "description": "$7.00 hamburger & Draft beer 5-11",
+          "price": "$7.00",
+          "days": [
+            "wed"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$7.00 hamburger & Draft beer 5-11",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "http://scorekeepersa2.com/specials/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "$.50 Wings & $1.75 Domestic Bottled Beer 5-7",
+          "description": "$.50 Wings & $1.75 Domestic Bottled Beer 5-7",
+          "price": "$1.75",
+          "days": [
+            "thu"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$.50 Wings & $1.75 Domestic Bottled Beer 5-7",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "http://scorekeepersa2.com/specials/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "$.50 Wings & $1.75 Domestic Bottled Beer- 5-7",
+          "description": "$.50 Wings & $1.75 Domestic Bottled Beer- 5-7",
+          "price": "$1.75",
+          "days": [
+            "fri"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$.50 Wings & $1.75 Domestic Bottled Beer- 5-7",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "http://scorekeepersa2.com/specials/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "$2 Tacos and $1.75 Bottled Beer 5-7pm",
+          "description": "$2 Tacos and $1.75 Bottled Beer 5-7pm",
+          "price": "$2",
+          "days": [
+            "tue"
+          ],
+          "start_time": "17:00",
+          "end_time": "19:00",
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$2 Tacos and $1.75 Bottled Beer 5-7pm",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "http://scorekeepersa2.com/restaurant-menu/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "$1.75 Bottled Beer 5-7pm",
+          "description": "$1.75 Bottled Beer 5-7pm",
+          "price": "$1.75",
+          "days": [
+            "wed"
+          ],
+          "start_time": "17:00",
+          "end_time": "19:00",
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$1.75 Bottled Beer 5-7pm",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "http://scorekeepersa2.com/restaurant-menu/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "$7 ‘Burger and a Beer’ Special All Night Request your favorite throwb…",
+          "description": "$7 ‘Burger and a Beer’ Special All Night Request your favorite throwback songs on our newly added Orange Door sound system!",
+          "price": "$7",
+          "days": [
+            "wed"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$7 ‘Burger and a Beer’ Special All Night Request your favorite throwback songs on our newly added Orange Door sound system!",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "http://scorekeepersa2.com/restaurant-menu/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "$0.50 Wings and $1.75 Bottled Beer 5-7pm",
+          "description": "$0.50 Wings and $1.75 Bottled Beer 5-7pm",
+          "price": "$0.50",
+          "days": [
+            "thu"
+          ],
+          "start_time": "17:00",
+          "end_time": "19:00",
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$0.50 Wings and $1.75 Bottled Beer 5-7pm",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "http://scorekeepersa2.com/restaurant-menu/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "$0.50 Chicken Fingers and $1.75 Bottled",
+          "description": "$0.50 Chicken Fingers and $1.75 Bottled",
+          "price": "$0.50",
+          "days": [
+            "fri"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$0.50 Chicken Fingers and $1.75 Bottled",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "http://scorekeepersa2.com/restaurant-menu/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "way/298602520",
+      "name": "Taco Bell",
+      "lat": 42.2989809,
+      "lon": -83.7224345,
+      "type": "fast_food",
+      "chain": true,
+      "cuisine": [
+        "tex-mex"
+      ],
+      "address": "1655 Plymouth Road",
+      "website": "https://locations.tacobell.com/mi/ann-arbor/1655-plymouth-rd.html",
+      "instagram": "tacobell",
+      "deals": [
+        {
+          "title": "The new Luxe Value Menu brings 10 favorites, each $3 or less.",
+          "description": "The new Luxe Value Menu brings 10 favorites, each $3 or less.",
+          "price": "$3",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "The new Luxe Value Menu brings 10 favorites, each $3 or less.",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://locations.tacobell.com/mi/ann-arbor/1655-plymouth-rd.html",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "way/340028219",
+      "name": "Texas de Brazil",
+      "lat": 42.2410406,
+      "lon": -83.7453744,
+      "type": "restaurant",
+      "chain": false,
+      "cuisine": [
+        "steak house"
+      ],
+      "address": "760 Briarwood Circle",
+      "website": "https://texasdebrazil.com/locations/ann-arbor/",
+      "instagram": "texasdebrazil",
+      "deals": [
+        {
+          "title": "Happy Hour",
+          "description": "Domestic Beer: $5",
+          "price": "$5",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu"
+          ],
+          "start_time": "16:30",
+          "end_time": "18:00",
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Domestic Beer: $5",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://texasdebrazil.com/locations/ann-arbor/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Happy Hour",
+          "description": "Caipirinhas & House Cocktails: $7",
+          "price": "$7",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu"
+          ],
+          "start_time": "16:30",
+          "end_time": "18:00",
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Caipirinhas & House Cocktails: $7",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://texasdebrazil.com/locations/ann-arbor/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Happy Hour",
+          "description": "Glass of TdB Private Label Wine: $8",
+          "price": "$8",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu"
+          ],
+          "start_time": "16:30",
+          "end_time": "18:00",
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Glass of TdB Private Label Wine: $8",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://texasdebrazil.com/locations/ann-arbor/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Happy Hour",
+          "description": "House Martinis: $9",
+          "price": "$9",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu"
+          ],
+          "start_time": "16:30",
+          "end_time": "18:00",
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "House Martinis: $9",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://texasdebrazil.com/locations/ann-arbor/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/2760098974",
+      "name": "The Black Pearl",
+      "lat": 42.2794195,
+      "lon": -83.7487949,
+      "type": "restaurant",
+      "chain": false,
+      "cuisine": [
+        "seafood"
+      ],
+      "address": "302 South Main Street",
+      "website": "https://www.blackpearlannarbor.com/",
+      "instagram": null,
+      "deals": [
+        {
+          "title": "Monday Oyster Special",
+          "description": "25% off oysters all night.",
+          "price": "25% off",
+          "days": [
+            "mon"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "25% off oysters all night long",
+          "source_url": "https://www.blackpearlannarbor.com/weekly-specials",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        },
+        {
+          "title": "Taco Tuesday",
+          "description": "$7 a la carte tacos; $3 off deconstructed carryout tacos.",
+          "price": "$7",
+          "days": [
+            "tue"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$7 a la carte tacos",
+          "source_url": "https://www.blackpearlannarbor.com/weekly-specials",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        },
+        {
+          "title": "Wine Wednesday",
+          "description": "50% off select bottles of wine.",
+          "price": "50% off",
+          "days": [
+            "wed"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": "Selections may rotate weekly",
+          "platform": "in_house",
+          "quote": "50% off Select bottles of wine",
+          "source_url": "https://www.blackpearlannarbor.com/weekly-specials",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        },
+        {
+          "title": "Industry Night",
+          "description": "15% off your bill for restaurant industry workers every Sunday.",
+          "price": "15% off",
+          "days": [
+            "sun"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": "Restaurant industry workers only",
+          "platform": "in_house",
+          "quote": "Offering 15% off your bill if you currently work in the restaurant industry.",
+          "source_url": "https://www.blackpearlannarbor.com/weekly-specials",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        },
+        {
+          "title": "Happy Hour (Mon–Thu)",
+          "description": "Discounted appetizers and specialty drinks.",
+          "price": null,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu"
+          ],
+          "start_time": "17:00",
+          "end_time": "18:00",
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Happy Hour is Monday through Thursday from 5-6PM and Friday & Saturday from 4-5PM.",
+          "source_url": "https://www.blackpearlannarbor.com/weekly-specials",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        },
+        {
+          "title": "Happy Hour (Fri–Sat)",
+          "description": "Discounted appetizers and specialty drinks.",
+          "price": null,
+          "days": [
+            "fri",
+            "sat"
+          ],
+          "start_time": "16:00",
+          "end_time": "17:00",
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Happy Hour is Monday through Thursday from 5-6PM and Friday & Saturday from 4-5PM.",
+          "source_url": "https://www.blackpearlannarbor.com/weekly-specials",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        }
+      ]
+    },
+    {
+      "id": "node/4854332819",
+      "name": "The Chop House",
+      "lat": 42.2788284,
+      "lon": -83.7488471,
+      "type": "restaurant",
+      "chain": false,
+      "cuisine": [
+        "steak house"
+      ],
+      "address": "322 South Main Street",
+      "website": "http://thechophouseannarbor.com/",
+      "instagram": null,
+      "deals": [
+        {
+          "title": "Happy Hour",
+          "description": "All Bottled Beer $4.25",
+          "price": "$4.25",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start_time": "17:00",
+          "end_time": "18:00",
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "All Bottled Beer $4.25",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://thechophouserestaurant.com/ann-arbor-the-chop-house-ann-arbor-food-menu",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Happy Hour",
+          "description": "SPECIALTY COCKTAILS: $7.95",
+          "price": "$7.95",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start_time": "17:00",
+          "end_time": "18:00",
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "SPECIALTY COCKTAILS: $7.95",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://thechophouserestaurant.com/ann-arbor-the-chop-house-ann-arbor-food-menu",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Happy Hour",
+          "description": "Black Raspberry Daiquiri $15.95",
+          "price": "$15.95",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start_time": "17:00",
+          "end_time": "18:00",
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Black Raspberry Daiquiri $15.95",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://thechophouserestaurant.com/ann-arbor-the-chop-house-ann-arbor-food-menu",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Happy Hour",
+          "description": "El Toro $14.95",
+          "price": "$14.95",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start_time": "17:00",
+          "end_time": "18:00",
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "El Toro $14.95",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://thechophouserestaurant.com/ann-arbor-the-chop-house-ann-arbor-food-menu",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Happy Hour",
+          "description": "Filmmaker $15.95",
+          "price": "$15.95",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start_time": "17:00",
+          "end_time": "18:00",
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Filmmaker $15.95",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://thechophouserestaurant.com/ann-arbor-the-chop-house-ann-arbor-food-menu",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Happy Hour",
+          "description": "Lychee Martini $17.95",
+          "price": "$17.95",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start_time": "17:00",
+          "end_time": "18:00",
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Lychee Martini $17.95",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://thechophouserestaurant.com/ann-arbor-the-chop-house-ann-arbor-food-menu",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Happy Hour",
+          "description": "Bourbon & Honey Blossom $16.95",
+          "price": "$16.95",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start_time": "17:00",
+          "end_time": "18:00",
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Bourbon & Honey Blossom $16.95",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://thechophouserestaurant.com/ann-arbor-the-chop-house-ann-arbor-food-menu",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Happy Hour",
+          "description": "Strawberries & Cream Martini $16.95",
+          "price": "$16.95",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start_time": "17:00",
+          "end_time": "18:00",
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Strawberries & Cream Martini $16.95",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://thechophouserestaurant.com/ann-arbor-the-chop-house-ann-arbor-food-menu",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/7015913462",
+      "name": "The Last Word",
+      "lat": 42.2813657,
+      "lon": -83.7514387,
+      "type": "bar",
+      "chain": false,
+      "cuisine": [],
+      "address": "301 West Huron Street",
+      "website": "https://thelastwordbar.com/",
+      "instagram": "thelastwordbar",
+      "deals": [
+        {
+          "title": "Monday: | Half Off Boards",
+          "description": "Monday: | Half Off Boards",
+          "price": "Half Off",
+          "days": [
+            "mon"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Monday: | Half Off Boards",
+          "confidence": "high",
+          "from_image": "https://images.squarespace-cdn.com/content/v1/5886158e8419c2220e164049/f1316277-ab0b-438e-8ee8-84b1a0c9a48e/TLW+Weekly+Lineup.jpg",
+          "source_url": "https://thelastword.com/weekly",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "All Night All meat, cheese, and charcuterie boards half off",
+          "description": "All Night All meat, cheese, and charcuterie boards half off",
+          "price": "half off",
+          "days": [
+            "mon"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "All Night All meat, cheese, and charcuterie boards half off",
+          "confidence": "high",
+          "from_image": "https://images.squarespace-cdn.com/content/v1/5886158e8419c2220e164049/f1316277-ab0b-438e-8ee8-84b1a0c9a48e/TLW+Weekly+Lineup.jpg",
+          "source_url": "https://thelastword.com/weekly",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Tuesday: | $10 Smash Burgers",
+          "description": "Tuesday: | $10 Smash Burgers",
+          "price": "$10",
+          "days": [
+            "tue"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Tuesday: | $10 Smash Burgers",
+          "confidence": "high",
+          "from_image": "https://images.squarespace-cdn.com/content/v1/5886158e8419c2220e164049/f1316277-ab0b-438e-8ee8-84b1a0c9a48e/TLW+Weekly+Lineup.jpg",
+          "source_url": "https://thelastword.com/weekly",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Wednesday: | 20z for the price of loz, 10z half off",
+          "description": "Wednesday: | 20z for the price of loz, 10z half off",
+          "price": "half off",
+          "days": [
+            "wed"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Wednesday: | 20z for the price of loz, 10z half off",
+          "confidence": "high",
+          "from_image": "https://images.squarespace-cdn.com/content/v1/5886158e8419c2220e164049/f1316277-ab0b-438e-8ee8-84b1a0c9a48e/TLW+Weekly+Lineup.jpg",
+          "source_url": "https://thelastword.com/weekly",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "All Night $9 House Manhattans",
+          "description": "All Night $9 House Manhattans",
+          "price": "$9",
+          "days": [
+            "wed"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "All Night $9 House Manhattans",
+          "confidence": "high",
+          "from_image": "https://images.squarespace-cdn.com/content/v1/5886158e8419c2220e164049/f1316277-ab0b-438e-8ee8-84b1a0c9a48e/TLW+Weekly+Lineup.jpg",
+          "source_url": "https://thelastword.com/weekly",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Thursday: | Live Music by The Pherotones",
+          "description": "20% off Food",
+          "price": "20% off",
+          "days": [
+            "wed"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "20% off Food",
+          "confidence": "high",
+          "from_image": "https://images.squarespace-cdn.com/content/v1/5886158e8419c2220e164049/f1316277-ab0b-438e-8ee8-84b1a0c9a48e/TLW+Weekly+Lineup.jpg",
+          "source_url": "https://thelastword.com/weekly",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/2344584607",
+      "name": "The Ravens Club",
+      "lat": 42.2801125,
+      "lon": -83.7483445,
+      "type": "restaurant",
+      "chain": false,
+      "cuisine": [],
+      "address": "207 South Main Street",
+      "website": "https://www.theravensclub.com/",
+      "instagram": "theravensclub",
+      "deals": [
+        {
+          "title": "Industry Night",
+          "description": "25% off for industry workers every Monday.",
+          "price": "25% off",
+          "days": [
+            "mon"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": "Industry workers only",
+          "platform": "in_house",
+          "quote": "25% off for industry workers",
+          "source_url": "https://www.theravensclub.com/",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        },
+        {
+          "title": "Monday Burger Deal",
+          "description": "$12 burger and fries, or $15 with a beer.",
+          "price": "$12",
+          "days": [
+            "mon"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$15 burger, fries and a beer",
+          "source_url": "https://www.theravensclub.com/",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        },
+        {
+          "title": "Taco Tuesday",
+          "description": "$4 blackened catfish tacos, $7 rotating margarita and tequila mule, $6 Modelo and a tequila shot.",
+          "price": "$4",
+          "days": [
+            "tue"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$4 Blackened Catfish Tacos",
+          "source_url": "https://www.theravensclub.com/",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        },
+        {
+          "title": "Whiskey & Wine Wednesday",
+          "description": "Whiskey pours 25% off and $6 select wines.",
+          "price": "25% off",
+          "days": [
+            "wed"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Whiskey pours 25% off",
+          "source_url": "https://www.theravensclub.com/",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        },
+        {
+          "title": "Happy Hour",
+          "description": "$10 Old Fashioned, $9 gin & tonic, all beers $6.",
+          "price": "$6–$10",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu"
+          ],
+          "start_time": "16:00",
+          "end_time": "18:00",
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "✦ Old Fashioned — $10",
+          "source_url": "https://www.theravensclub.com/happy-hour",
+          "verified_at": "2026-10-04T21:59:17.229Z",
+          "reviewed": true
+        },
+        {
+          "title": "The Ravens Club — Daily EditionmondayEvery Monday · Vol. XVIndustry N…",
+          "description": "The Ravens Club — Daily EditionmondayEvery Monday · Vol. XVIndustry Night✦ 25% off for industry workers✦ $15 burger, fries and a beer✦ $12 burger & friessee inside, darling",
+          "price": "25% off",
+          "days": [
+            "mon"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "The Ravens Club — Daily EditionmondayEvery Monday · Vol. XVIndustry Night✦ 25% off for industry workers✦ $15 burger, fries and a beer✦ $12 burger & friessee inside, darling",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.theravensclub.com/specials",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Industry Night",
+          "description": "25% off for industry workers",
+          "price": "25% off",
+          "days": [
+            "mon"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "✦25% off for industry workers",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.theravensclub.com/specials",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Industry Night",
+          "description": "$15 burger, fries and a beer",
+          "price": "$15",
+          "days": [
+            "mon"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "✦$15 burger, fries and a beer",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.theravensclub.com/specials",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Industry Night",
+          "description": "$12 burger & fries",
+          "price": "$12",
+          "days": [
+            "mon"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "✦$12 burger & fries",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.theravensclub.com/specials",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "The Ravens Club — Daily EditiontuesdayEvery Tuesday · Vol. XVTaco Tue…",
+          "description": "The Ravens Club — Daily EditiontuesdayEvery Tuesday · Vol. XVTaco Tuesday✦ $4 Blackened Catfish Tacos✦ Rotating Margarita - $7✦ Tequila Mule - $7see inside, darling",
+          "price": "$4",
+          "days": [
+            "tue"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "The Ravens Club — Daily EditiontuesdayEvery Tuesday · Vol. XVTaco Tuesday✦ $4 Blackened Catfish Tacos✦ Rotating Margarita - $7✦ Tequila Mule - $7see inside, darling",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.theravensclub.com/specials",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Taco Tuesday",
+          "description": "$4 Blackened Catfish Tacos",
+          "price": "$4",
+          "days": [
+            "tue"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "✦$4 Blackened Catfish Tacos",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.theravensclub.com/specials",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Taco Tuesday",
+          "description": "Rotating Margarita - $7",
+          "price": "$7",
+          "days": [
+            "tue"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "✦Rotating Margarita - $7",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.theravensclub.com/specials",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Taco Tuesday",
+          "description": "Tequila Mule - $7",
+          "price": "$7",
+          "days": [
+            "tue"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "✦Tequila Mule - $7",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.theravensclub.com/specials",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Taco Tuesday",
+          "description": "Sip & Shot (Modelo & a shot of tequila) - $6",
+          "price": "$6",
+          "days": [
+            "tue"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "✦Sip & Shot (Modelo & a shot of tequila) - $6",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.theravensclub.com/specials",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Whiskey pours 25% off",
+          "description": "Whiskey pours 25% off",
+          "price": "25% off",
+          "days": [
+            "wed"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "✦Whiskey pours 25% off",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.theravensclub.com/specials",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "$6 select wines",
+          "description": "$6 select wines",
+          "price": "$6",
+          "days": [
+            "wed"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "✦$6 select wines",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.theravensclub.com/specials",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Happy Hour",
+          "description": "Visit The Whiskey LibraryIt’s happy hour · until 6:00 PMHappy hour · Monday through Thursday, 4:00 PM - 6:00 PM",
+          "price": null,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu"
+          ],
+          "start_time": "16:00",
+          "end_time": "18:00",
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Visit The Whiskey LibraryIt’s happy hour · until 6:00 PMHappy hour · Monday through Thursday, 4:00 PM - 6:00 PM",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.theravensclub.com/menu",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "$4 Blackened Catfish Tacos · Rotating Margarita - $7 · Tequila Mule -…",
+          "description": "$4 Blackened Catfish Tacos · Rotating Margarita - $7 · Tequila Mule - $7 · Sip & Shot (Modelo & a shot of tequila) - $6",
+          "price": "$4",
+          "days": [
+            "tue"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$4 Blackened Catfish Tacos · Rotating Margarita - $7 · Tequila Mule - $7 · Sip & Shot (Modelo & a shot of tequila) - $6",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.theravensclub.com/menu",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Whiskey & Wine Wednesday",
+          "description": "Whiskey pours 25% off · $6 select wines",
+          "price": "25% off",
+          "days": [
+            "wed"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Whiskey pours 25% off · $6 select wines",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.theravensclub.com/menu",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/9730722536",
+      "name": "Tropical Smoothie Cafe",
+      "lat": 42.2555856,
+      "lon": -83.6921711,
+      "type": "fast_food",
+      "chain": true,
+      "cuisine": [
+        "juice"
+      ],
+      "address": "3400 Washtenaw Ave",
+      "website": "https://locations.tropicalsmoothiecafe.com/mi/ann-arbor/3400-washtenaw-avenue",
+      "instagram": "tropicalsmoothiecafe",
+      "deals": [
+        {
+          "title": "Tropical Smoothie Cafe game day deal offering a $2 smoothie with qual…",
+          "description": "Tropical Smoothie Cafe game day deal offering a $2 smoothie with qualifying food or Tropic Bowl purchase every Sunday and Monday during football season.",
+          "price": "$2",
+          "days": [
+            "mon",
+            "sun"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Tropical Smoothie Cafe game day deal offering a $2 smoothie with qualifying food or Tropic Bowl purchase every Sunday and Monday during football season.",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://locations.tropicalsmoothiecafe.com/mi/ann-arbor/3400-washtenaw-avenue",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Use promo code SCORE at digital checkout to get a $2 SMOOTHIE* with f…",
+          "description": "Use promo code SCORE at digital checkout to get a $2 SMOOTHIE* with food or Tropic Bowl purchase every Sunday & Monday during football season at participating cafes.",
+          "price": "$2",
+          "days": [
+            "mon",
+            "sun"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Use promo code SCORE at digital checkout to get a $2 SMOOTHIE* with food or Tropic Bowl purchase every Sunday & Monday during football season at participating cafes.",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://locations.tropicalsmoothiecafe.com/mi/ann-arbor/3400-washtenaw-avenue",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/13766745801",
+      "name": "Uplift",
+      "lat": 42.2800344,
+      "lon": -83.7511891,
+      "type": "bar",
+      "chain": false,
+      "cuisine": [],
+      "address": "210 South First Street",
+      "website": "https://www.upliftannarbor.com/",
+      "instagram": "uplift_a2",
+      "deals": [
+        {
+          "title": "Happy Hour",
+          "description": "Trans Happy Hour",
+          "price": null,
+          "days": [
+            "wed"
+          ],
+          "start_time": "18:00",
+          "end_time": "20:00",
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Trans Happy Hour",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.upliftannarbor.com/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "way/328499868",
+      "name": "Venue by 4M",
+      "lat": 42.2597479,
+      "lon": -83.7365753,
+      "type": "restaurant",
+      "chain": false,
+      "cuisine": [],
+      "address": "1919 South Industrial Highway",
+      "website": "https://experience4m.com/",
+      "instagram": "4mvenue",
+      "deals": [
+        {
+          "title": "Happy Hour",
+          "description": "Venue Well Mixed Drinks $2 Off",
+          "price": "$2 Off",
+          "days": [
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start_time": "15:00",
+          "end_time": "18:00",
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Venue Well Mixed Drinks $2 Off",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.experience4m.com/menus/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Happy Hour",
+          "description": "Tropic Thunder $9",
+          "price": "$9",
+          "days": [
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start_time": "15:00",
+          "end_time": "18:00",
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Tropic Thunder $9",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.experience4m.com/menus/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Happy Hour",
+          "description": "Smoky Old Forum $9",
+          "price": "$9",
+          "days": [
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start_time": "15:00",
+          "end_time": "18:00",
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Smoky Old Forum $9",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.experience4m.com/menus/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Happy Hour",
+          "description": "Venue Aperol Spritz $9",
+          "price": "$9",
+          "days": [
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start_time": "15:00",
+          "end_time": "18:00",
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Venue Aperol Spritz $9",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.experience4m.com/menus/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        },
+        {
+          "title": "Happy Hour",
+          "description": "Venue Cosmo $9",
+          "price": "$9",
+          "days": [
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start_time": "15:00",
+          "end_time": "18:00",
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Venue Cosmo $9",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.experience4m.com/menus/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/4908016618",
+      "name": "Vertex Coffee Roasters",
+      "lat": 42.2751763,
+      "lon": -83.7318235,
+      "type": "cafe",
+      "chain": true,
+      "cuisine": [
+        "coffee shop"
+      ],
+      "address": "1335 South University Avenue",
+      "website": "https://www.vertex-coffee.com/",
+      "instagram": "vertexcoffeeroasters",
+      "deals": [
+        {
+          "title": "Ann Arbor Only$4",
+          "description": "Ann Arbor Only$4",
+          "price": "$4",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "both",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "Ann Arbor Only$4",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.vertex-coffee.com/menus",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/4919630435",
+      "name": "Vinology",
+      "lat": 42.2810378,
+      "lon": -83.7487121,
+      "type": "restaurant",
+      "chain": false,
+      "cuisine": [],
+      "address": "110 South Main Street",
+      "website": "https://vinologya2.com/",
+      "instagram": "vinologya2",
+      "deals": [
+        {
+          "title": "Happy Hour",
+          "description": "Happy Hour | Monday-Friday | 4:00pm-6:00pm",
+          "price": null,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start_time": "16:00",
+          "end_time": "18:00",
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Happy Hour | Monday-Friday | 4:00pm-6:00pm",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://vinologya2.com/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "way/404262092",
+      "name": "Zingerman's Roadhouse",
+      "lat": 42.2800087,
+      "lon": -83.7810303,
+      "type": "restaurant",
+      "chain": false,
+      "cuisine": [
+        "american"
+      ],
+      "address": "2501 Jackson Avenue",
+      "website": "https://zingermansroadhouse.com/",
+      "instagram": "zingermansroadhouse",
+      "deals": [
+        {
+          "title": "Happy Hour",
+          "description": "Available Monday-Friday from 2:00pm until 6:00pm. The best Happy Hour in Ann Arbor!",
+          "price": null,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start_time": "14:00",
+          "end_time": "18:00",
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Available Monday-Friday from 2:00pm until 6:00pm. The best Happy Hour in Ann Arbor!",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.zingermansroadhouse.com/menus/happy-hour/",
+          "verified_at": "2026-10-04T21:59:00.498Z",
+          "reviewed": false
+        }
+      ]
+    }
+  ]
+}

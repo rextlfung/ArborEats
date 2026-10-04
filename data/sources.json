@@ -1,0 +1,5167 @@
+{
+  "node/7048529185": {
+    "name": "19 Drips",
+    "website": "https://www.19drips.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "TANTE777",
+    "facebook": "TANTE777",
+    "pages": [
+      "https://tante777.io/",
+      "https://tante777.io/video-templates/product-promo",
+      "https://tante777.io/web-templates/event",
+      "https://tante777.io/graphics/icons/food",
+      "https://tante777.io/photos/food"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/298602522": {
+    "name": "A+ Wagyu BBQ",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/381532658": {
+    "name": "Achilles Coney Restaurant",
+    "website": "https://achillesdiner.com/",
+    "website_from": "osm",
+    "website_status": "ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR",
+    "instagram": null,
+    "facebook": "100062989638612",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3040021263": {
+    "name": "Afternoon Delight",
+    "website": "https://www.afternoondelightcafe.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "33929081242",
+    "pages": [
+      "https://www.afternoondelightcafe.com/",
+      "https://www.afternoondelightcafe.com/menus/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3074036040": {
+    "name": "Ahmo's",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/621734158": {
+    "name": "Ahmo's Gyros & Deli",
+    "website": "https://ahmos.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "432723516792988",
+    "pages": [
+      "https://ahmos.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/7041626486": {
+    "name": "Ahmo’s Gyros & Deli",
+    "website": "https://www.ahmos.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "https://www.ahmos.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4787322481": {
+    "name": "Alley Bar",
+    "website": "http://www.a2alleybar.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "a2alleybar",
+    "facebook": "148239895192501",
+    "pages": [
+      "https://www.a2alleybar.com/",
+      "https://www.a2alleybar.com/weekly-lineup",
+      "https://www.a2alleybar.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4995373012": {
+    "name": "aMa Bistro",
+    "website": "https://www.amabistro.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "amabistro",
+    "facebook": "AMa-Bistro-Restaurant-848122001895458",
+    "pages": [
+      "https://www.amabistro.com/",
+      "https://www.amabistro.com/category/party-event/",
+      "https://www.amabistro.com/menu/",
+      "https://www.amabistro.com/drinks/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4176670447": {
+    "name": "Amadeus",
+    "website": "https://amadeusrestaurant.com/",
+    "website_from": "osm",
+    "website_status": "CERT_HAS_EXPIRED",
+    "instagram": null,
+    "facebook": "116161061738003",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2874423480": {
+    "name": "Amer's Delicatessen",
+    "website": "https://www.amersdeli.com/",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": "amers_deli",
+    "facebook": "pages",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2906054423": {
+    "name": "Anna's House",
+    "website": "https://annashouseus.com/ann-arbor-mi-restaurant/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "annashouseus",
+    "facebook": "468424613694118",
+    "pages": [
+      "https://annashouseus.com/ann-arbor-mi-restaurant/",
+      "https://annashouseus.com/menus/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3268756978": {
+    "name": "Anthony's Gourmet Pizza",
+    "website": "http://www.anthonysgourmet.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "anthonysgourmetpizza",
+    "facebook": "181663102024777",
+    "pages": [
+      "https://anthonysgourmet.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/10820196757": {
+    "name": "Anthony's Pizza",
+    "website": "https://www.anthonysgourmet.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "anthonysgourmetpizza",
+    "facebook": "1561103214220112",
+    "pages": [
+      "https://anthonysgourmet.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/442876121": {
+    "name": "Applebee's",
+    "website": "https://restaurants.applebees.com/en-us/mi/ann-arbor/1005-w.-eisenhower-parkway-80061",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "applebees",
+    "facebook": "applebees",
+    "pages": [
+      "https://restaurants.applebees.com/en-us/mi/ann-arbor/1005-w.-eisenhower-parkway-80061",
+      "https://restaurants.applebees.com/en-us/mi/ann-arbor/1005-w.-eisenhower-parkway-80061/happy-hour",
+      "https://restaurants.applebees.com/en-us/mi/ann-arbor/1005-w.-eisenhower-parkway-80061/specials"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/457106335": {
+    "name": "Applebee's",
+    "website": "https://restaurants.applebees.com/en-us/mi/ann-arbor/2310-green-road-80079",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "applebees",
+    "facebook": "applebees",
+    "pages": [
+      "https://restaurants.applebees.com/en-us/mi/annarbor/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/502195831": {
+    "name": "Argus Farm Stop - Packard Cafe",
+    "website": "https://www.argusfarmstop.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "https://www.argusfarmstop.com/",
+      "https://www.argusfarmstop.com/events-1",
+      "https://www.argusfarmstop.com/food-access",
+      "https://www.argusfarmstop.com/why-local-food"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/441966479": {
+    "name": "Aroma Indian Cuisine",
+    "website": "https://aromaannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ENOTFOUND",
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/749007070": {
+    "name": "Ashley's Ann Arbor",
+    "website": "https://www.ashleys.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "a2ashleys",
+    "facebook": "101971709856128",
+    "pages": [
+      "https://ashleys.com/",
+      "https://ashleys.com/ann-arbor-state-street-district-ashley-s-events",
+      "https://ashleys.com/ann-arbor-state-street-district-ashley-s-food-menu",
+      "https://ashleys.com/ann-arbor-state-street-district-ashley-s-drink-menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4958401109": {
+    "name": "Asian Legend",
+    "website": "https://www.asianlegendannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ECONNRESET",
+    "instagram": null,
+    "facebook": "173994356030934",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/1278920633": {
+    "name": "Auntie Anne's",
+    "website": "https://locations.auntieannes.com/mi/ann-arbor/261-briarwood-circle?utm_source=extnet&utm_medium=organic&utm_campaign=locations_partner",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "auntieannespretzels",
+    "facebook": "247725202009821",
+    "pages": [
+      "https://locations.auntieannes.com/mi/ann-arbor/261-briarwood-circle?utm_source=extnet&utm_medium=organic&utm_campaign=locations_partner"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4935570672": {
+    "name": "Aventura",
+    "website": "https://aventuraannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "aventura_ann_arbor",
+    "facebook": "287010314772216",
+    "pages": [
+      "https://www.aventuraannarbor.com/",
+      "https://www.aventuraannarbor.com/upcoming-events",
+      "https://www.aventuraannarbor.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/13959108537": {
+    "name": "Ayse's Turkish Cafe",
+    "website": "https://www.aysesturkishcafeannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "aysescafe",
+    "facebook": "AysesCafe",
+    "pages": [
+      "https://www.aysesturkishcafeannarbor.com/",
+      "https://www.aysesturkishcafeannarbor.com/events",
+      "https://www.aysesturkishcafeannarbor.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2760098975": {
+    "name": "Azalea",
+    "website": "https://azaleami.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "azalea.annarbor",
+    "facebook": null,
+    "pages": [
+      "https://azaleami.com/",
+      "https://azaleami.com/the-menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/277376052": {
+    "name": "Baba Dari",
+    "website": "https://babadari.com/",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": "116350851726120",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4860420404": {
+    "name": "Backroom Pizza",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/12070720131": {
+    "name": "Bambu",
+    "website": "https://www.drinkbambu.com/location-pages/bambu-ann-arbor",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "bambudessertdrinks",
+    "facebook": "111063501222896",
+    "pages": [
+      "https://www.drinkbambu.com/location-pages/bambu-ann-arbor",
+      "https://www.drinkbambu.com/drinks"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/11945639757": {
+    "name": "Bandito's",
+    "website": "http://banditosmi.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "128740704116",
+    "pages": [
+      "https://banditosmi.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/11816994969": {
+    "name": "Bao Boys",
+    "website": "https://www.eatbaoboys.com",
+    "website_from": "osm",
+    "website_status": "ERR_SSL_SSL/TLS_ALERT_HANDSHAKE_FAILURE",
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/10537871410": {
+    "name": "Bao Space",
+    "website": "https://baospacea2.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "100089114287458",
+    "pages": [
+      "https://baospacea2.com/",
+      "https://baospacea2.com/menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3889499302": {
+    "name": "Baobao Asian Eatery",
+    "website": "https://www.baobaoasianeatery.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "https://www.baobaoasianeatery.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4398318866": {
+    "name": "Baskin-Robbins",
+    "website": "https://locations.baskinrobbins.com/mi/ann-arbor/1952-w-stadium-blvd",
+    "website_from": "osm",
+    "website_status": "HTTP 404",
+    "instagram": null,
+    "facebook": "188783494525255",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/13970667747": {
+    "name": "bb.q Chicken",
+    "website": "https://bbqchicken.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "bbqchickenus",
+    "facebook": "bbqchickenus",
+    "pages": [
+      "https://bbqchicken.com/",
+      "https://bbqchicken.com/menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/442872450": {
+    "name": "Bearclaw Coffee Co.",
+    "website": "https://bearclawcoffee.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "bearclawcoffeecompany",
+    "facebook": "BearclawCoffeeCompany",
+    "pages": [
+      "https://www.bearclawcoffee.com/",
+      "https://www.bearclawcoffee.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4399006974": {
+    "name": "Bell's Diner",
+    "website": "https://www.bellsdinerannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "111730985529723",
+    "pages": [
+      "https://www.bellsdinerannarbor.com/",
+      "https://www.bellsdinerannarbor.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2874403358": {
+    "name": "Ben & Jerry's",
+    "website": "http://www.benjerry.com/",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": "377183119971",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3475907227": {
+    "name": "Benny's Family Dining",
+    "website": "https://localwiki.org/ann-arbor/Benny's_Family_Dining",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "154283411311823",
+    "pages": [
+      "https://localwiki.org/ann-arbor/Benny's_Family_Dining"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3068653993": {
+    "name": "Bert's Cafe",
+    "website": "https://dining.umich.edu/menus-locations/cafes/berts-cafe/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "michigandining",
+    "facebook": null,
+    "pages": [
+      "https://dining.umich.edu/menus-locations/cafes/berts-cafe/",
+      "https://dining.umich.edu/menus-locations/",
+      "https://dining.umich.edu/about-our-food/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/5367233599": {
+    "name": "Bewon",
+    "website": "https://www.bewonannarbor.com/",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": "bewonannarbor",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/9403993529": {
+    "name": "Beyond Juicery + Eatery",
+    "website": "https://beyondjuiceryeatery.com/location/ann-arbor-south-university/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "beyondjuiceryeatery",
+    "facebook": "111480574005219",
+    "pages": [
+      "https://beyondjuiceryeatery.com/location/ann-arbor-south-university/",
+      "https://beyondjuiceryeatery.com/menu",
+      "https://beyondjuiceryeatery.com/secret-menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/13900141067": {
+    "name": "Beyond Juicery + Eatery",
+    "website": "https://beyondjuiceryeatery.com/location/ann-arbor-washtenaw/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "beyondjuiceryeatery",
+    "facebook": "100148045068650",
+    "pages": [
+      "https://beyondjuiceryeatery.com/location/ann-arbor-washtenaw/",
+      "https://beyondjuiceryeatery.com/menu",
+      "https://beyondjuiceryeatery.com/secret-menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3908803747": {
+    "name": "Bigalora",
+    "website": "https://www.bigalora.com/location/bigalora-wood-fired-cucina-ann-arbor/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "bigalorapizza",
+    "facebook": "bigalorapizza",
+    "pages": [
+      "https://www.bigalora.com/location/bigalora-wood-fired-cucina-ann-arbor/",
+      "https://www.bigalora.com/food/",
+      "https://www.bigalora.com/drink/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4438417268": {
+    "name": "Biggby Coffee",
+    "website": "http://www.biggby.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "biggbycoffee",
+    "facebook": "661885050566026",
+    "pages": [
+      "https://biggby.com/",
+      "https://biggby.com/menu/",
+      "https://biggby.com/menu/featured-items/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/581675036": {
+    "name": "Bill's Beer Garden",
+    "website": "https://www.billsbeergarden.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "billsbeergardena2",
+    "facebook": "377626115595439",
+    "pages": [
+      "https://www.billsbeergarden.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/6392687559": {
+    "name": "Black Diesel Coffee",
+    "website": "https://www.blackdieselcoffee.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "blackdieselcoffee",
+    "facebook": "blackdieselcoffee",
+    "pages": [
+      "https://www.blackdieselcoffee.com/",
+      "https://www.blackdieselcoffee.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2760098969": {
+    "name": "Black Pearl",
+    "website": "https://resy.com/cities/ann-arbor-mi/venues/black-pearl-ann-arbor?date=2024-12-31&seats=2&time=2130",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "111600158875501",
+    "pages": [
+      "https://resy.com/cities/ann-arbor-mi/venues/black-pearl-ann-arbor?date=2024-12-31&seats=2&time=2130"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/441966476": {
+    "name": "Blank Slate Creamery",
+    "website": "http://www.blankslatecreamery.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "blankslatecreameryannarbor",
+    "facebook": "blankslatecreameryannarbor",
+    "pages": [
+      "http://www.blankslatecreamery.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2873352845": {
+    "name": "Blaze Pizza",
+    "website": "https://www.blazepizza.com/locations/ann-arbor-cranbrook-village",
+    "website_from": "osm",
+    "website_status": "HTTP 404",
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/13463287901": {
+    "name": "Blazin Coop’s Nashville Hot Chicken",
+    "website": "https://order.toasttab.com/online/blazin-coop",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/12842602123": {
+    "name": "Bløm Mead + Cider",
+    "website": "https://www.drinkblom.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "drinkblom",
+    "facebook": "drinkblom",
+    "pages": [
+      "https://www.drinkblom.com/",
+      "https://www.drinkblom.com/events",
+      "https://www.drinkblom.com/events-1",
+      "http://www.drinkblom.com/events",
+      "https://www.drinkblom.com/on-tap",
+      "https://www.drinkblom.com/food"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3065601646": {
+    "name": "Blue Apple",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4802256330": {
+    "name": "Blue Leprechaun",
+    "website": "http://www.theblueleprechaun.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "121410035647",
+    "pages": [
+      "https://theblueleprechaun.com/",
+      "https://theblueleprechaun.com/food-menu/",
+      "https://theblueleprechaun.com/menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/9905975063": {
+    "name": "Blue Nile Ethiopian",
+    "website": "https://bluenileannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "bluenileannarbor",
+    "facebook": "theBlueNileRestaurant",
+    "pages": [
+      "https://bluenileannarbor.com/",
+      "https://bluenileannarbor.com/menu-1"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/14045913845": {
+    "name": "BO's Bagels",
+    "website": "https://www.bosbagels.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "bosbagels",
+    "facebook": "bosbagels",
+    "pages": [
+      "https://www.bosbagels.com/index.html"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/11982473187": {
+    "name": "Bodega Bros",
+    "website": "https://www.bodegabrosmenu.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "https://www.bodegabrosmenu.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/12710863588": {
+    "name": "Bonchon",
+    "website": "https://locations.bonchon.com/ll/US/MI/Ann-Arbor/2272-South-Main-Street",
+    "website_from": "osm",
+    "website_status": "HTTP 404",
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2760098968": {
+    "name": "Bora Bora Smoothie Cafe",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/5173655313": {
+    "name": "Broadway Cafe",
+    "website": "https://www.broadwaycafehoagie.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "broadwaycafea2",
+    "facebook": "broadwaycafeA2",
+    "pages": [
+      "https://broadwaycafea2.com/",
+      "https://broadwaycafea2.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/5009753001": {
+    "name": "Bruegger's Bagels",
+    "website": "https://locations.brueggers.com/us/mi/ann-arbor/709-n-university-ave",
+    "website_from": "osm",
+    "website_status": "HTTP 404",
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4781784136": {
+    "name": "BTB Burrito",
+    "website": "https://www.btbburrito.com/",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/339695056": {
+    "name": "Buffalo Wild Wings",
+    "website": "https://www.buffalowildwings.com/locations/us/mi/ann-arbor/3150-boardwalk-drive/sports-bar-934?utm_source=fb&utm_medium=yext",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "210063385862167",
+    "pages": [
+      "https://www.buffalowildwings.com/locations/us/mi/ann-arbor/3150-boardwalk-drive/sports-bar-934/?utm_source=fb&utm_medium=yext"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3077164793": {
+    "name": "Burger One",
+    "website": "https://www.burger1.com/location/burger1-ann-arbor/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "106525440846790",
+    "pages": [
+      "https://www.burger1.com/location/burger1-ann-arbor/",
+      "https://www.burger1.com/events/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3065610483": {
+    "name": "Bursley Dining Hall",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4787322462": {
+    "name": "Cafe Felix",
+    "website": "https://www.felixbistroandbar.com/",
+    "website_from": "osm",
+    "website_status": "ENOTFOUND",
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4997286406": {
+    "name": "Cafe Verde",
+    "website": "https://peoplesfood.coop/store-cafe/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "peoples_food_coop",
+    "facebook": "peoplesfoodcoop",
+    "pages": [
+      "https://peoplesfood.coop/store-cafe/",
+      "https://peoplesfood.coop/newsite/community-outreach/events-2/",
+      "https://peoplesfood.coop/newsite/community-outreach/events/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4919630431": {
+    "name": "Café Zola",
+    "website": "https://www.cafezola.com/content/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "cafezola",
+    "facebook": "zoladowntown",
+    "pages": [
+      "https://www.cafezola.com/content/",
+      "https://www.cafezola.com/content/drink-specials/",
+      "https://www.cafezola.com/content/happy-hour/",
+      "https://www.cafezola.com/content/menu-2/",
+      "https://www.cafezola.com/content/menu-2/2468-2/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/1278920713": {
+    "name": "California Pizza Kitchen",
+    "website": "https://order.cpk.com/menu/california-pizza-kitchen-briarwood/?utm_source=FBO&utm_medium=FBO",
+    "website_from": "osm",
+    "website_status": "disallowed by robots.txt",
+    "instagram": null,
+    "facebook": "278891182216178",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/5007708559": {
+    "name": "Cantina",
+    "website": "https://www.cantinaannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "cantinaannarbor",
+    "facebook": "159897475627",
+    "pages": [
+      "https://cantinaannarbor.com/",
+      "https://cantinaannarbor.com/contact",
+      "https://cantinaannarbor.com/drinks"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3077164777": {
+    "name": "Cardamom",
+    "website": "http://www.cardamoma2.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "346028282183585",
+    "pages": [
+      "https://cardamoma2.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/485228245": {
+    "name": "Casa Dominick's",
+    "website": "https://casa-dominicks.menu-page.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "117498354935062",
+    "pages": [
+      "https://casa-dominicks.menu-page.com/",
+      "https://casa-dominicks.menu-page.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/305088494": {
+    "name": "Casey's Tavern",
+    "website": "https://www.caseys-tavern.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "120871841353685",
+    "pages": [
+      "https://caseys-tavern.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/299044531": {
+    "name": "Casey’s Tavern East",
+    "website": "https://caseys-tavern.com/caseys-tavern-east/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "caseystavern_annarbor",
+    "facebook": "caseystavern",
+    "pages": [
+      "https://caseys-tavern.com/caseys-tavern-east/",
+      "https://caseys-tavern.com/caseys-tavern-east/events-east/",
+      "https://caseys-tavern.com/caseys-tavern-east/menus-eastern/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4438533904": {
+    "name": "Chan's Garden",
+    "website": "https://www.changardenmi.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "https://www.changardenmi.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/12896029117": {
+    "name": "Chapala Mexican Restaurant",
+    "website": "https://eatchapala.com/",
+    "website_from": "override",
+    "website_status": "ok",
+    "instagram": "chapalaannarbor",
+    "facebook": "111386660600516",
+    "pages": [
+      "https://eatchapala.com/",
+      "https://eatchapala.com/-events?source=header&spot_id=116628&destination=events&promotion=nfl_season",
+      "https://eatchapala.com/ann-arbor-ann-arbor-chapala-mexican-restaurant-specials-ann-arbor",
+      "https://eatchapala.com/ann-arbor-ann-arbor-chapala-mexican-restaurant-events",
+      "https://eatchapala.com/ann-arbor-ann-arbor-chapala-mexican-restaurant-food-menu",
+      "https://eatchapala.com/ann-arbor-ann-arbor-chapala-mexican-restaurant-drink-menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4437933858": {
+    "name": "Chela's Restaurant & Taqueria",
+    "website": "https://chelas.co/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "chelasannarbor",
+    "facebook": "ChelasRestaurantAndTaqueria",
+    "pages": [
+      "https://chelas.co/",
+      "https://chelas.co/menus/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2874423481": {
+    "name": "Chicago Reds",
+    "website": "http://www.chicagoreds.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "https://www.hugedomains.com/domain_profile.cfm?d=chicagoreds.com"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/383453099": {
+    "name": "Chick N' Seafood Spot",
+    "website": "https://chicknseafoodspot.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "https://chicknseafoodspot.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/345330837": {
+    "name": "Chick-fil-A",
+    "website": "https://www.chick-fil-a.com/locations/mi/ann-arbor-washtenaw-mi",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "chickfila",
+    "facebook": "ChickfilA",
+    "pages": [
+      "https://www.chick-fil-a.com/locations/mi/ann-arbor-washtenaw-mi",
+      "https://www.chick-fil-a.com/menu/breakfast",
+      "https://www.chick-fil-a.com/menu/entrees"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/191023314": {
+    "name": "Chili's",
+    "website": "https://www.chilis.com/locations/us/michigan/ann-arbor/ann-arbor",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "chilis",
+    "facebook": "Chilis-Grill-Bar-131578563604306",
+    "pages": [
+      "https://www.chilis.com/locations/us/michigan/ann-arbor/ann-arbor",
+      "https://www.chilis.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2040297932": {
+    "name": "Chipotle",
+    "website": "https://locations.chipotle.com/mi/ann-arbor/3354-washtenaw-ave",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "145624838808796",
+    "pages": [
+      "https://locations.chipotle.com/mi/ann-arbor/3354-washtenaw-ave"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2742714767": {
+    "name": "Chipotle",
+    "website": "https://locations.chipotle.com/mi/ann-arbor/235-s-state-st",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "116673245052490",
+    "pages": [
+      "https://locations.chipotle.com/mi/ann-arbor/235-s-state-st"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/441361335": {
+    "name": "Chipotle",
+    "website": "https://locations.chipotle.com/mi/ann-arbor/2295-west-stadium-boulevard",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "103387711849005",
+    "pages": [
+      "https://locations.chipotle.com/mi/ann-arbor/2295-west-stadium-boulevard"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/1278920703": {
+    "name": "Chipotle",
+    "website": "https://locations.chipotle.com/mi/ann-arbor/858-briarwood-cir",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "158710937477139",
+    "pages": [
+      "https://locations.chipotle.com/mi/ann-arbor/858-briarwood-cir"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/6240298889": {
+    "name": "Chopsticks",
+    "website": "http://chopsticksmi.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "https://vlachosresearch.org/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/1278920662": {
+    "name": "Cinnabon",
+    "website": "https://locations.cinnabon.com/mi/ann-arbor/100-briarwood-circle",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "cinnabon",
+    "facebook": "136356606450272",
+    "pages": [
+      "https://locations.cinnabon.com/mi/ann-arbor/100-briarwood-circle"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/5914646541": {
+    "name": "Cold Stone Creamery",
+    "website": "https://www.coldstonecreamery.com/stores/21095",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "coldstone",
+    "facebook": "ColdStoneCreamery3597BWashtenawAveAnnArbor",
+    "pages": [
+      "https://www.coldstonecreamery.com/stores/ice-cream-near-ann-arbor/21095",
+      "https://www.coldstonecreamery.com/menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2760098981": {
+    "name": "Comet Coffee",
+    "website": "https://comet-coffee-180533.square.site/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "cometcoffee",
+    "facebook": "cometcoffee",
+    "pages": [
+      "https://comet-coffee-180533.square.site/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/460494756": {
+    "name": "Concessions",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/612103759": {
+    "name": "Concessions",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2874452535": {
+    "name": "Condado Tacos",
+    "website": "https://locations.condadotacos.com/mi/401-e.-liberty-st",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "condadotacos",
+    "facebook": "103642562242126",
+    "pages": [
+      "https://locations.condadotacos.com/mi/401-e.-liberty-st"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2760098977": {
+    "name": "Connor O'Neils",
+    "website": "https://www.conoroneills.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "conorspubannarbor",
+    "facebook": "conoroneills",
+    "pages": [
+      "https://www.conoroneills.com/",
+      "https://www.conoroneills.com/events",
+      "https://www.conoroneills.com/sports",
+      "https://www.conoroneills.com/events-1",
+      "https://www.conoroneills.com/food-menu",
+      "https://www.conoroneills.com/drink-menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/5024950006": {
+    "name": "Coratti's Pizzeria",
+    "website": "https://www.corattispizzeria.com/ann-arbor",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "712312821972697",
+    "pages": [
+      "https://www.corattispizzeria.com/ann-arbor",
+      "https://www.corattispizzeria.com/u-of-m-hospital-staff-discount",
+      "https://www.corattispizzeria.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/14078875803": {
+    "name": "CoreLife Eatery",
+    "website": "http://corelifeeatery.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "corelifeeatery",
+    "facebook": "358959238079940",
+    "pages": [
+      "https://www.corelifeeatery.com/",
+      "https://www.corelifeeatery.com/fooddrinks",
+      "https://www.corelifeeatery.com/clemenu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/8775094989": {
+    "name": "Cosa Sabrosa",
+    "website": "http://www.cosasabrosa.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "215826315419928",
+    "pages": [
+      "http://www.cosasabrosa.com/",
+      "http://www.cosasabrosa.com/menu.html"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/10537632228": {
+    "name": "Cottage Inn Pizza",
+    "website": "https://locations.cottageinn.com/cottage-inn-pizza-24a881696402",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "cottageinnpizza",
+    "facebook": "104940576215242",
+    "pages": [
+      "https://locations.cottageinn.com/cottage-inn-pizza-24a881696402"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/256667358": {
+    "name": "Cottage Inn Pizza",
+    "website": "https://locations.cottageinn.com/cottage-inn-pizza-01aa19091635",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "cottageinnpizza",
+    "facebook": "1516885088607279",
+    "pages": [
+      "https://locations.cottageinn.com/cottage-inn-pizza-01aa19091635"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3014819390": {
+    "name": "Cottage Inn Pizza",
+    "website": "https://order.cottageinn.com/?uniqueStoreIdentifier=STADIUM#/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "121373167877180",
+    "pages": [
+      "https://order.cottageinn.com/?uniqueStoreIdentifier=STADIUM"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4953893900": {
+    "name": "Crazy Wisdom Tearoom",
+    "website": "http://www.crazywisdom.net/tea-room.html",
+    "website_from": "osm",
+    "website_status": "HTTP 404",
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/13958861405": {
+    "name": "Culantro",
+    "website": "https://www.culantroperu.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "eatculantro",
+    "facebook": "CulantroPeru",
+    "pages": [
+      "https://www.culantroperu.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/12552394003": {
+    "name": "Cupsnchai",
+    "website": "https://www.cupsnchai.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "cupsnchai",
+    "facebook": "108046072226816",
+    "pages": [
+      "https://cupsnchai.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2623065827": {
+    "name": "Curious Coffee",
+    "website": "https://www.curious-coffee.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "https://www.curious-coffee.com/",
+      "https://www.curious-coffee.com/product-page/bella-alejandria-geisha"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/12842602124": {
+    "name": "Curious Coffee",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/10293854683": {
+    "name": "Curry On",
+    "website": "http://www.curryonaa.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "CurryOnAA",
+    "pages": [
+      "https://curry-on.square.site/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/330657889": {
+    "name": "Dairy Queen",
+    "website": "https://www.dairyqueen.com/locations/mi/ann-arbor/1805-packard-st/285",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": "101681444751966",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/441362666": {
+    "name": "Dairy Queen",
+    "website": "https://www.dairyqueen.com/locations/mi/ann-arbor/2430-w-stadium-blvd/286",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/14227495037": {
+    "name": "Dalat",
+    "website": "https://www.dalatrestaurantannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "dalatrestaurantannarbor",
+    "facebook": "dalatannarbor",
+    "pages": [
+      "https://www.dalatrestaurantannarbor.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/6799621107": {
+    "name": "Desi Ruchulu",
+    "website": "https://www.thedesiruchulu.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "1347754111750868",
+    "pages": [
+      "https://www.thedesiruchulu.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/330177946": {
+    "name": "Detroit Street Filling Station",
+    "website": "https://thelunchrooma2.com/detroit-street-filling-station-1",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "detroitstreetfillingstation",
+    "facebook": "1955183768030797",
+    "pages": [
+      "https://thelunchrooma2.com/detroit-street-filling-station-1"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/6240298887": {
+    "name": "DiBella's Subs",
+    "website": "https://dibellas.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "1824670107755409",
+    "pages": [
+      "https://dibellas.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4958401113": {
+    "name": "Ding Tea",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/5258062833": {
+    "name": "Domino's",
+    "website": "https://pizza.dominos.com/michigan/ann-arbor/2601-plymouth-rd",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "dominos",
+    "facebook": "935774862949870",
+    "pages": [
+      "https://pizza.dominos.com/michigan/ann-arbor/2601-plymouth-rd"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/9282163773": {
+    "name": "Domino's",
+    "website": "https://pizza.dominos.com/michigan/ann-arbor/716-packard-street",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "dominos",
+    "facebook": "144807578883909",
+    "pages": [
+      "https://pizza.dominos.com/michigan/ann-arbor/716-packard-street"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/12710836927": {
+    "name": "Domino's",
+    "website": "https://pizza.dominos.com/michigan/ann-arbor/2282-south-main-street",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "dominos",
+    "facebook": "289935890879212",
+    "pages": [
+      "https://pizza.dominos.com/michigan/ann-arbor/2282-south-main-street"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4396703021": {
+    "name": "Don Juan Mexican Bar & Grill",
+    "website": "https://donjuanandlosamigos.net/losamigosdonjuan-west-stadium",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": "LosAmigosFiesta",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4837688325": {
+    "name": "Dunkin'",
+    "website": "https://locations.dunkindonuts.com/en/mi/ann-arbor/201-east-liberty-street/364267?utm_source=facebook&utm_medium=local&utm_campaign=localmaps&utm_content=364267&y_source=1_MTAzMDc2MzMxOS01NTktbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "444716228726845",
+    "pages": [
+      "https://www.dunkindonuts.com/locations/us/mi/ann-arbor/201-east-liberty-street/store-364267/?utm_source=facebook&utm_medium=local&utm_campaign=localmaps&utm_content=364267&y_source=1_MTAzMDc2MzMxOS01NTktbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/13123598952": {
+    "name": "Dunkin'",
+    "website": "https://locations.dunkindonuts.com/en/mi/ann-arbor/342-south-state-street/365091",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "https://www.dunkindonuts.com/locations/us/mi/ann-arbor/342-south-state-street/store-365091/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3033183135": {
+    "name": "Earthen Jar",
+    "website": "https://www.earthenjar.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "earthenjar",
+    "facebook": "109145785833884",
+    "pages": [
+      "https://www.earthenjar.com/",
+      "https://www.earthenjar.com/menu.html"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/11982476362": {
+    "name": "East Quad Dining Hall",
+    "website": "https://dining.umich.edu/menus-locations/dining-halls/east-quad/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "michigandining",
+    "facebook": null,
+    "pages": [
+      "https://dining.umich.edu/menus-locations/dining-halls/east-quad/",
+      "https://dining.umich.edu/menus-locations/",
+      "https://dining.umich.edu/about-our-food/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/11881265130": {
+    "name": "Eat Thai",
+    "website": "https://eatthaiannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "903530806166122",
+    "pages": [
+      "https://eatthaiannarbor.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4787322461": {
+    "name": "Echelon Kitchen & Bar",
+    "website": "https://echelonkitchenandbar.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "levelupannarbor",
+    "facebook": "357714067427439",
+    "pages": [
+      "https://www.echelonkitchenandbar.com/",
+      "https://www.echelonkitchenandbar.com/menus/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "overture/66ff9b53-6233-4c5c-a40a-62fad4b72cd4": {
+    "name": "Einstein Bros. Bagels",
+    "website": "https://locations.einsteinbros.com/us/mi/ann-arbor/2260-south-main-street",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "einsteinbros",
+    "facebook": "einsteinbros",
+    "pages": [
+      "https://locations.einsteinbros.com/us/mi/ann-arbor/2260-south-main-street"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2912189330": {
+    "name": "El Harissa Market Cafe",
+    "website": "https://www.elharissa.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "elharissa",
+    "facebook": "elharissaannarbor",
+    "pages": [
+      "https://elharissaa2.com/",
+      "https://elharissaa2.com/menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/10293854684": {
+    "name": "El Limón",
+    "website": "http://www.ellimontaqueria.com/el-limon-conshohocken",
+    "website_from": "osm",
+    "website_status": "HTTP 409",
+    "instagram": null,
+    "facebook": "100090742893048",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/496169358": {
+    "name": "Espy Cafe",
+    "website": "https://www.espy.cafe/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "espycafe",
+    "facebook": null,
+    "pages": [
+      "https://www.espy.cafe/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/11945643440": {
+    "name": "Evergreen",
+    "website": "https://www.evergreen-restaurant.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "117286144957245",
+    "pages": [
+      "https://www.evergreen-restaurant.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/468004162": {
+    "name": "Evergreen Downtown",
+    "website": "https://www.evergreen-restaurant.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "109563108482324",
+    "pages": [
+      "https://www.evergreen-restaurant.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2742714805": {
+    "name": "Fat Daddy's",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/12329410630": {
+    "name": "Firehouse Subs",
+    "website": "https://www.firehousesubs.com/store-locator/store/1ZSPnXZDeYJU9TycMBnFfk",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "104823735412003",
+    "pages": [
+      "https://www.firehousesubs.com/store-locator/store/1ZSPnXZDeYJU9TycMBnFfk"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/1288443668": {
+    "name": "Fireside Café",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3062442003": {
+    "name": "Fireside Roast",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/6799621779": {
+    "name": "First Bite",
+    "website": "https://www.firstbitefoods.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "215121815486171",
+    "pages": [
+      "https://www.firstbitefoods.com/",
+      "https://www.firstbitefoods.com/food4-0"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/6388005294": {
+    "name": "Five Guys",
+    "website": "https://restaurants.fiveguys.com/3601-washtenaw-avenue",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "fiveguys",
+    "facebook": "915695711805104",
+    "pages": [
+      "https://restaurants.fiveguys.com/3601-washtenaw-avenue"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/368014065": {
+    "name": "Fleetwood Diner",
+    "website": "https://orderfleetwooddiner.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "104102181555",
+    "pages": [
+      "https://orderfleetwooddiner.com/",
+      "https://orderfleetwooddiner.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4909268196": {
+    "name": "Frank's Restaurant",
+    "website": "http://www.franksrestaurantannarbor.com",
+    "website_from": "osm",
+    "website_status": "ENOTFOUND",
+    "instagram": null,
+    "facebook": "p",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/329462347": {
+    "name": "Fraser's Pub",
+    "website": "https://www.fraserspub.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "fraserspub",
+    "facebook": "Frasers-Pub-108141419218181",
+    "pages": [
+      "https://www.fraserspub.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4787322460": {
+    "name": "Frita Batidos",
+    "website": "https://fritabatidos.com/ann-arbor/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "fritabatidos",
+    "facebook": "FritaBatidos",
+    "pages": [
+      "https://fritabatidos.com/ann-arbor/",
+      "https://fritabatidos.com/ann-arbor/food/",
+      "https://fritabatidos.com/ann-arbor/menu-guide/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2040178562": {
+    "name": "Gandy Dancer",
+    "website": "https://www.gandydancerrestaurant.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "gandydancer",
+    "pages": [
+      "https://www.gandydancerrestaurant.com/",
+      "https://www.gandydancerrestaurant.com/specials/",
+      "https://www.gandydancerrestaurant.com/event/caymus-wine-dinner-2026/",
+      "https://www.gandydancerrestaurant.com/event/sunday-three-course-brunch/",
+      "https://www.gandydancerrestaurant.com/event/fall-features/",
+      "https://www.gandydancerrestaurant.com/menus/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/12152012391": {
+    "name": "Get Away N’ Play Café",
+    "website": "https://michiganmedicine.healthcaredish.com/LocationsAndMenus/GetawayNPlayCafe",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "https://michiganmedicine.mydininghub.com/en/locations"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/6474160485": {
+    "name": "Get Some Burritos",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3077164776": {
+    "name": "Ginger Deli",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/10542046199": {
+    "name": "Ginger Deli",
+    "website": "http://www.gingerdeli.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "http://www.gingerdeli.com/",
+      "http://www.gingerdeli.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/560917683": {
+    "name": "Good Time Charley's",
+    "website": "https://www.charleysannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "124412766122",
+    "pages": [
+      "https://www.charleysannarbor.com/",
+      "https://www.charleysannarbor.com/happy-hour"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3825691557": {
+    "name": "Graham's Restaurant",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/12152091521": {
+    "name": "Grand Grounds",
+    "website": "https://michiganmedicine.healthcaredish.com/en/locationsandmenus/grandgrounds/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "https://michiganmedicine.mydininghub.com/en/locations"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2760098978": {
+    "name": "Gratzi",
+    "website": "http://gratzirestaurant.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "http://gratzirestaurant.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2758567958": {
+    "name": "Grizzly Peak Brewing Company",
+    "website": "https://www.grizzlypeak.net/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "grizzlypeakbrewingco",
+    "facebook": "grizzlypeakbrewingco",
+    "pages": [
+      "https://www.grizzlypeak.net/",
+      "https://www.grizzlypeak.net/drink",
+      "https://www.grizzlypeak.net/eat"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/13228399614": {
+    "name": "Haifa Falafel",
+    "website": "https://haifafalafel.com/",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/12092597881": {
+    "name": "Happy Wok",
+    "website": "https://www.annarborhappywok.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "114274531539480",
+    "pages": [
+      "https://www.annarborhappywok.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/13294975523": {
+    "name": "Hazel Coffee Co.",
+    "website": "https://www.hazelcoffee.co/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "hazelcoffeeco",
+    "facebook": null,
+    "pages": [
+      "https://www.hazelcoffee.co/",
+      "https://www.hazelcoffee.co/contact",
+      "https://www.hazelcoffee.co/services"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/12896035327": {
+    "name": "Heidelberg Restaurant",
+    "website": "https://heidelbergannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "The_heidelberg_ann_arbor",
+    "facebook": "60075039054",
+    "pages": [
+      "https://heidelbergannarbor.com/",
+      "https://heidelbergannarbor.com/-events?source=header&spot_id=68307&destination=events&promotion=nfl_season",
+      "https://heidelbergannarbor.com/ann-arbor-heidelberg-restaurant-events",
+      "https://heidelbergannarbor.com/ann-arbor-heidelberg-restaurant-food-menu",
+      "https://heidelbergannarbor.com/ann-arbor-heidelberg-restaurant-drink-menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4438533905": {
+    "name": "Hello Faz Pizza",
+    "website": "http://hellofaz.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "100550260012531",
+    "pages": [
+      "https://www.hugedomains.com/domain_profile.cfm?d=hellofaz.com"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/1288443647": {
+    "name": "Hibachi-san",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4923016825": {
+    "name": "Hillel Cafe",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4842861418": {
+    "name": "Hola Seoul",
+    "website": "https://www.holaseoul.com/",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": "theseoul_mi",
+    "facebook": "Hola-Seoul-100106775014564",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/441287578": {
+    "name": "Holiday's Restaurant",
+    "website": "https://holidaysrestaurant.com/",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": "holidays.annarbor",
+    "facebook": "Holidaysrestaurant",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/441445542": {
+    "name": "Homes Brewery",
+    "website": "https://www.homesbrewery.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "drink_cinch",
+    "facebook": "700944486673978",
+    "pages": [
+      "https://www.homesbrewery.com/",
+      "https://www.homesbrewery.com/eventscalendar",
+      "https://www.homesbrewery.com/events",
+      "https://www.homesbrewery.com/pub-food-menu-qr-code-scan"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/8662328602": {
+    "name": "Honey Baked Ham",
+    "website": "https://www.honeybaked.com/stores/2130",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "594709634029811",
+    "pages": [
+      "https://www.honeybaked.com/stores/2130"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4945806627": {
+    "name": "HopCat",
+    "website": "https://hopcat.com/ann-arbor",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "hopcatbeerbar",
+    "facebook": "AnnArborHopCat",
+    "pages": [
+      "https://www.hopcat.com/ann-arbor/home",
+      "https://www.hopcat.com/ann-arbor/happy-hour",
+      "https://www.hopcat.com/ann-arbor/food",
+      "https://www.hopcat.com/ann-arbor/beer"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/441361324": {
+    "name": "Hot Pot Chen",
+    "website": "https://www.hotpotchen.com/",
+    "website_from": "osm",
+    "website_status": "HTTP 429",
+    "instagram": null,
+    "facebook": "2010082432654917",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/12552450060": {
+    "name": "House of Chimney Cakes",
+    "website": "https://www.thehouseofchimneycakes.com/ann-arbor",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "houseofchimneycakes",
+    "facebook": "HouseofChimneyCakes",
+    "pages": [
+      "https://www.thehouseofchimneycakes.com/ann-arbor"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/12588650443": {
+    "name": "Hummus Express",
+    "website": "https://thehummusexpress.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "https://thehummusexpress.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4406258353": {
+    "name": "Hungry Howie's",
+    "website": "https://hungryhowies.hungerrush.com/Order/Menu/697",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": "103994458047504",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/14165309782": {
+    "name": "Hungry Howie's",
+    "website": "https://hungryhowies.com/location/hungry-howie-s-pizza-00072-2866681",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": "118865495487387",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/9915460327": {
+    "name": "Hyperion Coffee Co",
+    "website": "https://www.hyperioncoffee.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "hyperioncoffee",
+    "facebook": "hyperioncoffeeco",
+    "pages": [
+      "https://www.hyperioncoffee.com/",
+      "https://www.hyperioncoffee.com/repair-and-preventative-maintenance"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/9092417188": {
+    "name": "Iggy's Eggies",
+    "website": "https://iggyseggies.com/",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": "305020866959347",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/10542067711": {
+    "name": "Iorio Gelato",
+    "website": "https://ioriosgelato.com",
+    "website_from": "osm",
+    "website_status": "disallowed by robots.txt",
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4992709780": {
+    "name": "Isalita",
+    "website": "http://www.isalita.com/",
+    "website_from": "osm",
+    "website_status": "HTTP 409",
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/13279065344": {
+    "name": "Izzy's Hoagie Shop",
+    "website": "https://izzyshoagies.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "izzys_hoagie_shop",
+    "facebook": "105004116210006",
+    "pages": [
+      "https://izzyshoagies.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/465344323": {
+    "name": "Jabal Coffee House",
+    "website": "https://jabalcoffeehouse.com",
+    "website_from": "osm",
+    "website_status": "HTTP 429",
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2760098986": {
+    "name": "Jamaican Jerk Pit",
+    "website": "http://www.jamaicanjerkpit.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "171404352576",
+    "pages": [
+      "http://jamaicanjerkpit.com/",
+      "http://jamaicanjerkpit.com/menu/",
+      "https://jamaicanjerkpit.com/menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/9061192936": {
+    "name": "Jasmine",
+    "website": "http://www.jasmineata2.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "jasminestar",
+    "facebook": "104175802480266",
+    "pages": [
+      "http://www.jasmineata2.com/",
+      "http://www.jasmineata2.com/resources.html"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3033183136": {
+    "name": "Jerusalem Garden",
+    "website": "https://www.jerusalemgarden.net",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "306913101812",
+    "pages": [
+      "https://www.jerusalemgarden.net/",
+      "https://www.jerusalemgarden.net/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3077164780": {
+    "name": "Jet's Pizza",
+    "website": "https://www.jetspizza.com/stores/michigan/ann-arbor/1749-plymouth-rd/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "jetspizza",
+    "facebook": "738968752977796",
+    "pages": [
+      "https://www.jetspizza.com/stores/michigan/ann-arbor/1749-plymouth-rd/",
+      "https://www.jetspizza.com/deals/",
+      "https://www.jetspizza.com/menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3072793304": {
+    "name": "Jimmy John's",
+    "website": "https://locations.jimmyjohns.com/mi/annarbor/sandwiches-9012.html",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "jimmyjohns",
+    "facebook": "244060868978355",
+    "pages": [
+      "https://locations.jimmyjohns.com/mi/ann-arbor/sandwiches-9012.html"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3072793305": {
+    "name": "Jimmy John's",
+    "website": "https://locations.jimmyjohns.com/mi/annarbor/sandwiches-9028.html",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "jimmyjohns",
+    "facebook": "156029324491201",
+    "pages": [
+      "https://locations.jimmyjohns.com/mi/ann-arbor/sandwiches-9028.html"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/13963446833": {
+    "name": "Jimmy John's",
+    "website": "https://locations.jimmyjohns.com/mi/ann-arbor/sandwiches-9030.html",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "jimmyjohns",
+    "facebook": "268507906522624",
+    "pages": [
+      "https://locations.jimmyjohns.com/mi/ann-arbor/sandwiches-9030.html"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/277368089": {
+    "name": "Jimmy John's",
+    "website": "https://locations.jimmyjohns.com/mi/annarbor/sandwiches-9016.html",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "jimmyjohns",
+    "facebook": "110869729022669",
+    "pages": [
+      "https://locations.jimmyjohns.com/mi/ann-arbor/sandwiches-9016.html"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/9403993530": {
+    "name": "Joe's Pizza",
+    "website": "https://www.joespizzanyc.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "joespizzanyc",
+    "facebook": "JoesPizzaAnnArbor",
+    "pages": [
+      "https://www.joespizzanyc.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2760098965": {
+    "name": "Jolly Pumpkin",
+    "website": "https://annarbor.jollypumpkin.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "jollypumpkina2",
+    "facebook": "117460490046",
+    "pages": [
+      "https://annarbor.jollypumpkin.com/",
+      "https://annarbor.jollypumpkin.com/menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3129635302": {
+    "name": "Juicy Kitchen",
+    "website": "https://juicykitchen-a2.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "pages",
+    "pages": [
+      "https://www.juicykitchen-a2.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/11101910992": {
+    "name": "Kanbu Sushi",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4935570686": {
+    "name": "Kanbu Sushi Downtown",
+    "website": "https://www.kanbusushidowntown.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "101533958514916",
+    "pages": [
+      "https://www.kanbusushidowntown.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4792172900": {
+    "name": "Kang's",
+    "website": "http://www.kangsannarbor.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "kangsannarbor",
+    "facebook": "138803486164876",
+    "pages": [
+      "http://www.kangsannarbor.com/",
+      "http://www.kangsannarbor.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3196332146": {
+    "name": "Kimchi Box",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2874452533": {
+    "name": "Knight's Downtown Steakhouse",
+    "website": "https://www.knightsrestaurants.com/downtown-ann-arbor/",
+    "website_from": "osm",
+    "website_status": "HTTP 404",
+    "instagram": null,
+    "facebook": "868609163194168",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/339994751": {
+    "name": "Knight's Steakhouse",
+    "website": "https://knightsrestaurants.com/knights-steakhouse-dexter-avenue",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "knightsondexter",
+    "facebook": "1646763865576858",
+    "pages": [
+      "https://knightsrestaurants.com/knights-steakhouse-dexter-avenue",
+      "https://knightsrestaurants.com/ray-mary-knight-scholarship-fund"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/5919368087": {
+    "name": "Kosmo's BopShop",
+    "website": "https://kosmosbopshop.dine.online/locations/5288160",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "kosmobop",
+    "pages": [
+      "https://kosmosbopshop.dine.online/locations/5288160"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/495081617": {
+    "name": "Krazy Jim's Blimpy Burger",
+    "website": "https://www.blimpyburger.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "krazy_jims_blimpyburger",
+    "facebook": "14566549949",
+    "pages": [
+      "https://www.blimpyburger.com/",
+      "https://www.blimpyburger.com/menus"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/13551069049": {
+    "name": "La Serre",
+    "website": "https://www.vanguardannarbor.com/la-serre",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": "laserre_annarbor",
+    "facebook": "profile.php",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/6364697989": {
+    "name": "Lab Cafe",
+    "website": "http://www.labannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "teepublic",
+    "facebook": "156092504417265",
+    "pages": [
+      "https://expatongreen.com/",
+      "https://expatongreen.com/SIPUTRI88%20SLOT%20GACOR/drinks",
+      "https://expatongreen.com/SIPUTRI88%20SLOT%20GACOR/food"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/9403993528": {
+    "name": "Lan City Noodle Bar",
+    "website": "https://www.lancitynoodles.com",
+    "website_from": "osm",
+    "website_status": "ENOTFOUND",
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/11940249833": {
+    "name": "Latte Factory",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/14228005501": {
+    "name": "Le Dog La Soup",
+    "website": "https://ledogannarbor.com/",
+    "website_from": "osm",
+    "website_status": "HTTP 500",
+    "instagram": null,
+    "facebook": "210587589090490",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/8779519246": {
+    "name": "Levana Restaurant",
+    "website": "https://levanarestaurant.square.site",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "levanarestaurant",
+    "facebook": null,
+    "pages": [
+      "https://levanarestaurant.square.site/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2508775052": {
+    "name": "Little Caesars",
+    "website": "https://littlecaesars.com/en-us/store/1213/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "94322659933",
+    "pages": [
+      "https://littlecaesars.com/en-us/store/1213/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/381532676": {
+    "name": "Little Caesars",
+    "website": "https://littlecaesars.com/en-us/store/101/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "465263706676746",
+    "pages": [
+      "https://littlecaesars.com/en-us/store/101/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/339360601": {
+    "name": "Los Amigos",
+    "website": "http://donjuanandlosamigos.net/",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": "252588118248375",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4964930186": {
+    "name": "Lowertown Bar & Cafe",
+    "website": "https://lowertowna2.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "lowertowna2",
+    "facebook": "119306737927579",
+    "pages": [
+      "https://lowertowna2.com/",
+      "https://lowertowna2.com/event/trivia-night-20261006",
+      "https://lowertowna2.com/event/rd-wednesday-20261007",
+      "https://lowertowna2.com/event/premier-league-on-the-patio-man-utd-vs-spurs-20261010",
+      "https://lowertowna2.com/event/scrap-arts-and-craft-20261010"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3810661867": {
+    "name": "Lucky Kitchen",
+    "website": "https://luckykitchen.net/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "luckykitchena2",
+    "facebook": "1739552392975047",
+    "pages": [
+      "https://luckykitchen.net/",
+      "https://luckykitchen.net/specials/",
+      "https://luckykitchen.net/menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3072665436": {
+    "name": "M-36 Coffee Roasters",
+    "website": "https://www.m36coffeeroasters.com/",
+    "website_from": "osm",
+    "website_status": "HTTP 429",
+    "instagram": null,
+    "facebook": "108227120933108",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/319352939": {
+    "name": "Madras Masala",
+    "website": "https://www.madrasmasala.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "https://www.madrasmasala.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/5173655311": {
+    "name": "Madras Masala Express",
+    "website": "https://www.madrasmasala.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "https://www.madrasmasala.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3072665434": {
+    "name": "Maizie's",
+    "website": "https://www.maizies.com",
+    "website_from": "osm",
+    "website_status": "ENOTFOUND",
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/9099007295": {
+    "name": "Mama Satto",
+    "website": "http://mamasattoaa.com",
+    "website_from": "osm",
+    "website_status": "ENOTFOUND",
+    "instagram": null,
+    "facebook": "1964280290471668",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4992709781": {
+    "name": "Mani Osteria and Bar",
+    "website": "https://maniosteria.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "mani_osteria",
+    "facebook": "ManiOsteriaBar",
+    "pages": [
+      "https://maniosteria.com/",
+      "https://maniosteria.com/events"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/13167771297": {
+    "name": "Mark's Midtown Coney Island",
+    "website": "https://marksmidtown.com/north-ann-arbor-1",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "152666761419134",
+    "pages": [
+      "https://marksmidtown.com/north-ann-arbor-1"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3068937737": {
+    "name": "Markley Dining Hall",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/6190446526": {
+    "name": "mash",
+    "website": "https://www.toasttab.com/invoice/lead?rx=1c430f68-8fa0-4a46-b81f-66bae7bde1b6&ot=880d86eb-5e3c-4d9e-aa29-16364901fadb",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "450450961652559",
+    "pages": [
+      "https://www.toasttab.com/invoice/lead?rx=1c430f68-8fa0-4a46-b81f-66bae7bde1b6&ot=880d86eb-5e3c-4d9e-aa29-16364901fadb"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/300834361": {
+    "name": "McDonald's",
+    "website": "https://www.mcdonalds.com/us/en-us/location/11520.html",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": "111551168884144",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/345330851": {
+    "name": "McDonald's",
+    "website": "https://www.mcdonalds.com/us/en-us/location/33298.html",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": "108168455892167",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/441362662": {
+    "name": "McDonald's",
+    "website": "https://www.mcdonalds.com/us/en-us/location/10950.html",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": "117884911571564",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/13899986076": {
+    "name": "MD Bagel Fragel",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": "BagelFragel",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/11139240503": {
+    "name": "Mediterrano",
+    "website": "https://www.mediterrano.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "mediterranoa2",
+    "facebook": "MediterranoRestaurant",
+    "pages": [
+      "https://mediterrano.com/",
+      "https://mediterrano.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2344584616": {
+    "name": "Mercy's at the Bell Tower",
+    "website": "http://www.mercysrestaurant.com",
+    "website_from": "osm",
+    "website_status": "ENOTFOUND",
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2874423246": {
+    "name": "Michigan Creamery",
+    "website": "http://michigancreamery.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "micreamery",
+    "facebook": "1080796572064028",
+    "pages": [
+      "https://michigancreamery.com/",
+      "https://michigancreamery.com/what-we-offer",
+      "https://michigancreamery.com/summerfest-menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2760098979": {
+    "name": "Milk & Froth Ice Cream",
+    "website": "https://www.milkandfroth.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "milkandfrothicecream",
+    "facebook": "MilkandFrothIceCream",
+    "pages": [
+      "https://www.milkandfroth.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/13970658549": {
+    "name": "MilkShake Factory",
+    "website": "https://www.milkshakefactory.com/locations/mi-ann-arbor-326-south-maple-road/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "themilkshakefactory",
+    "facebook": "298068230048579",
+    "pages": [
+      "https://www.milkshakefactory.com/locations/mi-ann-arbor-326-south-maple-road/",
+      "https://www.milkshakefactory.com/milkshake-menu/",
+      "https://www.milkshakefactory.com/qsr-magazine-milkshake-factory-debuts-indulgent-new-molten-chocolate-cups/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/5173655312": {
+    "name": "Miny's Mexican Restaurant",
+    "website": "https://minysmexicanrestaurant.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "https://minysmexicanrestaurant.com/",
+      "https://minysmexicanrestaurant.com/menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/13340511601": {
+    "name": "Misfit Society Coffee Club",
+    "website": "https://www.misfitsocietycoffee.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "misfitsocietycoffee",
+    "facebook": "misfitsocietycoffee",
+    "pages": [
+      "https://www.misfitsocietycoffee.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/8058162855": {
+    "name": "Miss Kim",
+    "website": "https://misskimannarbor.com/",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": "1063232633750003",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3407105678": {
+    "name": "Mister Spots",
+    "website": "https://mrspots.com/spots-ann-arbor/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "hitthespot86",
+    "facebook": "MrSpotsAnnArbor",
+    "pages": [
+      "https://mrspots.com/spots-ann-arbor/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3077164792": {
+    "name": "Mochinut",
+    "website": "http://www.mochinut.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "104049569428141",
+    "pages": [
+      "https://www.mochinut.com/",
+      "https://www.mochinut.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2873352844": {
+    "name": "Moe's Southwest Grill",
+    "website": "https://locations.moes.com/mi/ann-arbor/857-w-eisenhower-pky",
+    "website_from": "osm",
+    "website_status": "HTTP 404",
+    "instagram": null,
+    "facebook": "289616307720888",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3074088119": {
+    "name": "Möge Tee",
+    "website": "https://www.mogeteeusa.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "https://www.mogeteeusa.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4854334139": {
+    "name": "Moka and Co",
+    "website": "https://www.mokanco.com/locations/ann-arbor",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "mokacocoffee",
+    "facebook": "mokacocoffee",
+    "pages": [
+      "https://mokanco.com/ann-arbor/",
+      "https://mokanco.com/menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/6946237529": {
+    "name": "Momo",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/14062204309": {
+    "name": "Monahan's Seafood Market",
+    "website": "https://monahansseafood.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "monahans_seafood",
+    "facebook": "80933556782",
+    "pages": [
+      "https://monahansseafood.com/",
+      "https://monahansseafood.com/menu/",
+      "https://monahansseafood.com/seafood-market/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/8779519247": {
+    "name": "Monty's Public House",
+    "website": "https://www.montyspuba2.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "montyspub",
+    "facebook": "105965218571993",
+    "pages": [
+      "https://montyspuba2.com/",
+      "https://montyspuba2.com/food-menu/",
+      "https://montyspuba2.com/drink-menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3065616343": {
+    "name": "Mosher-Jordan Dining Hall",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/13428810201": {
+    "name": "Mr. Yun's Tower Deli",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": "mr.yunstowerdeli",
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/1287761527": {
+    "name": "Mujo Cafe",
+    "website": "https://uunions.umich.edu/mujo/",
+    "website_from": "osm",
+    "website_status": "HTTP 404",
+    "instagram": null,
+    "facebook": "409794752551562",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3062453855": {
+    "name": "Nagomi Sushi & Korean BBQ",
+    "website": "https://www.eatatnagomi.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "nagomisushiaa",
+    "facebook": "nagomiannarbor",
+    "pages": [
+      "https://www.eatatnagomi.com/",
+      "https://www.eatatnagomi.com/specials"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/482764060": {
+    "name": "Namaste Flavours",
+    "website": "https://www.namasteflavoursannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "namasteflavoursannarbor",
+    "facebook": "1040087732862373",
+    "pages": [
+      "https://namasteflavoursannarbor.com/",
+      "https://namasteflavoursannarbor.com/menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/5024950005": {
+    "name": "Neopapalis",
+    "website": "http://www.neopapalis.com/",
+    "website_from": "osm",
+    "website_status": "HTTP 404",
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4958401112": {
+    "name": "New York Pizza Depot",
+    "website": "https://newyorkpizzaannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "100864643290952",
+    "pages": [
+      "https://newyorkpizzaannarbor.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3077164778": {
+    "name": "No Thai!",
+    "website": "https://nothai.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "110143979050375",
+    "pages": [
+      "https://nothai.com/",
+      "https://nothai.com/menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3094750743": {
+    "name": "No Thai!",
+    "website": "https://nothai.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "115808781772642",
+    "pages": [
+      "https://nothai.com/",
+      "https://nothai.com/menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/12710861334": {
+    "name": "No Thai!",
+    "website": "https://nothai.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "269882906721592",
+    "pages": [
+      "https://nothai.com/",
+      "https://nothai.com/menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/466601186": {
+    "name": "No Thai!",
+    "website": "https://nothai.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "116838741667963",
+    "pages": [
+      "https://nothai.com/",
+      "https://nothai.com/menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/12806656093": {
+    "name": "No Thai! Delivery",
+    "website": "https://nothai.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "https://nothai.com/",
+      "https://nothai.com/menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/749007099": {
+    "name": "Noodles & Company",
+    "website": "https://www.noodles.com/locations/ann-arbor-state-street/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "https://www.noodles.com/locations/ann-arbor-state-street/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/6388005293": {
+    "name": "Noodles & Company",
+    "website": "https://locations.noodles.com/mi/ann-arbor/3601-washtenaw-ave",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "noodlescompany",
+    "facebook": "153981688109762",
+    "pages": [
+      "https://locations.noodles.com/mi/ann-arbor/3601-washtenaw-ave"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/441361344": {
+    "name": "Noodles & Company",
+    "website": "https://www.noodles.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "noodlescompany",
+    "facebook": "481323955331837",
+    "pages": [
+      "https://www.noodles.com/",
+      "https://www.noodles.com/offers-terms-conditions",
+      "https://www.noodles.com/menu",
+      "https://www.noodles.com/menu/chef-curated-with-protein/rigatoni-rosa-with-parmesan-chicken"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4908018723": {
+    "name": "Noori Chicken",
+    "website": "https://noorichickenannarbor.com/",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/11982486335": {
+    "name": "North Quad Dining Hall",
+    "website": "https://dining.umich.edu/menus-locations/dining-halls/north-quad/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "michigandining",
+    "facebook": null,
+    "pages": [
+      "https://dining.umich.edu/menus-locations/dining-halls/north-quad/",
+      "https://dining.umich.edu/menus-locations/",
+      "https://dining.umich.edu/about-our-food/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/12955269101": {
+    "name": "North Star Lounge",
+    "website": "https://www.nstarlounge.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "https://www.nstarlounge.com/",
+      "https://www.nstarlounge.com/events",
+      "https://nstarlounge.com/events",
+      "https://www.nstarlounge.com/food-drink-menus"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/1563352123": {
+    "name": "Northside Grill",
+    "website": "http://www.northsidegrill.com",
+    "website_from": "osm",
+    "website_status": "HTTP 404",
+    "instagram": null,
+    "facebook": "106209872250381",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/13900128953": {
+    "name": "Nothing Bundt Cakes",
+    "website": "https://www.nothingbundtcakes.com/find-a-bakery/mi/annarbor/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "nothingbundtcakes",
+    "facebook": "104494082565760",
+    "pages": [
+      "https://www.nothingbundtcakes.com/find-a-bakery/mi/annarbor/",
+      "https://www.nothingbundtcakes.com/offers-deals"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2758567965": {
+    "name": "Old German",
+    "website": "https://oldgerman.net/",
+    "website_from": "osm",
+    "website_status": "ENOTFOUND",
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4353344866": {
+    "name": "Old Town Tavern",
+    "website": "https://www.oldtownaa.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "oldtowntavern",
+    "facebook": "oldtowntavernaa",
+    "pages": [
+      "https://www.oldtownaa.com/",
+      "https://www.oldtownaa.com/events",
+      "https://www.oldtownaa.com/drink",
+      "https://www.oldtownaa.com/menus"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/407590396": {
+    "name": "Olga's Kitchen",
+    "website": "https://www.olgas.com/location/olgas-kitchen-ann-arbor/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "olgas_kitchen",
+    "facebook": "653484998161040",
+    "pages": [
+      "https://www.olgas.com/location/olgas-kitchen-ann-arbor/",
+      "https://www.olgas.com/menus/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/1280307458": {
+    "name": "Olive Garden",
+    "website": "https://www.olivegarden.com/locations/mi/ann-arbor/ann-arbor-briarwood-mall/1110?cmpid=br%3Aog_ag%3Aie_ch%3Asoc_ca%3AOGFB_sn%3Afacebook_gt%3Aann-arbor-mi-1110_pl%3Alocurl_rd%3A1073",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "172389919470482",
+    "pages": [
+      "https://www.olivegarden.com/locations/mi/ann-arbor/ann-arbor-briarwood-mall/1110?cmpid=br%3Aog_ag%3Aie_ch%3Asoc_ca%3AOGFB_sn%3Afacebook_gt%3Aann-arbor-mi-1110_pl%3Alocurl_rd%3A1073"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4938377851": {
+    "name": "One Bowl",
+    "website": "http://www.onebowltogo.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "1737425416523012",
+    "pages": [
+      "http://www.onebowltogo.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/340028220": {
+    "name": "P.F. Chang's",
+    "website": "https://locations.pfchangs.com/mi/annarbor/720-briarwood-circle.html",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "pfchangs",
+    "facebook": "419836111500474",
+    "pages": [
+      "https://locations.pfchangs.com/mi/annarbor/720-briarwood-circle.html"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4787322482": {
+    "name": "Pacific Rim",
+    "website": "https://pacificrimbykana.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "pacificrim_a2",
+    "facebook": "pacificrimrestaurant",
+    "pages": [
+      "https://pacificrimbykana.com/",
+      "https://pacificrimbykana.com/events/",
+      "https://pacificrimbykana.com/our-menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/385619019": {
+    "name": "Paesano Restaurant - Wine Bar",
+    "website": "https://www.paesanoannarbor.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "107224772698926",
+    "pages": [
+      "https://www.paesanoannarbor.com/",
+      "https://www.paesanoannarbor.com/more-events",
+      "https://www.paesanoannarbor.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/11945514673": {
+    "name": "Palace Tang",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": "palacetang.hotpot",
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2760098973": {
+    "name": "Palio",
+    "website": "http://palioannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "65291179800",
+    "pages": [
+      "https://paliorestaurant.com/",
+      "https://paliorestaurant.com/specials/",
+      "https://paliorestaurant.com/ann-arbor-specials-events/",
+      "https://paliorestaurant.com/lets-connect/",
+      "https://paliorestaurant.com/menu/",
+      "https://paliorestaurant.com/ann-arbor-menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4802256328": {
+    "name": "Pancheros Mexican Grill",
+    "website": "https://www.pancheros.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "pancheros",
+    "facebook": "Pancheros",
+    "pages": [
+      "https://pancheros.com/",
+      "https://pancheros.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3074036038": {
+    "name": "Panda Express",
+    "website": "https://www.pandaexpress.com/locations/mi/ann-arbor/3316",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": "116078831745595",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/1278920679": {
+    "name": "Panda Express",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/1288443649": {
+    "name": "Panda Express",
+    "website": "https://www.pandaexpress.com/locations/mi/ann-arbor/1124",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": "114003281963332",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3465693328": {
+    "name": "Panda House",
+    "website": "https://www.pandahousemi.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "227240210636159",
+    "pages": [
+      "https://www.pandahousemi.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/8779519257": {
+    "name": "Panda Korean & Chinese Foods",
+    "website": "http://pandaexpress.com",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2742771151": {
+    "name": "Panera Bread",
+    "website": "https://locations.panerabread.com/mi/ann-arbor/777-n-university-avenue.html",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "panerabread",
+    "facebook": "370672049613442",
+    "pages": [
+      "https://www.panerabread.com/en-us/cafe/locations/mi/ann-arbor/777-n-university-avenue",
+      "https://www.panerabread.com/en-us/menu.html",
+      "https://www.panerabread.com/en-us/food-values/our-values.html"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3221989261": {
+    "name": "Panera Bread",
+    "website": "https://locations.panerabread.com/mi/ann-arbor/903-west-eisenhower-parkway.html",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "panerabread",
+    "facebook": "104593292999342",
+    "pages": [
+      "https://www.panerabread.com/en-us/cafe/locations/mi/ann-arbor/903-west-eisenhower-parkway",
+      "https://www.panerabread.com/en-us/menu.html",
+      "https://www.panerabread.com/en-us/food-values/our-values.html"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/5788925536": {
+    "name": "Panera Bread",
+    "website": "https://locations.panerabread.com/mi/ann-arbor/3205-washtenaw-avenue.html",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "panerabread",
+    "facebook": "302172296496806",
+    "pages": [
+      "https://www.panerabread.com/en-us/cafe/locations/mi/ann-arbor/3205-washtenaw-avenue",
+      "https://www.panerabread.com/en-us/menu.html",
+      "https://www.panerabread.com/en-us/food-values/our-values.html"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/1192583810": {
+    "name": "Panera Bread",
+    "website": "https://www.panerabread.com/content/panerabread_com/en-us/cafe/locations/mi/ann-arbor/3611-plymouth-road",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "panerabread",
+    "facebook": "316818378368958",
+    "pages": [
+      "https://www.panerabread.com/content/panerabread_com/en-us/cafe/locations/mi/ann-arbor/3611-plymouth-road",
+      "https://www.panerabread.com/en-us/menu.html",
+      "https://www.panerabread.com/en-us/food-values/our-values.html"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/12710859075": {
+    "name": "Pangong Tea",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4396703026": {
+    "name": "Papa John's",
+    "website": "https://www.papajohns.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "papajohns",
+    "facebook": "papajohnsus",
+    "pages": [
+      "https://www.papajohns.com/",
+      "https://www.papajohns.com/promotional-offers",
+      "https://www.papajohns.com/specials"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/748967871": {
+    "name": "Paris Bahn Mi",
+    "website": "https://www.parisbanhmi.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "621819674339816",
+    "pages": [
+      "https://www.parisbanhmi.com/",
+      "https://www.parisbanhmi.com/page/specialty-beverages",
+      "https://www.parisbanhmi.com/blogs/promotions"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4787322483": {
+    "name": "Peridot",
+    "website": "https://www.peridota2.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "peridot_a2",
+    "facebook": "61551349529534",
+    "pages": [
+      "https://www.peridota2.com/",
+      "https://www.peridota2.com/special-events",
+      "https://www.peridota2.com/menus"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4438533906": {
+    "name": "Pilar's Coffeehouse",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4438533907": {
+    "name": "Pilar’s Tamales",
+    "website": "https://www.pilarstamales.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "187482821345118",
+    "pages": [
+      "https://www.pilarstamales.com/",
+      "https://www.pilarstamales.com/events",
+      "https://www.pilarstamales.com/copy-of-news-events-yoga",
+      "https://www.pilarstamales.com/copy-of-cafe-menu-1"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/11940249840": {
+    "name": "Pinkberry",
+    "website": "https://www.pinkberry.com/stores/yogurt-ann-arbor/15130?utm_source=facebook&utm_medium=Yext",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "pinkberryswirl",
+    "facebook": "1440294342851423",
+    "pages": [
+      "https://www.pinkberry.com/stores/yogurt-ann-arbor/15130?utm_source=facebook&utm_medium=Yext",
+      "https://www.pinkberry.com/menu/flavors/index.php",
+      "https://www.pinkberry.com/menu/toppings/index.php"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/1278920663": {
+    "name": "Pita Express",
+    "website": "https://thepitaexpress.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "https://thepitaexpress.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/748964467": {
+    "name": "Pita Kabob Grill",
+    "website": "https://www.pitakabobgrill.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "120722801276358",
+    "pages": [
+      "https://www.pitakabobgrill.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/13899768716": {
+    "name": "Pita King",
+    "website": "https://pitakingannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "pitakingannarbor",
+    "pages": [
+      "https://pitakingannarbor.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3407102034": {
+    "name": "Pizza Bob's",
+    "website": "https://www.pizzabobs.net/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "pizza_bobs",
+    "facebook": "PizzaBobs",
+    "pages": [
+      "https://www.pizzabobs.net/",
+      "https://www.pizzabobs.net/daily-specials",
+      "https://www.pizzabobs.net/foodmenu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4856507603": {
+    "name": "Pizza Cat Max",
+    "website": "https://pizzacat.com/pizza-cat-max-ann-arbor-michigan/",
+    "website_from": "osm",
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z",
+    "closed": "override"
+  },
+  "node/11061643006": {
+    "name": "Pizza House",
+    "website": "https://pizzahouse.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "99087490368",
+    "pages": [
+      "https://www.pizzahouse.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/5323881253": {
+    "name": "Pizza Pazza",
+    "website": "https://pizzapazzaa2.com/",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/5173655315": {
+    "name": "Plate Sushi & Chicken",
+    "website": "https://www.platesushi.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "https://www.platesushi.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/5293901739": {
+    "name": "Playa Bowls",
+    "website": "https://www.playabowls.com/location/ann-arbor",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "playabowls",
+    "facebook": "262614843611693",
+    "pages": [
+      "https://www.playabowls.com/location/ann-arbor",
+      "https://www.playabowls.com/policies/current-promotions",
+      "https://www.playabowls.com/menu-category/bowls",
+      "https://www.playabowls.com/menu-category/smoothies"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/13900140967": {
+    "name": "POKE FISH",
+    "website": "https://www.pokefishsushi.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "https://www.pokefishsushi.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/9099124100": {
+    "name": "Poke Poke Sushi Unrolled",
+    "website": "https://eatpokepoke.com/stores/ann-arbor/",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": "eatpokepoke",
+    "facebook": "eatpokepoke",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3215037795": {
+    "name": "Potbelly",
+    "website": "https://www.potbelly.com/locations/michigan/saline-eisenhower",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": "491094521011017",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3509365002": {
+    "name": "Potbelly",
+    "website": "https://www.potbelly.com/locations/michigan/washtenaw",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": "730538300289707",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2742771145": {
+    "name": "Potbelly's Sandwich Shop",
+    "website": "https://www.potbelly.com/Shops/ShopLocator.aspx?PotbellyShopId=026",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4787322469": {
+    "name": "Pretzel Bell",
+    "website": "https://www.thepretzelbell.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "pretzelbell",
+    "facebook": "626348157475808",
+    "pages": [
+      "https://www.thepretzelbell.com/",
+      "https://www.thepretzelbell.com/down-bar"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/13298659984": {
+    "name": "Q Bakehouse & Market",
+    "website": "https://www.qannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "stridercoffeestop",
+    "facebook": "557664624439332",
+    "pages": [
+      "https://www.qannarbor.com/",
+      "https://www.qannarbor.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3465693327": {
+    "name": "Qahwah House Ann Arbor",
+    "website": "https://qahwahhouse.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "qahwah_house",
+    "facebook": "QahwahHouse",
+    "pages": [
+      "https://qahwahhouse.com/",
+      "https://qahwahhouse.com/menu",
+      "https://qahwahhouse.com/franchise"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2035717141": {
+    "name": "Qdoba",
+    "website": "https://locations.qdoba.com/us/mi/ann-arbor/3279-washtenaw-ave.html",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "qdoba",
+    "facebook": "979182925501476",
+    "pages": [
+      "https://locations.qdoba.com/us/mi/ann-arbor/3279-washtenaw-ave"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/12710853121": {
+    "name": "Qdoba",
+    "website": "https://locations.qdoba.com/us/mi/ann-arbor/2252-s-main-st",
+    "website_from": "osm",
+    "website_status": "HTTP 404",
+    "instagram": null,
+    "facebook": "217979231887846",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4802256331": {
+    "name": "Quickly",
+    "website": "http://quicklybobacafeannarbor.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "115334123632504",
+    "pages": [
+      "https://quicklybobacafeannarbor.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/13147598564": {
+    "name": "Raising Cane's",
+    "website": "https://locations.raisingcanes.com/mi/ann-arbor/1116-s-university-avenue",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "raisingcanes",
+    "facebook": "RaisingCanesChickenFingers",
+    "pages": [
+      "https://locations.raisingcanes.com/mi/ann-arbor/1116-s-university-avenue"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/13278314715": {
+    "name": "RamenYa",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/13276607054": {
+    "name": "Rappourt",
+    "website": "https://www.rappourt.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "rappourtbrewbar",
+    "facebook": "278741757624",
+    "pages": [
+      "https://www.rappourt.com/",
+      "https://www.rappourt.com/happy-hour",
+      "https://www.rappourt.com/food-menu-1",
+      "https://www.rappourt.com/menu-1"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/468944450": {
+    "name": "Ray's Red Hots",
+    "website": "http://www.raysredhots.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "http://www.raysredhots.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/695043656": {
+    "name": "Real Seafood Company",
+    "website": "https://realseafoodcorestaurant.com/locations/ann-arbor-location/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "realseafoodcoannarbor",
+    "facebook": "RealSeafoodCoAnnArbor",
+    "pages": [
+      "https://realseafoodcorestaurant.com/locations/ann-arbor-location/",
+      "https://realseafoodcorestaurant.com/specialsandevents/",
+      "https://realseafoodcorestaurant.com/our-menu/",
+      "https://realseafoodcorestaurant.com/ann-arbor-menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/13298141033": {
+    "name": "Recess Work & Play Cafe",
+    "website": "https://www.recess.cafe/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "a2recess",
+    "facebook": "profile.php",
+    "pages": [
+      "https://www.recess.cafe/",
+      "https://www.recess.cafe/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4945806631": {
+    "name": "Red Hawk Bar and Grill",
+    "website": "https://www.redhawkannarbor.com/",
+    "website_from": "osm",
+    "website_status": "disallowed by robots.txt",
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/288233309": {
+    "name": "Red Robin",
+    "website": "https://www.redrobin.com/locations/mi/annarbor/ann-arbor-499",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "redrobinburgers",
+    "facebook": "184527418259621",
+    "pages": [
+      "https://www.redrobin.com/locations/mi/annarbor/ann-arbor-499",
+      "https://www.redrobin.com/menu",
+      "https://www.redrobin.com/location/ann-arbor-red-robin/menu/gourmet-burgers"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4792172899": {
+    "name": "Revive",
+    "website": "https://www.revive-replenish.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "https://www.revive-replenish.com/",
+      "https://www.revive-replenish.com/revive-menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/11619324038": {
+    "name": "Ricewood",
+    "website": "https://ricewoodbbq.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "ricewoodbbq",
+    "facebook": "ricewoodbbq",
+    "pages": [
+      "https://ricewoodbbq.com/",
+      "https://ricewoodbbq.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/13877580401": {
+    "name": "Ricewood",
+    "website": "https://ricewoodbbq.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "ricewoodbbq",
+    "facebook": null,
+    "pages": [
+      "https://ricewoodbbq.com/",
+      "https://ricewoodbbq.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4908018724": {
+    "name": "Rich J C",
+    "website": "http://www.richjc.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "120457191304705",
+    "pages": [
+      "http://www.richjc.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4794248902": {
+    "name": "Rick's American Cafe",
+    "website": "https://ricksamericancafe.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "ricks_el",
+    "facebook": "180387917784",
+    "pages": [
+      "https://www.ricksamericancafe.com/",
+      "https://www.ricksamericancafe.com/specials",
+      "https://www.ricksamericancafe.com/what-to-expect-from-drink-specials-in-okemos",
+      "https://www.ricksamericancafe.com/when-to-call-a-bar-for-group-events-in-haslett"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4781784135": {
+    "name": "Rod's Diner",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3218362650": {
+    "name": "Roos Roast",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4848486388": {
+    "name": "RoosRoast Coffee",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3064334653": {
+    "name": "Sadako",
+    "website": "https://www.sadakojapaneserestauranta2.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "SadakoJapaneseRestaurantA2",
+    "pages": [
+      "https://www.sadakojapaneserestauranta2.com/",
+      "https://www.sadakojapaneserestauranta2.com/menus"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3064374713": {
+    "name": "Saica",
+    "website": "https://saicarestaurant.com/",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": "650041665149303",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/9092417186": {
+    "name": "Saigon Kitchen & Bar",
+    "website": "https://www.saigona2.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "tastekitchena2",
+    "facebook": "tastekitchena2",
+    "pages": [
+      "https://www.saigona2.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/5788925521": {
+    "name": "Satchel's BBQ",
+    "website": "https://www.satchelsbbq.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "satchelsbbq",
+    "facebook": "164934770189471",
+    "pages": [
+      "https://www.satchelsbbq.com/",
+      "https://www.satchelsbbq.com/menu-1"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2742714786": {
+    "name": "Sava's",
+    "website": "https://www.savasannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "savas_ann_arbor",
+    "facebook": "104689625971",
+    "pages": [
+      "https://www.savasannarbor.com/",
+      "https://www.savasannarbor.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2887795514": {
+    "name": "Scorekeepers",
+    "website": "http://scorekeepersa2.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "266017073740989",
+    "pages": [
+      "http://scorekeepersa2.com/",
+      "http://scorekeepersa2.com/specials/",
+      "http://scorekeepersa2.com/restaurant-menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/339688811": {
+    "name": "Seoul Garden",
+    "website": "https://www.seoulgardenaa.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "2162724813744255",
+    "pages": [
+      "https://www.seoulgardenaa.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4395585357": {
+    "name": "Seva",
+    "website": "https://sevarestaurant.com/ann-arbor-1",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "sevaannarbor",
+    "facebook": "358988467512",
+    "pages": [
+      "https://sevarestaurant.com/ann-arbor-1",
+      "https://sevarestaurant.com/ann-arbor-menu",
+      "https://sevarestaurant.com/ann-arbor-drink-menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/8910644462": {
+    "name": "Shake Shack",
+    "website": "https://www.shakeshack.com/location/ann-arbor-mi?utm_source=facebook&utm_medium=listing",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": "507841976625071",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2760098967": {
+    "name": "Shalimar",
+    "website": "https://www.shalimarrestaurant.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "shalimar.annarbor",
+    "facebook": "104879349555823",
+    "pages": [
+      "https://www.shalimarrestaurant.com/",
+      "https://www.shalimarrestaurant.com/offers-and-specials/",
+      "https://www.shalimarrestaurant.com/menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2874423483": {
+    "name": "Sharetea",
+    "website": "https://www.1992sharetea.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "sharetea",
+    "facebook": "106952454523694",
+    "pages": [
+      "https://www.1992sharetea.com/",
+      "https://www.1992sharetea.com/drinks-menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/8775043747": {
+    "name": "Shawarma Shop",
+    "website": "https://shawarmashopaa.com/",
+    "website_from": "osm",
+    "website_status": "ENOTFOUND",
+    "instagram": null,
+    "facebook": "106592755056062",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/12588785338": {
+    "name": "Siam Square",
+    "website": "https://www.siamsquareannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "siamsquareannarbor",
+    "facebook": "100031944116640",
+    "pages": [
+      "https://www.siamsquareannarbor.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/9014708210": {
+    "name": "Side Biscuit",
+    "website": "https://www.sidebiscuit.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "sidebiscuit_",
+    "facebook": "sidebiscuits",
+    "pages": [
+      "https://side-biscuit.site.tryotter.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/1278920644": {
+    "name": "Sip Coffee Cafe",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/6190446525": {
+    "name": "Slows Bar BQ",
+    "website": "https://slowsannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "slowsannarbor",
+    "facebook": "837278709470970",
+    "pages": [
+      "https://slowsannarbor.com/",
+      "https://slowsannarbor.com/events",
+      "https://slowsannarbor.com/food-menu",
+      "https://slowsannarbor.com/drink-menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2874452534": {
+    "name": "Slurping Turtle",
+    "website": "http://slurpingturtle.com/annarbor",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "slurpannarbor",
+    "facebook": "slurpannarbor",
+    "pages": [
+      "http://slurpingturtle.com/annarbor"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/756106889": {
+    "name": "Smoothie King",
+    "website": "https://locations.smoothieking.com/ll/us/mi/ann-arbor/2635-jackson-ave/?utm_source=facebook&utm_medium=social&utm_content=SOCi",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "smoothieking",
+    "facebook": "332204967484544",
+    "pages": [
+      "https://locations.smoothieking.com/ll/us/mi/ann-arbor/2635-jackson-ave/?utm_source=facebook&utm_medium=social&utm_content=SOCi"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/8779519248": {
+    "name": "Socotra Coffee House",
+    "website": "https://socotracoffeehouse.com/",
+    "website_from": "osm",
+    "website_status": "HTTP 404",
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/12636388315": {
+    "name": "Songbird Café",
+    "website": "https://www.thesongbirdcafeannarbor.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "thesongbirdcafeaa",
+    "facebook": "230137247086820",
+    "pages": [
+      "https://www.thesongbirdcafeannarbor.com/",
+      "https://www.thesongbirdcafeannarbor.com/northside-menu",
+      "https://www.thesongbirdcafeannarbor.com/menus"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4935570666": {
+    "name": "Sottini's Sub Shop",
+    "website": "https://www.sottinisubs.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "sottinis_subshop",
+    "facebook": "1100589153472331",
+    "pages": [
+      "https://www.sottinisubs.com/",
+      "https://www.sottinisubs.com/menu.html"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/11982505591": {
+    "name": "South Quad Dining Hall",
+    "website": "https://dining.umich.edu/menus-locations/dining-halls/south-quad/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "michigandining",
+    "facebook": null,
+    "pages": [
+      "https://dining.umich.edu/menus-locations/dining-halls/south-quad/",
+      "https://dining.umich.edu/menus-locations/",
+      "https://dining.umich.edu/about-our-food/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/12545051768": {
+    "name": "Spencer",
+    "website": "https://www.spencerannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "spencerannarbor",
+    "facebook": "316558255111720",
+    "pages": [
+      "https://www.spencerannarbor.com/",
+      "https://www.spencerannarbor.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/453625321": {
+    "name": "Spiedo",
+    "website": "https://spiedoa2.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "_spiedo_",
+    "facebook": "104732844340294",
+    "pages": [
+      "https://www.spiedoa2.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/7009807552": {
+    "name": "Star’s Cafe",
+    "website": "https://www.starscafeannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "111617212210998",
+    "pages": [
+      "https://www.starscafeannarbor.com/",
+      "https://www.starscafeannarbor.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/541900696": {
+    "name": "Starbucks",
+    "website": "https://www.starbucks.com/store-locator/store/14031/arborland-washtenaw-us-23-3601-washtenaw-ave-ann-arbor-mi-481045277-us",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "748920944962419",
+    "pages": [
+      "https://www.starbucks.com/store-locator/store/14031/arborland-washtenaw-us-23-3601-washtenaw-ave-ann-arbor-mi-481045277-us"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2742714779": {
+    "name": "Starbucks",
+    "website": "https://www.starbucks.com/store-locator/store/11152/state-liberty-222-s-state-ann-arbor-mi-481042006-us",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "121083207944198",
+    "pages": [
+      "https://www.starbucks.com/store-locator/store/11152/state-liberty-222-s-state-ann-arbor-mi-481042006-us"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3780117264": {
+    "name": "Starbucks",
+    "website": "https://www.starbucks.com/store-locator/store/116292/plymouth-nixon-2793-plymouth-rd-ann-arbor-mi-481052489-us",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "150458748306954",
+    "pages": [
+      "https://www.starbucks.com/store-locator/store/116292/plymouth-nixon-2793-plymouth-rd-ann-arbor-mi-481052489-us"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4842861417": {
+    "name": "Stray Hen Cafe",
+    "website": "https://www.strayhencafe.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "thehenannarbor",
+    "facebook": "strayhencafe",
+    "pages": [
+      "https://strayhencafe.com/",
+      "https://strayhencafe.com/choose-menu/",
+      "https://strayhencafe.com/elmhurt-menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/13959029774": {
+    "name": "Strider Coffee Stop",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": "stridercoffeestop",
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3129643013": {
+    "name": "Subway",
+    "website": "https://restaurants.subway.com/united-states/mi/ann-arbor/1251-north-maple",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "subway",
+    "facebook": "subway",
+    "pages": [
+      "https://restaurants.subway.com/united-states/mi/ann-arbor/1251-north-maple"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3874139685": {
+    "name": "Subway",
+    "website": "https://restaurants.subway.com/united-states/mi/ann-arbor/3098-platt-rd",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "subway",
+    "facebook": "344022588967987",
+    "pages": [
+      "https://restaurants.subway.com/united-states/mi/ann-arbor/3098-platt-rd"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4764017793": {
+    "name": "Subway",
+    "website": "https://restaurants.subway.com/united-states/mi/ann-arbor/1315-s-university-ave",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "subway",
+    "facebook": "subway",
+    "pages": [
+      "https://restaurants.subway.com/united-states/mi/ann-arbor/1315-s-university-ave"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4856507602": {
+    "name": "Subway",
+    "website": "https://restaurants.subway.com/united-states/mi/ann-arbor/902-south-state-st",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "subway",
+    "facebook": "subway",
+    "pages": [
+      "https://restaurants.subway.com/united-states/mi/ann-arbor/902-south-state-st"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/5262813316": {
+    "name": "Subway",
+    "website": "https://restaurants.subway.com/united-states/mi/ann-arbor/3395-a-plymouth-road",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "subway",
+    "facebook": "360002287378800",
+    "pages": [
+      "https://restaurants.subway.com/united-states/mi/ann-arbor/3395-a-plymouth-road"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/12152091522": {
+    "name": "Subway",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/441362667": {
+    "name": "Subway",
+    "website": "https://restaurants.subway.com/united-states/mi/ann-arbor/2410-w-stadium-blvd",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "subway",
+    "facebook": "225625461548273",
+    "pages": [
+      "https://restaurants.subway.com/united-states/mi/ann-arbor/2410-w-stadium-blvd"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2742714806": {
+    "name": "Sweetgreen",
+    "website": "https://www.sweetgreen.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "sweetgreen",
+    "facebook": "115955994430911",
+    "pages": [
+      "https://www.sweetgreen.com/",
+      "https://www.sweetgreen.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3908803756": {
+    "name": "Sweetgreen",
+    "website": "https://www.sweetgreen.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "sweetgreen",
+    "facebook": "113234875101292",
+    "pages": [
+      "https://www.sweetgreen.com/",
+      "https://www.sweetgreen.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/1278920705": {
+    "name": "SweetING",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/8350684368": {
+    "name": "Sweetwater's Coffee & Tea",
+    "website": "https://www.sweetwaterscafe.com/mi-ann-arbor-jackson-ave/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "sw.westgate",
+    "facebook": "swcafewestgate",
+    "pages": [
+      "https://www.sweetwaterscafe.com/mi-ann-arbor-jackson-ave/",
+      "https://www.sweetwaterscafe.com/menu/",
+      "https://www.sweetwaterscafe.com/menu/coffee/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4787322480": {
+    "name": "Sweetwaters",
+    "website": "http://sweetwaterscafe.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "sweetwaterscoffeetea",
+    "facebook": "47121107833",
+    "pages": [
+      "https://www.sweetwaterscafe.com/",
+      "https://www.sweetwaterscafe.com/menu/",
+      "https://www.sweetwaterscafe.com/menu/coffee/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/5446624865": {
+    "name": "Sweetwaters",
+    "website": "https://sweetwaterscafe.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "sweetwaterscoffeetea",
+    "facebook": "swcoffeetea",
+    "pages": [
+      "https://www.sweetwaterscafe.com/",
+      "https://www.sweetwaterscafe.com/menu/",
+      "https://www.sweetwaterscafe.com/menu/coffee/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/11101910991": {
+    "name": "Sweetwaters",
+    "website": "https://www.sweetwaterscafe.com/mi-annarbor-777/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "sweetwaterscoffeetea",
+    "facebook": "406479422550398",
+    "pages": [
+      "https://www.sweetwaterscafe.com/mi-annarbor-777/",
+      "https://www.sweetwaterscafe.com/menu/",
+      "https://www.sweetwaterscafe.com/menu/coffee/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2623064649": {
+    "name": "Sweetwaters Coffee & Tea",
+    "website": "https://www.sweetwaterscafe.com/mi-ann-arbor-kerrytown/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "sweetwaterscoffeetea",
+    "facebook": "1742643339394635",
+    "pages": [
+      "https://www.sweetwaterscafe.com/mi-ann-arbor-kerrytown/",
+      "https://www.sweetwaterscafe.com/menu/",
+      "https://www.sweetwaterscafe.com/menu/coffee/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/5260245716": {
+    "name": "Sweetwaters Coffee & Tea",
+    "website": "https://www.sweetwaterscafe.com/mi-ann-arbor-plymouth-rd-green-rd/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "sw.plymouthgreen",
+    "facebook": "swcafeplymouthgreen",
+    "pages": [
+      "https://www.sweetwaterscafe.com/mi-ann-arbor-plymouth-rd-green-rd/",
+      "https://www.sweetwaterscafe.com/menu/",
+      "https://www.sweetwaterscafe.com/menu/coffee/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/10942330076": {
+    "name": "Sweetwaters Coffee & Tea",
+    "website": "https://www.sweetwaterscafe.com/mi-ann-arbor-um-union/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "sw.umunion",
+    "facebook": "SWUMUnion",
+    "pages": [
+      "https://www.sweetwaterscafe.com/mi-ann-arbor-um-union/",
+      "https://www.sweetwaterscafe.com/menu/",
+      "https://www.sweetwaterscafe.com/menu/coffee/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/298602520": {
+    "name": "Taco Bell",
+    "website": "https://locations.tacobell.com/mi/ann-arbor/1655-plymouth-rd.html",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "tacobell",
+    "facebook": "466363706556298",
+    "pages": [
+      "https://locations.tacobell.com/mi/ann-arbor/1655-plymouth-rd.html",
+      "https://locations.tacobell.com//fast-food.html"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/367316356": {
+    "name": "Taco Bell",
+    "website": "https://locations.tacobell.com/mi/ann-arbor/2280-w--stadium.html",
+    "website_from": "osm",
+    "website_status": "HTTP 404",
+    "instagram": null,
+    "facebook": "296835003700693",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/441287594": {
+    "name": "Taco King",
+    "website": "https://annarbortacoking.com/",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": "233923613389547",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/9018638843": {
+    "name": "TAQ Taqueria Restaurant & Bar",
+    "website": "https://www.taqannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "174866926679230",
+    "pages": [
+      "https://www.taqrestaurants.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2344584614": {
+    "name": "Taste of India Suvai",
+    "website": "https://tasteofindiasuvai.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "tasteofindiasuvai",
+    "facebook": "111473848330297",
+    "pages": [
+      "https://tasteofindiasuvai.com/",
+      "https://tasteofindiasuvai.com/menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/14042736798": {
+    "name": "Taystee's Burger",
+    "website": "https://www.taysteesburger.com/locations/ann-arbor",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "taysteesburgers",
+    "facebook": "taysteesburger",
+    "pages": [
+      "https://www.taysteesburger.com/locations/ann-arbor/",
+      "https://www.taysteesburger.com/menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/5446624871": {
+    "name": "Tea Ninja",
+    "website": "https://teaninjaannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "https://bussianlaw.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4997286409": {
+    "name": "TeaHaus",
+    "website": "https://teahaus.com/",
+    "website_from": "osm",
+    "website_status": "HTTP 429",
+    "instagram": null,
+    "facebook": "50865062475",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/340028219": {
+    "name": "Texas de Brazil",
+    "website": "https://texasdebrazil.com/locations/ann-arbor/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "texasdebrazil",
+    "facebook": "111062878573846",
+    "pages": [
+      "https://texasdebrazil.com/locations/ann-arbor/",
+      "https://texasdebrazil.com/special/",
+      "https://texasdebrazil.com/specials/",
+      "https://texasdebrazil.com/group-dining/",
+      "https://texasdebrazil.com/locations/ann-arbor/event",
+      "https://texasdebrazil.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2760098974": {
+    "name": "The Black Pearl",
+    "website": "https://www.blackpearlannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "https://www.blackpearlannarbor.com/",
+      "https://www.blackpearlannarbor.com/weekly-specials",
+      "https://www.blackpearlannarbor.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/9654398264": {
+    "name": "The Blind Pig / 8 Ball Saloon",
+    "website": "https://www.blindpigmusic.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "blindpig_annarbor",
+    "facebook": "BlindPigAnnArbor",
+    "pages": [
+      "https://blindpigmusic.com/",
+      "https://blindpigmusic.com/tm-event/amelie-farren-lilith-max-rabbitology/",
+      "https://blindpigmusic.com/tm-event/congress-the-band/",
+      "https://blindpigmusic.com/tm-event/congress-the-band-2/",
+      "https://blindpigmusic.com/tm-event/infrariot-bubbles-is-the-problem-inferior-carouselle/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4802256327": {
+    "name": "The Brown Jug",
+    "website": "https://brownjugannarbor.com/",
+    "website_from": "osm",
+    "website_status": "HTTP 429",
+    "instagram": "brownjugannarbor",
+    "facebook": "23209690553",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4854332819": {
+    "name": "The Chop House",
+    "website": "http://thechophouseannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "67819146054",
+    "pages": [
+      "https://thechophouserestaurant.com/",
+      "https://thechophouserestaurant.com/ann-arbor-the-chop-house-ann-arbor-custom-specials",
+      "https://thechophouserestaurant.com/ann-arbor-the-chop-house-ann-arbor-happy-hours-specials",
+      "https://thechophouserestaurant.com/ann-arbor-the-chop-house-ann-arbor-custom-events",
+      "https://thechophouserestaurant.com/ann-arbor-the-chop-house-ann-arbor-food-menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/14227225831": {
+    "name": "The Common Cup",
+    "website": "https://www.ulcannarbor.org/the-common-cup/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "thecommoncupcoffee",
+    "facebook": "185384321062",
+    "pages": [
+      "https://www.ulcannarbor.org/the-common-cup/",
+      "https://www.ulcannarbor.org/events/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/6001436187": {
+    "name": "The Drip House",
+    "website": "http://driphousecoffee.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "driphousecoffeeco",
+    "facebook": "100575494712379",
+    "pages": [
+      "https://driphousecoffee.com/",
+      "https://driphousecoffee.com/drink-menu/",
+      "https://driphousecoffee.com/food-menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2344584598": {
+    "name": "The Earle",
+    "website": "https://theearle.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "theearlerestaurant",
+    "facebook": "earlerestaurant",
+    "pages": [
+      "https://www.theearle.com/",
+      "https://www.theearle.com/blank-3",
+      "https://www.theearle.com/dinnermenu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/11061643005": {
+    "name": "The Garage Bar",
+    "website": "https://garagebarannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "garagebar.aa",
+    "facebook": "1826115550974510",
+    "pages": [
+      "https://garagebarannarbor.com/",
+      "https://garagebarannarbor.com/parties-events/",
+      "https://garagebarannarbor.com/menus/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/1288443651": {
+    "name": "The Great Greek",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/5446624862": {
+    "name": "The Grotto - Watering Hole",
+    "website": "https://thegrottobar.com/",
+    "website_from": "osm",
+    "website_status": "HTTP 500",
+    "instagram": null,
+    "facebook": "thegrotto",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/329397130": {
+    "name": "The Hen on the Fly",
+    "website": "https://www.theheneats.com/locations/hen-on-the-fly",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "thehenannarbor",
+    "facebook": "strayhencafe",
+    "pages": [
+      "https://www.theheneats.com/locations/hen-on-the-fly",
+      "https://www.theheneats.com/menu/the-hen-ann-arbor",
+      "https://www.theheneats.com/menu/hen-on-the-fly"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4787322476": {
+    "name": "The Hidden King",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": "100341779747792",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2760098970": {
+    "name": "The Jagged Fork",
+    "website": "https://thejaggedfork.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "thejaggedfork",
+    "facebook": "105687318283841",
+    "pages": [
+      "https://thejaggedfork.com/",
+      "https://thejaggedfork.com/our-menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4675478273": {
+    "name": "The Jefferson Market",
+    "website": "https://www.thejeffersonmarket.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "630282183810858",
+    "pages": [
+      "https://www.thejeffersonmarket.com/",
+      "https://www.thejeffersonmarket.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/7015913462": {
+    "name": "The Last Word",
+    "website": "https://thelastwordbar.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "thelastwordbar",
+    "facebook": "362274097121848",
+    "pages": [
+      "https://thelastword.com/",
+      "https://thelastword.com/weekly",
+      "https://thelastword.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4934264074": {
+    "name": "The Little Store",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/6988552360": {
+    "name": "The Lunch Room Bakery & Cafe",
+    "website": "https://thelunchrooma2.com/bakery-cafe",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "thelunchroombakery",
+    "facebook": "775388235870052",
+    "pages": [
+      "https://thelunchrooma2.com/bakery-cafe"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2344584607": {
+    "name": "The Ravens Club",
+    "website": "https://www.theravensclub.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "theravensclub",
+    "facebook": "120651794661738",
+    "pages": [
+      "https://www.theravensclub.com/",
+      "https://www.theravensclub.com/specials",
+      "https://www.theravensclub.com/happy-hour",
+      "https://www.theravensclub.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/14106120636": {
+    "name": "The Stubborn Brother",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4787322484": {
+    "name": "The West End Grill",
+    "website": "https://www.westendgrillannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "111626275539107",
+    "pages": [
+      "https://www.westendgrillannarbor.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2887264864": {
+    "name": "Tianchu Restaurant",
+    "website": "https://www.tianchuannarbor.com/",
+    "website_from": "osm",
+    "website_status": "HTTP 429",
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/8441975838": {
+    "name": "Tim Hortons",
+    "website": "https://www.timhortons.com/store-locator/store/restaurant_70969",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "115313041819761",
+    "pages": [
+      "https://www.timhortons.com/store-locator/store/restaurant_70969"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/1023694336": {
+    "name": "Tios Mexican Cafe",
+    "website": "https://www.tiosmexicancafe.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "tiosmexicancafe",
+    "facebook": null,
+    "pages": [
+      "https://tiosa2.com/",
+      "https://tiosa2.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/6221144287": {
+    "name": "TK WU",
+    "website": "https://tkwurestaurant.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "TKWUAnnArbor",
+    "pages": [
+      "https://tkwurestaurant.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/8777944621": {
+    "name": "Tmaz Taqueria",
+    "website": "https://tmaztaqueriatogo.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "248318361865655",
+    "pages": [
+      "https://www.tmaztaqueriatogo.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/5884219888": {
+    "name": "Tmaz Taqueria Dexter",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/502195824": {
+    "name": "Toarmina's Pizza",
+    "website": "https://www.toarminas.com/location/ann-arbor-south/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "toarminas.pizza",
+    "facebook": "ToarminasAA",
+    "pages": [
+      "https://www.toarminas.com/location/ann-arbor-south/",
+      "https://www.toarminas.com/coupons/",
+      "https://www.toarminas.com/toarminas-pizza-menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2742714802": {
+    "name": "Tomukun Korean BBQ / Noodle Bar",
+    "website": "http://www.tomukun.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "tomukuna2",
+    "facebook": "342152217266",
+    "pages": [
+      "https://www.tomukun.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/11940249838": {
+    "name": "Totally Tea",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2344584615": {
+    "name": "Totoro Sushi",
+    "website": "https://www.totoroannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "245635572297920",
+    "pages": [
+      "https://totoroannarbor.com/",
+      "https://totoroannarbor.com/menus-2"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/5446624868": {
+    "name": "Tropical Smoothie Cafe",
+    "website": "https://www.tropicalsmoothiecafe.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "tropicalsmoothiecafe",
+    "facebook": "359547020797834",
+    "pages": [
+      "https://www.tropicalsmoothiecafe.com/",
+      "https://www.tropicalsmoothiecafe.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/9730722536": {
+    "name": "Tropical Smoothie Cafe",
+    "website": "https://locations.tropicalsmoothiecafe.com/mi/ann-arbor/3400-washtenaw-avenue",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "tropicalsmoothiecafe",
+    "facebook": "693373120816226",
+    "pages": [
+      "https://locations.tropicalsmoothiecafe.com/mi/ann-arbor/3400-washtenaw-avenue"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/12588581871": {
+    "name": "Tropical Smoothie Cafe",
+    "website": "https://locations.tropicalsmoothiecafe.com/mi/ann-arbor/885-w.-eisenhower-parkway?y_source=1_MTA5MDM5NzktNTU5LWxvY2F0aW9uLndlYnNpdGU%3D",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "tropicalsmoothiecafe",
+    "facebook": "103464516380337",
+    "pages": [
+      "https://locations.tropicalsmoothiecafe.com/mi/ann-arbor/885-w.-eisenhower-parkway?y_source=1_MTA5MDM5NzktNTU5LWxvY2F0aW9uLndlYnNpdGU%3D"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4837097556": {
+    "name": "Turkish Village Cafe",
+    "website": "https://www.turkishvillagecuisine.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "turkishvillagecuisine",
+    "facebook": "p",
+    "pages": [
+      "https://www.turkishvillagecuisine.com/",
+      "https://www.turkishvillagecuisine.com/menu/traditional-dishes",
+      "https://www.turkishvillagecuisine.com/menu/kids-menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/977467874": {
+    "name": "Twigs",
+    "website": "https://dining.umich.edu/menus-locations/dining-halls/twigs-at-oxford/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "michigandining",
+    "facebook": null,
+    "pages": [
+      "https://dining.umich.edu/menus-locations/dining-halls/twigs-at-oxford/",
+      "https://dining.umich.edu/menus-locations/",
+      "https://dining.umich.edu/about-our-food/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/5000907324": {
+    "name": "Two Songs Bakery & Cafe",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": "twosongsbakerycafe",
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/5260245717": {
+    "name": "Umi Sushi",
+    "website": "https://umisushiannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "171055336262402",
+    "pages": [
+      "https://umisushiannarbor.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/13287878030": {
+    "name": "UMMA Cafe",
+    "website": "https://dining.umich.edu/menus-locations/cafes/umma-cafe/?menuDate=2025-11-10",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "michigandining",
+    "facebook": null,
+    "pages": [
+      "https://dining.umich.edu/menus-locations/cafes/umma-cafe/",
+      "https://dining.umich.edu/menus-locations/",
+      "https://dining.umich.edu/about-our-food/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/10268450829": {
+    "name": "Union Rec",
+    "website": "https://www.unionrec.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "eatunionrec",
+    "facebook": "105436265676168",
+    "pages": [
+      "https://www.unionrec.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2887795516": {
+    "name": "UniTea",
+    "website": "https://www.orderunitea.com/?utm_source=bing&utm_medium=websiteurl&utm_campaign=search",
+    "website_from": "osm",
+    "website_status": "ENOTFOUND",
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/13766745801": {
+    "name": "Uplift",
+    "website": "https://www.upliftannarbor.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "uplift_a2",
+    "facebook": "109650891712661",
+    "pages": [
+      "https://www.upliftannarbor.com/",
+      "https://www.upliftannarbor.com/events"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/328499868": {
+    "name": "Venue by 4M",
+    "website": "https://experience4m.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "4mvenue",
+    "facebook": "4Mvenue",
+    "pages": [
+      "https://www.experience4m.com/",
+      "https://www.experience4m.com/specials/",
+      "https://www.experience4m.com/events/",
+      "https://www.experience4m.com/menus/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4908016618": {
+    "name": "Vertex Coffee Roasters",
+    "website": "https://www.vertex-coffee.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "vertexcoffeeroasters",
+    "facebook": "vertexcoffeeroasters",
+    "pages": [
+      "https://www.vertex-coffee.com/",
+      "https://www.vertex-coffee.com/events",
+      "https://www.vertex-coffee.com/menus",
+      "https://www.vertex-coffee.com/ypsi-food"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3065610484": {
+    "name": "Victors",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3462220409": {
+    "name": "Village Kitchen",
+    "website": "https://www.villagekitchena2.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "VillageKitchen.A2",
+    "pages": [
+      "https://www.villagekitchena2.com/",
+      "https://www.villagekitchena2.com/menus"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4919630435": {
+    "name": "Vinology",
+    "website": "https://vinologya2.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "vinologya2",
+    "facebook": "167642321576",
+    "pages": [
+      "https://vinologya2.com/",
+      "https://vinologya2.com/upcoming-events/",
+      "https://vinologya2.com/menu/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/339695055": {
+    "name": "Wendy's",
+    "website": "https://locations.wendys.com/united-states/mi/ann-arbor/3100-boardwalk",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "wendys",
+    "facebook": "209797122391693",
+    "pages": [
+      "https://locations.wendys.com/united-states/mi/ann-arbor/3100-boardwalk",
+      "https://locations.wendys.com/united-states/mi/ann-arbor/3100-boardwalk/breakfast-menu.html"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/13900013387": {
+    "name": "Wingstop",
+    "website": "https://www.wingstop.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "100199912164872",
+    "pages": [
+      "https://www.wingstop.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/4406265250": {
+    "name": "Wolverine State Brewing Co.",
+    "website": "https://www.wolverinebeer.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": null,
+    "pages": [
+      "https://www.wolverinebeer.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/14100073670": {
+    "name": "Wolverine Village Dining Hall",
+    "website": null,
+    "website_from": null,
+    "website_status": null,
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/2874423482": {
+    "name": "Yogurt Rush",
+    "website": "http://www.yogurtrush.com/",
+    "website_from": "osm",
+    "website_status": "ENOTFOUND",
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/11816965075": {
+    "name": "YORK Food & Drink",
+    "website": "https://www.yorka2.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "yorkannarbor",
+    "facebook": "yorkannarbor",
+    "pages": [
+      "https://www.yorka2.com/",
+      "https://www.yorka2.com/menu"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/5367233598": {
+    "name": "Zamaan Cafe",
+    "website": "https://eatstreet.com",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "eatstreethq",
+    "facebook": "eatstreetHQ",
+    "pages": [
+      "https://eatstreet.com/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/12552300476": {
+    "name": "Zingerman's Deli",
+    "website": "https://www.zingermansdeli.com/",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": null,
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/12552300477": {
+    "name": "Zingerman's Next Door Café",
+    "website": "https://www.zingermansdeli.com/next-door/",
+    "website_from": "osm",
+    "website_status": "HTTP 403",
+    "instagram": null,
+    "facebook": "347835742679666",
+    "pages": [],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "way/404262092": {
+    "name": "Zingerman's Roadhouse",
+    "website": "https://zingermansroadhouse.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": "zingermansroadhouse",
+    "facebook": "61571847445",
+    "pages": [
+      "https://www.zingermansroadhouse.com/",
+      "https://www.zingermansroadhouse.com/menus/dinner-specials/",
+      "https://www.zingermansroadhouse.com/menus/happy-hour/",
+      "https://www.zingermansroadhouse.com/special-events/",
+      "https://www.zingermansroadhouse.com/events/",
+      "https://www.zingermansroadhouse.com/thanksgiving-to-go-menu/",
+      "https://www.zingermansroadhouse.com/menus/roadshow/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  },
+  "node/3908804460": {
+    "name": "Zola Bistro",
+    "website": "https://www.bistrozola.com/",
+    "website_from": "osm",
+    "website_status": "ok",
+    "instagram": null,
+    "facebook": "211749748983397",
+    "pages": [
+      "https://www.bistrozola.com/",
+      "https://www.bistrozola.com/dinner-specials/",
+      "https://www.bistrozola.com/brunch-specials/",
+      "https://www.bistrozola.com/drink-specials/",
+      "https://www.bistrozola.com/happy-hour/",
+      "https://www.bistrozola.com/our-menus/",
+      "https://www.bistrozola.com/drinks-2/"
+    ],
+    "checked_at": "2026-10-04T21:48:27.154Z"
+  }
+}

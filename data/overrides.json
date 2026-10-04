@@ -1,0 +1,12 @@
+{
+  "_comment": "Manual corrections, keyed by restaurant name as it appears in data/restaurants.json. Any of: website, instagram, facebook, pages (extra URLs to scrape), closed (true removes the restaurant from the site). These win over what the map datasets say.",
+  "Chapala Mexican Restaurant": {
+    "website": "https://eatchapala.com/",
+    "pages": [
+      "https://eatchapala.com/ann-arbor-ann-arbor-chapala-mexican-restaurant-specials-ann-arbor"
+    ]
+  },
+  "Pizza Cat Max": {
+    "closed": true
+  }
+}
