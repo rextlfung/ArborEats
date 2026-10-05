@@ -111,13 +111,13 @@ header {
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.22);
 }
 
-/* Two-tone wordmark. The lighter green only has the contrast on dark. */
+/* Maize and blue: "Eats" sits on a maize tab, which reads on either theme. */
 .eats {
-  color: #05944f;
-}
-
-[data-theme="dark"] .eats {
-  color: #06c167;
+  margin-left: 4px;
+  padding: 0 6px 1px;
+  border-radius: 7px;
+  background: #ffcb05;
+  color: #00274c;
 }
 
 .theme {
