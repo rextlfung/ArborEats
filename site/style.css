@@ -14,7 +14,6 @@
   --logo: #0e1b2e;
   --tag-plain: #eef1f5;
   --map-ground: #e9edf2;
-  --live: #1f9d55;
   --shadow: 0 8px 28px rgba(14, 27, 46, 0.18);
   --display: "Bricolage Grotesque", system-ui, sans-serif;
   --body: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -34,7 +33,6 @@
   --logo: #1f2b3d;
   --tag-plain: #1f2b3d;
   --map-ground: #0b111b;
-  --live: #3ecf7c;
   --shadow: 0 8px 28px rgba(0, 0, 0, 0.5);
   color-scheme: dark;
 }
@@ -167,7 +165,7 @@ h1 {
 
 .days {
   display: grid;
-  grid-template-columns: repeat(9, minmax(0, 1fr));
+  grid-template-columns: repeat(7, minmax(0, 1fr));
   gap: 4px;
   padding: 4px;
   border-radius: 12px;
@@ -209,13 +207,6 @@ h1 {
   background: currentColor;
 }
 
-.days .now {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-}
-
 .pills,
 .pill-group {
   display: flex;
@@ -250,13 +241,6 @@ h1 {
 .filters-head,
 .fab {
   display: none;
-}
-
-.now .dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--live);
 }
 
 .search {
@@ -662,6 +646,20 @@ main {
   .filters-head h2 {
     margin: 0;
     font: 800 19px/1 var(--display);
+  }
+
+  .sheet-actions {
+    display: flex;
+    gap: 8px;
+  }
+
+  .clear {
+    min-height: 44px;
+    padding: 0 18px;
+    border: 1.5px solid var(--line-strong);
+    border-radius: 999px;
+    background: var(--ground);
+    font-weight: 700;
   }
 
   .done {

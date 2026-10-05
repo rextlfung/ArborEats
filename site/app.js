@@ -18,7 +18,7 @@ function annArborNow() {
   return { day: parts.weekday.toLowerCase().slice(0, 3), time: `${parts.hour}:${parts.minute}` };
 }
 
-const state = { day: annArborNow().day, category: "all", owner: "all", cap: null, now: false, query: "", selected: null };
+const state = { day: annArborNow().day, category: "all", owner: "all", cap: null, query: "", selected: null };
 
 // The dollar amount you pay, or null for discounts ("$2 off", "25% off",
 // "half off") and deals with no price, which a price cap cannot judge.
@@ -65,17 +65,11 @@ function daysAgo(iso) {
 
 function matches(deal, restaurant) {
   // A deal with no stated days is shown on every day rather than hidden.
-  if (state.day !== "all" && deal.days.length && !deal.days.includes(state.day)) return false;
+  if (deal.days.length && !deal.days.includes(state.day)) return false;
   if (state.category !== "all" && deal.category !== state.category && deal.category !== "both") return false;
   if (state.cap !== null) {
     const price = dollarPrice(deal);
     if (price === null || price > state.cap) return false;
-  }
-  if (state.now) {
-    const { day, time } = annArborNow();
-    if (deal.days.length && !deal.days.includes(day)) return false;
-    if (deal.start_time && time < deal.start_time) return false;
-    if (deal.end_time && time > deal.end_time) return false;
   }
   if (state.query) {
     const haystack = `${restaurant.name} ${restaurant.cuisine.join(" ")} ${deal.title} ${deal.description}`.toLowerCase();
@@ -168,9 +162,8 @@ function render() {
   const all = filtered();
   const shown = inView(all);
   const count = shown.reduce((n, r) => n + r.deals.length, 0);
-  const dayText = state.now ? "right now" : state.day === "all" ? "this week" : `on ${DAY_NAME[state.day]}`;
   $("count").textContent = count;
-  $("summary").textContent = `deal${count === 1 ? "" : "s"} at ${shown.length} place${shown.length === 1 ? "" : "s"} ${dayText}`;
+  $("summary").textContent = `deal${count === 1 ? "" : "s"} at ${shown.length} place${shown.length === 1 ? "" : "s"} on ${DAY_NAME[state.day]}`;
 
   const hidden = all.length - shown.length;
   const outside = hidden
@@ -202,15 +195,13 @@ function showAll() {
 
 function setUpFilters() {
   const today = annArborNow().day;
-  // "Now" lives in the same bar as the days: it means today, at this hour.
-  $("days").innerHTML =
-    `<button data-day="now" class="now"><span class="dot" aria-hidden="true"></span>Now</button>` +
-    ["all", ...DAYS]
-      .map((d) => `<button data-day="${d}" class="${d === today ? "today" : ""}">${d === "all" ? "All" : DAY_LABEL[d]}</button>`)
-      .join("");
+  // The week runs Sunday to Saturday; today carries a dot.
+  $("days").innerHTML = ["sun", ...DAYS.slice(0, 6)]
+    .map((d) => `<button data-day="${d}" class="${d === today ? "today" : ""}">${DAY_LABEL[d]}</button>`)
+    .join("");
   const sync = () => {
     for (const b of $("days").children) {
-      const on = b.dataset.day === "now" ? state.now : !state.now && b.dataset.day === state.day;
+      const on = b.dataset.day === state.day;
       b.classList.toggle("active", on);
       b.setAttribute("aria-pressed", on);
     }
@@ -228,7 +219,7 @@ function setUpFilters() {
     }
     // How many filters differ from what the page opens with.
     const changed =
-      (state.now || state.day !== today) +
+      (state.day !== today) +
       (state.category !== "all") +
       (state.owner !== "all") +
       (state.cap !== null) +
@@ -242,8 +233,7 @@ function setUpFilters() {
   $("days").addEventListener("click", (e) => {
     const day = e.target.closest("button")?.dataset.day;
     if (!day) return;
-    state.now = day === "now";
-    state.day = state.now ? annArborNow().day : day;
+    state.day = day;
     update();
   });
   $("categories").addEventListener("click", (e) => {
@@ -285,6 +275,12 @@ function setUpFilters() {
   };
   $("filters-open").addEventListener("click", () => setOpen(true));
   $("filters-close").addEventListener("click", () => setOpen(false));
+  // Back to how the page opens: today, nothing else narrowed.
+  $("filters-clear").addEventListener("click", () => {
+    Object.assign(state, { day: annArborNow().day, category: "all", owner: "all", cap: null, query: "" });
+    $("search").value = "";
+    update();
+  });
   $("filters").addEventListener("keydown", (e) => {
     if (e.key === "Escape" && document.body.classList.contains("filters-open")) setOpen(false);
   });

@@ -53,9 +53,20 @@
       <div class="filters" id="filters">
         <div class="filters-head">
           <h2>Filters</h2>
-          <button id="filters-close" class="done">Done</button>
+          <span class="sheet-actions">
+            <button id="filters-clear" class="clear">Clear</button>
+            <button id="filters-close" class="done">Done</button>
+          </span>
         </div>
-        <div class="days" id="days" role="group" aria-label="When"></div>
+        <label class="search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="7" />
+            <path d="M20 20l-3.5-3.5" />
+          </svg>
+          <span class="visually-hidden">Search restaurants or deals</span>
+          <input type="search" id="search" placeholder="Search tacos, happy hour, a place…" />
+        </label>
+        <div class="days" id="days" role="group" aria-label="Day"></div>
         <div class="pills">
           <div class="pill-group" id="categories" role="group" aria-label="Type of deal">
             <button data-category="food" aria-pressed="false">Food</button>
@@ -71,14 +82,6 @@
             <button data-cap="15" aria-pressed="false">$15 or less</button>
           </div>
         </div>
-        <label class="search">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true">
-            <circle cx="11" cy="11" r="7" />
-            <path d="M20 20l-3.5-3.5" />
-          </svg>
-          <span class="visually-hidden">Search restaurants or deals</span>
-          <input type="search" id="search" placeholder="Search tacos, happy hour, a place…" />
-        </label>
       </div>
 
       <ol id="list"></ol>
