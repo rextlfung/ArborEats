@@ -55,7 +55,7 @@ const CONTEXT_LINES = 8; // how far a day heading or "Happy Hour" title reaches
 const MAX_DEALS_PER_PAGE = 30;
 
 // Bump when the rules change in a way that should re-extract unchanged pages.
-export const EXTRACTOR_VERSION = 8;
+export const EXTRACTOR_VERSION = 9;
 // A line step 3 inserts where a page <section> begins.
 export const SECTION_BREAK = "§";
 
@@ -134,6 +134,12 @@ const tidy = (s) =>
     .replace(/^image of\s+/i, "")
     .replace(/\s+/g, " ");
 // A price or a discount alone on its line; what it applies to is on the line above.
+// A size or portion on its own ("Each", "Individual cup size", "Half order").
+const JUST_A_SIZE_RE =
+  /^(?:each|per\b.*|half|full|large|lg|small|sm|medium|med|regular|single|double|(?:individual |half |full )?(?:cup|bowl|glass|bottle|pint|pitcher|order|portion|size|side)(?: size)?|\d+\s?(?:oz|pc|pcs|pieces?|ct)\.?)$/i;
+// A line that reads as a description ("Hand-cut fries, smothered in chili."), not a name.
+const looksLikeDescription = (l) => l.length > 60 || /^[a-z]/.test(l) || /[.!]$/.test(l) || (l.match(/,/g)?.length ?? 0) >= 2;
+
 const isPriceOnly = (line) => /^\$\s?\d+(?:\.\d{1,2})?(?:\s?off)?$|^\d+\.\d{2}$/i.test(line);
 // A line that only says when: days and/or times and little else.
 function isWhenOnly(line) {
@@ -248,6 +254,12 @@ export function extractDeals(text, { chain = false } = {}) {
         const directlyUnder = ctx.dayHeading && i - ctx.line <= 2;
         const inherited = live && !ctx.label && !ctx.hoursLike && (ctx.days.length === 1 || directlyUnder) ? ctx.days : [];
         const label = happyHour ? "Happy Hour" : tidy(line);
+        // "Drink Specials" / "Food Specials" inside a block that already says
+        // when it runs is a sub-heading: same days and hours, new title.
+        if (!happyHour && live && ctx.label && ctx.days.length && ctx.time && !time) {
+          Object.assign(ctx, { label, line: i });
+          continue;
+        }
         openContext(i, { label, labelLine: i, days: days.length ? days : inherited, time, dated: inherited.length ? ctx.dated : false });
         if (!happyHour) continue;
         // Kept only if a time turns up, on this line or the ones right below.
@@ -270,19 +282,28 @@ export function extractDeals(text, { chain = false } = {}) {
 
     // --- lines that state an offer -------------------------------------------
     let quote = line;
+    let pairName = null; // set when a price line was matched to an item name above it
     if (isPriceOnly(line)) {
       // "Smash Burger" / "$8.00": the item name is on the line above.
       // Only inside a block with a stated time window; otherwise it is the
       // regular menu.
       // or under a bare day heading ("Sunday" / "Reubens" / "$12.00").
       if (!live || !(ctx.time || (ctx.dayHeading && !ctx.dated))) continue;
-      const prev = lines[i - 1] ?? "";
       const next = lines[i + 1] ?? "";
       const usable = (l) => l && !OFFER_RE.test(l) && !isWhenOnly(l) && l.length <= 80;
-      // Name above the price, or (price-first lists) below it.
-      if (usable(prev)) quote = `${prev} ${line}`;
-      else if (usable(next)) quote = `${line} ${next}`;
-      else continue;
+      // The name is above the price, possibly past a description and a
+      // portion size ("Happy Oyster" / "Chef's selection of..." / "Each" / "$2").
+      let at = i - 1;
+      while (at > i - 4 && at >= 0 && lines[at] !== SECTION_BREAK && !isPriceOnly(lines[at]) && (JUST_A_SIZE_RE.test(lines[at]) || looksLikeDescription(lines[at]))) at--;
+      const name = lines[at] ?? "";
+      if (at > i - 4 && at >= 0 && usable(name) && !JUST_A_SIZE_RE.test(name) && !looksLikeDescription(name)) {
+        quote = lines.slice(at, i + 1).join(" ");
+        pairName = name;
+      } else if (usable(next) && at === i - 1) {
+        quote = `${line} ${next}`; // price-first lists
+      } else {
+        continue;
+      }
     }
     // For promo banners only the promotional part is judged, not the small print.
     const judged = limited || national ? head : quote;
@@ -306,6 +327,8 @@ export function extractDeals(text, { chain = false } = {}) {
     }
     const deal = makeDeal({
       line: quote,
+      // "Mini Happy Poutine $8", not the whole description in between.
+      text: pairName ? `${pairName} ${line}` : null,
       // A name/price pair is titled by its own name, not the block's.
       title: isPriceOnly(line) ? null : !days.length && inContext && ctx.label ? ctx.label : null,
       days: lineDays,
@@ -377,8 +400,8 @@ export function extractDeals(text, { chain = false } = {}) {
   });
 }
 
-function makeDeal({ line, title, days, time, i }) {
-  const text = tidy(line);
+function makeDeal({ line, title, days, time, i, text: shown }) {
+  const text = tidy(shown ?? line);
   return {
     title: clip(title ?? text, 70),
     description: clip(text, 220),
