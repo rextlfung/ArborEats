@@ -55,21 +55,7 @@ const CONTEXT_LINES = 8; // how far a day heading or "Happy Hour" title reaches
 const MAX_DEALS_PER_PAGE = 30;
 
 // Bump when the rules change in a way that should re-extract unchanged pages.
-export const EXTRACTOR_VERSION = 5;
-
-// Everyday low prices count as deals too: food under $10, drinks under $5.
-const CHEAP_FOOD_BELOW = 10;
-const CHEAP_DRINK_BELOW = 5;
-const MAX_CHEAP_ITEMS_PER_PAGE = 60;
-const ITEM_PRICE_RE = /\$\s?(\d{1,3}(?:\.\d{1,2})?)(?![\d.])/;
-// Add-ons, modifiers and things that are not food or drink.
-const NOT_AN_ITEM_RE =
-  /^(?:add|extra|sub|substitute|side of|make it|upgrade)\b|\+\s?\$?\d|\bextra\b|add[\s-]?ons?\b|\bsauces?\b|dressing|\btoppings?\b|shirt|hoodie|sticker|koozie|\btote\b|merch|\boff\b|\bmore\b|\bsave\b|\bcharge\b|\btip\b|per (?:lb|pound|oz|ounce)\b|\badd\b|allergen|\bcal\b|calories/i;
-// A size or portion on its own ("Large", "Half order", "Cup") is not an item.
-const JUST_A_SIZE_RE =
-  /^(?:half|full|large|lg|small|sm|medium|med|cup|bowl|regular|single|double|triple|side|glass|bottle|pitcher|pint|each|one|two|\d+\s?(?:oz|pc|pcs|pieces?|ct)\.?)(?:\s+(?:order|size|portion))?(?:\s*\(.*\))?$/i;
-// A line that reads as a description ("garlic, rosemary, sea salt"), not a name.
-const looksLikeDescription = (l) => l.length > 60 || /^[a-z]/.test(l) || (l.match(/,/g)?.length ?? 0) >= 2;
+export const EXTRACTOR_VERSION = 6;
 
 export function parseDays(text) {
   const found = new Set();
@@ -160,8 +146,7 @@ function isWhenOnly(line) {
 }
 
 // `chain`: the page belongs to a chain, so undated promo lines are national offers.
-// `placeType`: when given (page text, not OCR), cheap menu items are included.
-export function extractDeals(text, { chain = false, placeType } = {}) {
+export function extractDeals(text, { chain = false } = {}) {
   const lines = text.split("\n").map((l) => l.trim()).filter(Boolean);
   // Sites often glue a day to what follows ("Monday$5", "FridayLate night").
   const unglue = (l) => l.replace(/(day)(?=[A-Z$])/g, "$1 ");
@@ -351,7 +336,7 @@ export function extractDeals(text, { chain = false, placeType } = {}) {
   }
   const perHeading = new Map();
   for (const d of merged.values()) if (d._basis === "heading") perHeading.set(d._ctx, (perHeading.get(d._ctx) ?? 0) + 1);
-  const found = [...merged.values()].slice(0, MAX_DEALS_PER_PAGE).map(({ _line, _basis, _timeAdjacent, _ctx, _labelled, ...d }) => {
+  return [...merged.values()].slice(0, MAX_DEALS_PER_PAGE).map(({ _line, _basis, _timeAdjacent, _ctx, _labelled, ...d }) => {
     if (_basis === "heading" && perHeading.get(_ctx) > MAX_UNDER_ONE_HEADING) _basis = "block";
     const hasWindow = d.days.length > 0 && Boolean(d.start_time || d.end_time);
     // High confidence: the line names its own day, sits under a single weekday
@@ -367,77 +352,6 @@ export function extractDeals(text, { chain = false, placeType } = {}) {
       (_basis === "announcement" && hasWindow && _timeAdjacent);
     return { ...d, confidence: high ? "high" : "low" };
   });
-  if (placeType === undefined) return found;
-  const published = new Set(found.filter((d) => d.confidence === "high").map((d) => d.quote));
-  return [...found, ...cheapItems(lines, placeType).filter((d) => !published.has(d.quote))];
-}
-
-// Priced menu items cheap enough to count as a deal on any day: "Taco $3.50",
-// or a name with its price on the next line.
-function cheapItems(lines, placeType) {
-  const items = [];
-  const seen = new Set();
-  // Food or drink, as last made clear by a heading or an item ("Whiskey",
-  // "Appetizers", "Draft Beer"). It settles items whose own name says nothing.
-  let section = null;
-  const clearCategory = (text) => {
-    const drink = DRINK_RE.test(text);
-    const food = FOOD_RE.test(text);
-    return drink === food ? null : drink ? "drink" : "food";
-  };
-  const usableName = (l) => l && l.length <= 80 && /[a-z]{3}/i.test(l) && !ITEM_PRICE_RE.test(l) && !isPriceOnly(l) && !isWhenOnly(l);
-  for (let i = 0; i < lines.length && items.length < MAX_CHEAP_ITEMS_PER_PAGE; i++) {
-    const line = lines[i];
-    let name;
-    let quote;
-    if (isPriceOnly(line)) {
-      // The name is the line above, or the one above that when a description
-      // sits in between.
-      const prev = lines[i - 1] ?? "";
-      const before = lines[i - 2] ?? "";
-      if (usableName(prev) && !looksLikeDescription(prev)) name = prev;
-      else if (usableName(before) && !looksLikeDescription(before) && prev.length <= 220) name = before;
-      else continue;
-      quote = name === prev ? `${prev} ${line}` : `${before} ${prev} ${line}`;
-    } else if (line.length <= 90 && ITEM_PRICE_RE.test(line)) {
-      name = line.replace(new RegExp(ITEM_PRICE_RE, "g"), " ").replace(/\s+/g, " ");
-      quote = line;
-    } else {
-      // A short unpriced line that is clearly food or drink starts a section.
-      if (line.length <= 40 && !OFFER_RE.test(line)) section = clearCategory(line) ?? section;
-      continue;
-    }
-    name = tidy(name.replace(/[.…·\-–—|:]+\s*$/, ""));
-    if (!/[a-z]{3}/i.test(name) || name.startsWith("(") || JUST_A_SIZE_RE.test(name)) continue;
-    if (NOT_AN_ITEM_RE.test(quote) || NOT_A_DEAL_RE.test(quote) || OTHER_TOWN_RE.test(quote)) continue;
-    const price = Number((quote.match(ITEM_PRICE_RE) ?? quote.match(/(\d+\.\d{2})$/))[1]);
-    const own = clearCategory(name);
-    if (own) section = own;
-    // Known from the name, else from the section. With neither, the item only
-    // counts under the stricter drink limit, so a $7 whiskey cannot slip in as food.
-    const known = own ?? section;
-    const category = known ?? categoryOf(name, placeType);
-    if (price < 1) continue; // toppings and add-ons, not something to go out for
-    const limit = known === "food" ? CHEAP_FOOD_BELOW : known === "drink" ? CHEAP_DRINK_BELOW : Math.min(CHEAP_FOOD_BELOW, CHEAP_DRINK_BELOW);
-    if (!(price > 0 && price < limit) || seen.has(name.toLowerCase())) continue;
-    seen.add(name.toLowerCase());
-    items.push({
-      title: clip(name, 70),
-      description: clip(tidy(quote), 220),
-      price: `$${Number.isInteger(price) ? price : price.toFixed(2)}`,
-      days: [],
-      start_time: null,
-      end_time: null,
-      category,
-      kind: "everyday_price",
-      valid_until: null,
-      conditions: null,
-      platform: "in_house",
-      quote,
-      confidence: "high",
-    });
-  }
-  return items;
 }
 
 function makeDeal({ line, title, days, time, i }) {

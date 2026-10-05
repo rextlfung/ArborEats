@@ -41,7 +41,6 @@ const sources = readJson(path.join(DATA, "sources.json"), {});
 // Chains: their sites are JavaScript-heavy and their promos are national offers.
 const restaurantList = readJson(path.join(DATA, "restaurants.json"), []);
 const isChain = Object.fromEntries(restaurantList.map((r) => [r.id, Boolean(r.brand)]));
-const placeType = Object.fromEntries(restaurantList.map((r) => [r.id, r.type]));
 const dealsFile = path.join(DATA, "deals.json");
 const deals = readJson(dealsFile, {});
 const now = new Date().toISOString();
@@ -92,7 +91,7 @@ for (const p of ok) {
   }
   const text = fs.readFileSync(path.join(CACHE, "text", p.hash + ".txt"), "utf8");
   const chain = isChain[p.restaurant_id];
-  const found = extractDeals(text, { chain, placeType: placeType[p.restaurant_id] ?? "restaurant" }).map((d) => ({ ...d, from_image: null }));
+  const found = extractDeals(text, { chain }).map((d) => ({ ...d, from_image: null }));
   // A hand-reviewed page that has not changed keeps its reviewed deals; newer
   // rules add what they find beyond those (matched by overlapping quotes).
   if (same && !force && stored.extracted_by !== "rules") {
