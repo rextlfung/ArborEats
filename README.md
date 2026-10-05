@@ -35,14 +35,18 @@ redeploys. It can also be started by hand from the Actions tab.
 ## Correcting the data
 
 `data/overrides.json`, keyed by restaurant name, holds manual corrections:
-a better `website`, extra `pages` to scrape, or `"closed": true` to remove a
-restaurant that has shut. The map datasets lag behind closures, so this file is
-the fix when a closed place still shows up.
+a better `website`, extra `pages` to scrape, `"closed": true` to remove a
+restaurant that has shut, or `"closed": "keep"` to leave it listed with a
+"Permanently closed" badge. The map datasets lag behind closures, so this file
+is the fix when a closed place still shows up.
+
+The scraper only follows links found on a restaurant's homepage. If a specials
+page is buried deeper, add its address under `pages`.
 
 Extraction is rule-based (`pipeline/lib/extract.js`). Only deals it is confident
 about are published; the rest stay in `data/deals.json` marked `low`. It still
-makes mistakes in both directions. Every deal links to the
-page it came from.
+makes mistakes in both directions. Every restaurant card links to the page its
+deals came from.
 
 The scraper identifies itself, honours robots.txt and makes at most one request
 per second per site.

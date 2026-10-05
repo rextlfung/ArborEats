@@ -2,22 +2,6 @@ const DAYS = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
 const DAY_NAME = { mon: "Monday", tue: "Tuesday", wed: "Wednesday", thu: "Thursday", fri: "Friday", sat: "Saturday", sun: "Sunday" };
 const DAY_LABEL = { mon: "Mon", tue: "Tue", wed: "Wed", thu: "Thu", fri: "Fri", sat: "Sat", sun: "Sun" };
 
-// "Today" and "now" are Ann Arbor's, wherever the visitor is.
-function annArborNow() {
-  const parts = Object.fromEntries(
-    new Intl.DateTimeFormat("en-US", {
-      timeZone: "America/Detroit",
-      weekday: "short",
-      hour: "2-digit",
-      minute: "2-digit",
-      hourCycle: "h23",
-    })
-      .formatToParts(new Date())
-      .map((p) => [p.type, p.value]),
-  );
-  return { day: parts.weekday.toLowerCase().slice(0, 3), time: `${parts.hour}:${parts.minute}` };
-}
-
 const state = { day: "all", category: "all", owner: "all", cap: null, query: "", selected: null };
 
 // The dollar amount you pay, or null for discounts ("$2 off", "25% off",
