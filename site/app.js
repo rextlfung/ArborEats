@@ -138,7 +138,7 @@ function drawMarkers(shown) {
     features: shown.map((r) => ({
       type: "Feature",
       geometry: { type: "Point", coordinates: [r.lon, r.lat] },
-      properties: { id: r.id, count: r.deals.length, selected: r.id === state.selected },
+      properties: { id: r.id, name: r.name, selected: r.id === state.selected },
     })),
   });
 }
@@ -165,18 +165,27 @@ function render() {
 
 function setUpFilters() {
   const today = annArborNow().day;
-  $("days").innerHTML = ["all", ...DAYS]
-    .map((d) => `<button data-day="${d}" class="${d === today ? "today" : ""}">${d === "all" ? "All" : DAY_LABEL[d]}</button>`)
-    .join("");
+  // "Now" lives in the same bar as the days: it means today, at this hour.
+  $("days").innerHTML =
+    `<button data-day="now" class="now"><span class="dot" aria-hidden="true"></span>Now</button>` +
+    ["all", ...DAYS]
+      .map((d) => `<button data-day="${d}" class="${d === today ? "today" : ""}">${d === "all" ? "All" : DAY_LABEL[d]}</button>`)
+      .join("");
   const sync = () => {
-    for (const b of $("days").children) b.classList.toggle("active", b.dataset.day === state.day);
+    for (const b of $("days").children) {
+      const on = b.dataset.day === "now" ? state.now : !state.now && b.dataset.day === state.day;
+      b.classList.toggle("active", on);
+      b.setAttribute("aria-pressed", on);
+    }
     for (const b of $("categories").children) b.classList.toggle("active", b.dataset.category === state.category);
     for (const b of $("owners").children) {
       b.classList.toggle("active", b.dataset.owner === state.owner);
       b.setAttribute("aria-pressed", b.dataset.owner === state.owner);
     }
-    $("now").classList.toggle("active", state.now);
-    $("now").setAttribute("aria-pressed", state.now);
+    // How many filters differ from what the page opens with.
+    const changed =
+      (state.now || state.day !== today) + (state.category !== "all") + (state.owner !== "all") + (state.query !== "");
+    $("filters-count").textContent = changed || "";
   };
   const update = () => {
     sync();
@@ -185,8 +194,8 @@ function setUpFilters() {
   $("days").addEventListener("click", (e) => {
     const day = e.target.closest("button")?.dataset.day;
     if (!day) return;
-    state.day = day;
-    state.now = false; // "right now" only makes sense for today
+    state.now = day === "now";
+    state.day = state.now ? annArborNow().day : day;
     update();
   });
   $("categories").addEventListener("click", (e) => {
@@ -202,14 +211,9 @@ function setUpFilters() {
     state.owner = state.owner === owner ? "all" : owner;
     update();
   });
-  $("now").addEventListener("click", () => {
-    state.now = !state.now;
-    if (state.now) state.day = annArborNow().day;
-    update();
-  });
   $("search").addEventListener("input", (e) => {
     state.query = e.target.value.trim().toLowerCase();
-    render();
+    update();
   });
   $("list").addEventListener("click", (e) => {
     if (e.target.closest("a")) return;
@@ -217,62 +221,126 @@ function setUpFilters() {
     const r = card && visible().find((x) => x.id === card.dataset.id);
     if (r) select(r, { fly: true });
   });
+
+  // On a phone the filters are a sheet over the list, opened from a button.
+  const setOpen = (open) => {
+    document.body.classList.toggle("filters-open", open);
+    $("filters-open").setAttribute("aria-expanded", open);
+    (open ? $("filters-close") : $("filters-open")).focus();
+  };
+  $("filters-open").addEventListener("click", () => setOpen(true));
+  $("filters-close").addEventListener("click", () => setOpen(false));
+  $("filters").addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && document.body.classList.contains("filters-open")) setOpen(false);
+  });
   sync();
+}
+
+// Map colours per theme: the base style, and the dots and labels drawn on it.
+const THEMES = {
+  light: { style: "positron", dot: "#0e1b2e", ring: "#ffffff", text: "#0e1b2e", halo: "#ffffff", selectedRing: "#0e1b2e", line: "#0e1b2e" },
+  dark: { style: "dark", dot: "#eef2f8", ring: "#0d1522", text: "#eef2f8", halo: "#0d1522", selectedRing: "#ffffff", line: "#eef2f8" },
+};
+const currentTheme = () => (document.documentElement.dataset.theme === "dark" ? "dark" : "light");
+const styleUrl = () => `https://tiles.openfreemap.org/styles/${THEMES[currentTheme()].style}`;
+
+// Our own layers. Runs again after every theme switch, because loading a new
+// base style discards them.
+function addLayers(boundary) {
+  const c = THEMES[currentTheme()];
+  if (map.getLayer("places")) return;
+  map.addSource("boundary", { type: "geojson", data: boundary });
+  map.addLayer({
+    id: "boundary",
+    type: "line",
+    source: "boundary",
+    paint: { "line-color": c.line, "line-width": 1.5, "line-dasharray": [3, 3], "line-opacity": 0.35 },
+  });
+  map.addSource("places", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
+  map.addLayer({
+    id: "places",
+    type: "circle",
+    source: "places",
+    layout: { "circle-sort-key": ["case", ["get", "selected"], 1, 0] },
+    paint: {
+      "circle-radius": ["case", ["get", "selected"], 9, 6.5],
+      "circle-color": ["case", ["get", "selected"], "#ffcb05", c.dot],
+      "circle-stroke-color": ["case", ["get", "selected"], c.selectedRing, c.ring],
+      "circle-stroke-width": 2.5,
+    },
+  });
+  // Names sit beside the dots. Where two would overlap, one is left out (the
+  // dot stays); the selected place's name always wins.
+  map.addLayer({
+    id: "place-names",
+    type: "symbol",
+    source: "places",
+    layout: {
+      "text-field": ["get", "name"],
+      "text-size": 12.5,
+      "text-font": ["Noto Sans Bold"],
+      "text-variable-anchor": ["top", "bottom", "left", "right"],
+      "text-radial-offset": 0.9,
+      "text-max-width": 9,
+      "symbol-sort-key": ["case", ["get", "selected"], 0, 1],
+    },
+    paint: { "text-color": c.text, "text-halo-color": c.halo, "text-halo-width": 2 },
+  });
+  drawMarkers(visible());
 }
 
 function setUpMap(boundary) {
   map = new maplibregl.Map({
     container: "map",
-    style: "https://tiles.openfreemap.org/styles/positron",
+    style: styleUrl(),
     center: [-83.743, 42.2808],
     zoom: 12.6,
     attributionControl: { compact: true },
   });
   map.addControl(new maplibregl.NavigationControl(), "top-right");
   map.addControl(new maplibregl.GeolocateControl({ trackUserLocation: true }), "top-right");
-
-  map.on("load", () => {
-    map.addSource("boundary", { type: "geojson", data: boundary });
-    map.addLayer({
-      id: "boundary",
-      type: "line",
-      source: "boundary",
-      paint: { "line-color": "#0e1b2e", "line-width": 1.5, "line-dasharray": [3, 3], "line-opacity": 0.35 },
-    });
-    map.addSource("places", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
-    map.addLayer({
-      id: "places",
-      type: "circle",
-      source: "places",
-      layout: { "circle-sort-key": ["case", ["get", "selected"], 1, 0] },
-      paint: {
-        "circle-radius": ["case", ["get", "selected"], 17, 14],
-        "circle-color": ["case", ["get", "selected"], "#ffcb05", "#0e1b2e"],
-        "circle-stroke-color": ["case", ["get", "selected"], "#0e1b2e", "#ffffff"],
-        "circle-stroke-width": 3,
-      },
-    });
-    map.addLayer({
-      id: "place-counts",
-      type: "symbol",
-      source: "places",
-      layout: { "text-field": ["to-string", ["get", "count"]], "text-size": 13, "text-font": ["Noto Sans Bold"], "text-allow-overlap": true },
-      paint: { "text-color": ["case", ["get", "selected"], "#0e1b2e", "#ffffff"] },
-    });
-    map.on("click", "places", (e) => {
+  map.on("style.load", () => addLayers(boundary));
+  for (const layer of ["places", "place-names"]) {
+    map.on("click", layer, (e) => {
       const r = visible().find((x) => x.id === e.features[0].properties.id);
       if (!r) return;
       select(r, { fly: false });
       document.querySelector(".card.selected")?.scrollIntoView({ block: "nearest", behavior: "smooth" });
     });
-    map.on("mouseenter", "places", () => (map.getCanvas().style.cursor = "pointer"));
-    map.on("mouseleave", "places", () => (map.getCanvas().style.cursor = ""));
-    render();
+    map.on("mouseenter", layer, () => (map.getCanvas().style.cursor = "pointer"));
+    map.on("mouseleave", layer, () => (map.getCanvas().style.cursor = ""));
+  }
+}
+
+function setUpTheme() {
+  const label = () => $("theme").setAttribute("aria-label", `Switch to ${currentTheme() === "dark" ? "light" : "dark"} mode`);
+  const apply = (theme) => {
+    document.documentElement.dataset.theme = theme;
+    label();
+    // A full reload of the style, so "style.load" fires and our layers are re-added.
+    map?.setStyle(styleUrl(), { diff: false });
+  };
+  $("theme").addEventListener("click", () => {
+    const next = currentTheme() === "dark" ? "light" : "dark";
+    try {
+      localStorage.setItem("theme", next);
+    } catch {}
+    apply(next);
   });
+  // Follow the device until the visitor picks a theme here.
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
+    let saved = null;
+    try {
+      saved = localStorage.getItem("theme");
+    } catch {}
+    if (!saved) apply(e.matches ? "dark" : "light");
+  });
+  label();
 }
 
 async function main() {
   setUpFilters();
+  setUpTheme();
   const [deals, boundary] = await Promise.all([
     fetch("data/deals.json").then((r) => r.json()),
     fetch("data/boundary.geojson").then((r) => r.json()),
