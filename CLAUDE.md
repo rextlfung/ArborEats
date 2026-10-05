@@ -62,7 +62,7 @@ Do not change the user agent to imitate a browser or crawler to get past 403s or
 
 The site is on GitHub Pages at https://rextlfung.github.io/ArborEats/. Two workflows:
 
-- `pages.yml` deploys `site/` on any push to `main` that touches it.
+- `pages.yml` deploys `site/` on any push to `main` that touches it. Both workflows replace `__BUILD__` in `site/index.html` with the commit id before uploading, so the stylesheet, script and icon URLs change on every deploy (GitHub Pages lets browsers cache files for 10 minutes, and favicons for much longer). The data files are fetched with `cache: "no-cache"` for the same reason. Locally the literal `__BUILD__` is harmless.
 - `refresh.yml` runs the whole pipeline daily at midnight Ann Arbor time, commits `data/` and `site/data/`, and deploys Pages itself (a push made with the workflow token does not trigger `pages.yml`). It has two UTC cron entries, one per daylight/standard offset, and a first step that skips the one that does not apply. Step 1 is allowed to fail there (the Overpass server is often busy); the previous `restaurants.json` is then used.
 
 CI starts with an empty `data/cache/` apart from OCR results, and its IP is blocked by more sites than a home connection. Step 2 therefore keeps a restaurant's previously found pages when its homepage fails to load, so step 3 does not prune that restaurant's deals. `data/pages.json` is a per-run report and is gitignored.

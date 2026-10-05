@@ -489,8 +489,10 @@ async function main() {
   setUpTheme();
   setUpDrawer();
   const [deals, boundary] = await Promise.all([
-    fetch("data/deals.json").then((r) => r.json()),
-    fetch("data/boundary.geojson").then((r) => r.json()),
+    // "no-cache" makes the browser check for a newer file instead of reusing
+    // its copy, so a fresh deploy shows up on the next reload.
+    fetch("data/deals.json", { cache: "no-cache" }).then((r) => r.json()),
+    fetch("data/boundary.geojson", { cache: "no-cache" }).then((r) => r.json()),
   ]);
   data = deals;
   $("status").textContent = `${deals.restaurants_checked} places checked · updated ${daysAgo(deals.generated_at)}`;
