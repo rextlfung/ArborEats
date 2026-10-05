@@ -10,7 +10,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import * as cheerio from "cheerio";
-import { extractDeals } from "./lib/extract.js";
+import { EXTRACTOR_VERSION, extractDeals } from "./lib/extract.js";
 import { dealImages, imageText, stopOcr } from "./lib/ocr.js";
 import { CACHE, DATA, cachedFetchPage, closeBrowser, pool, readJson, sha1, writeJson } from "./lib/util.js";
 
@@ -39,7 +39,9 @@ function pageText(html) {
 
 const sources = readJson(path.join(DATA, "sources.json"), {});
 // Chains: their sites are JavaScript-heavy and their promos are national offers.
-const isChain = Object.fromEntries(readJson(path.join(DATA, "restaurants.json"), []).map((r) => [r.id, Boolean(r.brand)]));
+const restaurantList = readJson(path.join(DATA, "restaurants.json"), []);
+const isChain = Object.fromEntries(restaurantList.map((r) => [r.id, Boolean(r.brand)]));
+const placeType = Object.fromEntries(restaurantList.map((r) => [r.id, r.type]));
 const dealsFile = path.join(DATA, "deals.json");
 const deals = readJson(dealsFile, {});
 const now = new Date().toISOString();
@@ -83,14 +85,25 @@ for (const p of ok) {
   // Entries written before image reading existed have no images_hash; the page
   // text alone decides for those.
   const same = stored && stored.hash === p.hash && (stored.images_hash ?? p.images_hash) === p.images_hash;
-  if (same && !force) {
+  if (same && !force && stored.version === EXTRACTOR_VERSION) {
     stored.verified_at = now; // the site still says what we recorded
     unchanged++;
     continue;
   }
   const text = fs.readFileSync(path.join(CACHE, "text", p.hash + ".txt"), "utf8");
   const chain = isChain[p.restaurant_id];
-  const found = extractDeals(text, { chain }).map((d) => ({ ...d, from_image: null }));
+  const found = extractDeals(text, { chain, placeType: placeType[p.restaurant_id] ?? "restaurant" }).map((d) => ({ ...d, from_image: null }));
+  // A hand-reviewed page that has not changed keeps its reviewed deals; newer
+  // rules add what they find beyond those (matched by overlapping quotes).
+  if (same && !force && stored.extracted_by !== "rules") {
+    const reviewed = stored.deals.filter((d) => !d.auto);
+    const covered = (d) => reviewed.some((r) => r.quote.includes(d.quote) || d.quote.includes(r.quote));
+    const added = found.filter((d) => d.confidence === "high" && !covered(d)).map((d) => ({ ...d, auto: true }));
+    stored.deals = [...reviewed, ...added];
+    Object.assign(stored, { version: EXTRACTOR_VERSION, verified_at: now });
+    extracted += added.length;
+    continue;
+  }
   for (const image of p.images) {
     const ocr = await imageText(image);
     if (!ocr) continue;
@@ -99,7 +112,7 @@ for (const p of ok) {
     found.push(...inImage.map((d) => ({ ...d, from_image: image })));
   }
   const before = stored?.deals.length ?? 0;
-  (deals[p.restaurant_id] ??= {})[p.url] = { hash: p.hash, images_hash: p.images_hash, verified_at: now, extracted_by: "rules", deals: found };
+  (deals[p.restaurant_id] ??= {})[p.url] = { hash: p.hash, images_hash: p.images_hash, verified_at: now, extracted_by: "rules", version: EXTRACTOR_VERSION, deals: found };
   if (found.length || before) {
     log.write(JSON.stringify({ at: now, restaurant: sources[p.restaurant_id].name, url: p.url, before, deals: found }) + "\n");
   }

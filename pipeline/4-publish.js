@@ -20,18 +20,23 @@ for (const r of restaurants) {
     for (const d of page.deals) {
       if (d.valid_until && d.valid_until < today) continue;
       // Rule-extracted deals are published only when the extractor is confident.
-      if (page.extracted_by === "rules" && d.confidence !== "high") continue;
+      const byRules = page.extracted_by === "rules" || d.auto;
+      if (byRules && d.confidence !== "high") continue;
       // The same deal often appears on the homepage and on the specials page.
       const key = `${d.quote.toLowerCase()}|${d.days.join()}|${d.start_time}`;
       if (seen.has(key)) continue;
       seen.add(key);
       // Categorised here, with the kind of place as a tie-breaker, so a change
       // to the word lists takes effect without re-scraping.
-      if (page.extracted_by === "rules") d.category = categoryOf(d.description, r.type, d.title);
-      list.push({ ...d, source_url: url, verified_at: page.verified_at, reviewed: page.extracted_by !== "rules" });
+      // Cheap menu items keep the category that decided their price limit.
+      if (byRules && d.kind !== "everyday_price") d.category = categoryOf(d.description, r.type, d.title);
+      list.push({ ...d, source_url: url, verified_at: page.verified_at, reviewed: !byRules });
     }
   }
   if (!list.length) continue;
+  // Real deals first, then everyday cheap items from the lowest price up.
+  const amount = (d) => Number(d.price?.match(/[\d.]+/)?.[0] ?? 0);
+  list.sort((a, b) => (a.kind === "everyday_price") - (b.kind === "everyday_price") || (a.kind === "everyday_price" ? amount(a) - amount(b) : 0));
   const s = sources[r.id] ?? {};
   published.push({
     id: r.id,

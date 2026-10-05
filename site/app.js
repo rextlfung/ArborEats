@@ -30,6 +30,11 @@ function dollarPrice(deal) {
 let data = { restaurants: [] };
 let map;
 let mapReady = false;
+// [lon, lat] once the visitor has shared their location; never asked for on load.
+let userLocation = null;
+// Cards with many deals show this many until expanded.
+const DEALS_SHOWN = 5;
+const expanded = new Set();
 let popup;
 
 const $ = (id) => document.getElementById(id);
@@ -86,11 +91,23 @@ function filtered() {
     .filter((r) => r.deals.length);
 }
 
-// The list follows the map: only places inside the current view are listed.
+function milesBetween([lon1, lat1], [lon2, lat2]) {
+  const x = (lon2 - lon1) * Math.cos((((lat1 + lat2) / 2) * Math.PI) / 180);
+  return Math.hypot(x, lat2 - lat1) * 69.05;
+}
+
+// The list follows the map: only places inside the current view are listed,
+// nearest first. "Near" means near the visitor if we know where they are,
+// otherwise near the middle of the map.
 function inView(restaurants) {
   if (!mapReady) return restaurants;
   const bounds = map.getBounds();
-  return restaurants.filter((r) => bounds.contains([r.lon, r.lat]));
+  const centre = map.getCenter();
+  const origin = userLocation ?? [centre.lng, centre.lat];
+  return restaurants
+    .filter((r) => bounds.contains([r.lon, r.lat]))
+    .map((r) => ({ ...r, miles: milesBetween(origin, [r.lon, r.lat]) }))
+    .sort((a, b) => a.miles - b.miles);
 }
 
 function dealHtml(d) {
@@ -108,7 +125,12 @@ function dealHtml(d) {
 }
 
 function restaurantHtml(r) {
-  const meta = [r.address, r.cuisine.slice(0, 2).join(", ")].filter(Boolean).join(" · ");
+  // Distance is only shown when it is from the visitor, not from the map centre.
+  const away = userLocation && r.miles !== undefined ? `${r.miles < 0.1 ? "under 0.1" : r.miles.toFixed(1)} mi away` : null;
+  const meta = [away, r.address, r.cuisine.slice(0, 2).join(", ")].filter(Boolean).join(" · ");
+  const all = expanded.has(r.id) || r.deals.length <= DEALS_SHOWN + 1;
+  const deals = all ? r.deals : r.deals.slice(0, DEALS_SHOWN);
+  const more = all ? "" : `<button class="more" data-more="${escapeHtml(r.id)}">Show ${r.deals.length - DEALS_SHOWN} more</button>`;
   // One "checked" line per card: the oldest check among its deals, linking to the first source.
   const oldest = r.deals.reduce((a, d) => (d.verified_at < a ? d.verified_at : a), r.deals[0].verified_at);
   const fromImage = r.deals.some((d) => d.from_image) ? " · some read from images" : "";
@@ -119,7 +141,7 @@ function restaurantHtml(r) {
       </div>
       ${meta ? `<div class="meta">${escapeHtml(meta)}</div>` : ""}
     </div>
-    ${r.deals.map(dealHtml).join("")}
+    ${deals.map(dealHtml).join("")}${more}
     <div class="checked">Checked ${daysAgo(oldest)}${fromImage}</div>`;
 }
 
@@ -267,6 +289,10 @@ function setUpFilters() {
   });
   $("list").addEventListener("click", (e) => {
     if (e.target.id === "show-all") return showAll();
+    if (e.target.dataset.more) {
+      expanded.add(e.target.dataset.more);
+      return render();
+    }
     if (e.target.closest("a")) return;
     const card = e.target.closest(".card");
     const r = card && filtered().find((x) => x.id === card.dataset.id);
@@ -348,15 +374,35 @@ function addLayers(boundary) {
 }
 
 function setUpMap(boundary) {
+  const ring = boundary.geometry.coordinates[0];
   map = new maplibregl.Map({
     container: "map",
     style: styleUrl(),
-    center: [-83.743, 42.2808],
-    zoom: 12.6,
+    // Open on the whole area inside the highway ring, whatever the screen size.
+    bounds: ring.reduce((b, point) => b.extend(point), new maplibregl.LngLatBounds()),
+    fitBoundsOptions: { padding: 20 },
     attributionControl: { compact: true },
   });
   map.addControl(new maplibregl.NavigationControl(), "top-right");
-  map.addControl(new maplibregl.GeolocateControl({ trackUserLocation: true }), "top-right");
+  // Location is only requested when the visitor presses the locate button.
+  const locate = new maplibregl.GeolocateControl({ trackUserLocation: true });
+  map.addControl(locate, "top-right");
+  locate.on("geolocate", (e) => {
+    userLocation = [e.coords.longitude, e.coords.latitude];
+    render();
+  });
+  // If they already allowed it on an earlier visit, use it straight away:
+  // that needs no prompt.
+  navigator.permissions
+    ?.query({ name: "geolocation" })
+    .then((status) => {
+      if (status.state !== "granted") return;
+      navigator.geolocation.getCurrentPosition((pos) => {
+        userLocation = [pos.coords.longitude, pos.coords.latitude];
+        render();
+      });
+    })
+    .catch(() => {});
   map.on("style.load", () => addLayers(boundary));
   // Keep the list in step with what the map shows.
   map.on("load", () => {
@@ -374,6 +420,42 @@ function setUpMap(boundary) {
     map.on("mouseenter", layer, () => (map.getCanvas().style.cursor = "pointer"));
     map.on("mouseleave", layer, () => (map.getCanvas().style.cursor = ""));
   }
+}
+
+// On a phone the list is a drawer: drag its handle (or the header) up and down
+// to trade map for list. The height lives in a CSS variable the grid reads.
+function setUpDrawer() {
+  const MIN = 96; // the handle and the header stay visible
+  const maxHeight = () => window.innerHeight * 0.9;
+  const setHeight = (px) => {
+    document.body.style.setProperty("--drawer", `${Math.round(Math.min(maxHeight(), Math.max(MIN, px)))}px`);
+  };
+  let drag = null;
+  const start = (e) => {
+    if (!matchMedia("(max-width: 760px)").matches || e.target.closest("button, a, input")) return;
+    drag = { y: e.clientY, height: $("panel").getBoundingClientRect().height };
+    e.currentTarget.setPointerCapture(e.pointerId);
+  };
+  const move = (e) => {
+    if (drag) setHeight(drag.height + (drag.y - e.clientY));
+  };
+  const end = () => {
+    if (!drag) return;
+    drag = null;
+    map?.resize(); // then "moveend" refreshes the list for the new map view
+  };
+  for (const el of [$("drawer-handle"), document.querySelector("header")]) {
+    el.addEventListener("pointerdown", start);
+    el.addEventListener("pointermove", move);
+    el.addEventListener("pointerup", end);
+    el.addEventListener("pointercancel", end);
+  }
+  $("drawer-handle").addEventListener("keydown", (e) => {
+    if (e.key !== "ArrowUp" && e.key !== "ArrowDown") return;
+    e.preventDefault();
+    setHeight($("panel").getBoundingClientRect().height + (e.key === "ArrowUp" ? 48 : -48));
+    map?.resize();
+  });
 }
 
 function setUpTheme() {
@@ -405,6 +487,7 @@ function setUpTheme() {
 async function main() {
   setUpFilters();
   setUpTheme();
+  setUpDrawer();
   const [deals, boundary] = await Promise.all([
     fetch("data/deals.json").then((r) => r.json()),
     fetch("data/boundary.geojson").then((r) => r.json()),

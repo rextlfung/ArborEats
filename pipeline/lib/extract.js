@@ -14,7 +14,7 @@ const dayIndex = (word) => DAYS.indexOf(word.toLowerCase().slice(0, 3));
 const OFFER_RE =
   /\$\s?\d+(?:\.\d{1,2})?(?:\s?off)?|\d{1,3}\s?%\s?off|half[\s-]?(?:off|priced?)|[½]\s?(?:off|price)|\b1\/2\s?(?:off|price)|\bbogo\b|buy one,? get|\b2[\s-]for[\s-]1\b|two[\s-]for[\s-]one/i;
 const NOT_A_DEAL_RE =
-  /\bcover\b|ticket|admission|per (?:two |2 )?(?:person|people|guest|couple)|\/\s?(?:person|per two)|corkage|\bfee\b|deposit|gift card|catering|\btray\b|donat|raffle|\bsalary\b|per hour|\/hr|rewards?\b|\bpoints\b|purchase of|\bprice:|rsvp|gratuity|\bclass\b|tasting|wine pairing|franchise|sign[\s-]?up|\bemail\b|newsletter|at the door|under 21|upgrade|for \$\d+(?:\.\d\d)? more|\$\d+(?:\.\d\d)? more\b|\bship|per (?:half )?dozen|\/mo\b|\+\s?\$|raised|\$[\d.]+k\b|\/\s?(?:glass|bottle)|\$\d+\.\d{2}\s+-\s+\$\d+\.\d{2}/i;
+  /\bcover\b|ticket|admission|per (?:two |2 )?(?:person|people|guest|couple)|\/\s?(?:person|per two)|corkage|\bfee\b|deposit|gift card|catering|\btray\b|donat|raffle|\bsalary\b|per hour|\/hr|rewards?\b|\bpoints\b|purchase of|\bprice:|rsvp|gratuity|\bclass\b|tasting|wine pairing|franchise|sign[\s-]?up|\bemail\b|newsletter|at the door|under 21|^add\b|chafing|upgrade|for \$\d+(?:\.\d\d)? more|\$\d+(?:\.\d\d)? more\b|\bship|per (?:half )?dozen|\/mo\b|\+\s?\$|raised|\$[\d.]+k\b|\/\s?(?:glass|bottle)|\$\d+\.\d{2}\s+-\s+\$\d+\.\d{2}/i;
 // Chains list every branch's specials on one site; these are not Ann Arbor.
 export const OTHER_TOWN_RE =
   /\b(?:highland|grand rapids|detroit|ypsilanti|canton|lansing|royal oak|kalamazoo|novi|plymouth|brighton|dearborn|toledo|birmingham|rochester|farmington|livonia|saline|chelsea|dexter)\b/i;
@@ -40,9 +40,9 @@ const PROMO_CUE_RE =
 const NATIONAL_NOTE = "Chain-wide offer; price and participation may vary by location";
 const DEAL_WORD_RE = /happy\s?hour|special|\bdeal|discount|late night|industry night|ladies night|student/i;
 const DRINK_RE =
-  /beers?\b|draft|draught|pints?\b|pitcher|wines?\b|cocktail|mocktail|martini|marg(?:arita)?s?\b|drinks?\b|shots?\b|shooters?\b|mules?\b|wells?\b|whiske?y|tequila|sangria|mimosa|bloody|lager|\bales?\b|\bipa\b|spirits?|fishbowl|\bboots?\b|bottles?\b|\bmugs?\b|seltzer|vodka|bourbon|\brum\b|old fashioned|\bgin\b|spritz|daiquiri|manhattan|negroni|julep|\bsips?\b|\bcans?\b|high life|high noon|keystone|modelo|corona|\bbud\b|\bpbr\b|coffee|latte|espresso|\bchai\b|\bteas?\b|smoothie|juice|\bsoda\b|milkshake|\bshakes?\b/i;
+  /beers?\b|draft|draught|pints?\b|pitcher|wines?\b|cocktail|mocktail|martini|marg(?:arita)?s?\b|drinks?\b|shots?\b|shooters?\b|mules?\b|wells?\b|whiske?y|tequila|sangria|mimosa|bloody|lager|\bales?\b|\bipa\b|spirits?|fishbowl|\bboots?\b|bottles?\b|\bmugs?\b|seltzer|vodka|bourbon|\brum\b|old fashioned|\bgin\b|spritz|daiquiri|manhattan|negroni|julep|\bsips?\b|\bcans?\b|high life|high noon|keystone|modelo|corona|\bbud\b|\bpbr\b|coffee|latte|espresso|\bchai\b|\bteas?\b|smoothie|juice|\bsoda\b|milkshake|\bshakes?\b|beverage|\bscotch\b|cognac|liqueur|mezcal|\bsake\b|soju|lemonade|\bmilk\b|sangr[ií]a|\blite\b|\bstout\b|porter\b|pilsner|cider|\bcortado|cappuccino|mocha|americano|macchiato|kombucha|\bwater\b|pop\b/i;
 const FOOD_RE =
-  /burger|taco|pizza|wings?\b|app(?:etizer)?s?\b|nacho|fries|sandwich|\bsubs?\b|burrito|quesadilla|chimichanga|oyster|sushi|\brolls?\b|brats?\b|bread|slider|\bdogs?\b|salad|\bbowls?\b|entree|entrée|shareable|chicken|pasta|steak|\bfood\b|\bplates?\b|dinner|lunch|brunch|breakfast|\bmeal|calzone|chipati|tender|pretzel|cheese|boards?\b|soup|noodle|bagel|donut|cookie|dessert|ice cream|creation|wrap\b|bundle/i;
+  /burger|taco|pizza|wings?\b|app(?:etizer)?s?\b|nacho|fries|sandwich|\bsubs?\b|burrito|quesadilla|chimichanga|oyster|sushi|\brolls?\b|brats?\b|bread|slider|\bdogs?\b|salad|\bbowls?\b|entree|entrée|shareable|chicken|pasta|steak|\bfood\b|\bplates?\b|dinner|lunch|brunch|breakfast|\bmeal|calzone|chipati|tender|pretzel|cheese|boards?\b|soup|noodle|bagel|donut|cookie|dessert|ice cream|creation|wrap\b|bundle|starters?\b|\bsides?\b|pastr|muffin|croissant|\bcake|\bpie\b|\begg|omelet|pancake|waffle|toast|\brice\b|curry|dumpling|\bbao\b|kebab|falafel|hummus|gyro|tamale|enchilada|empanada|\bbeans?\b|potato|onion rings|tots\b|mozz|sausage|bacon|\bham\b|turkey|\bbeef\b|\bpork\b|shrimp|salmon|\bfish\b|tofu|veggie|vegetable|kimchi|cookie|brownie|parfait|yogurt|fruit/i;
 
 const TIME = "(\\d{1,2})(?::(\\d{2}))?\\s*(?:([ap])\\.?\\s?m\\.?)?";
 const TIME_RANGE_RE = new RegExp(`${TIME}\\s*(?:-|–|—|to|until|till?)\\s*(?:${TIME}|(close|midnight))`, "i");
@@ -53,6 +53,23 @@ const MAX_OFFER_LINE = 180; // longer lines are prose or social captions
 const MAX_PROMO_LINE = 320; // promo banners carry their small print on the same line
 const CONTEXT_LINES = 8; // how far a day heading or "Happy Hour" title reaches
 const MAX_DEALS_PER_PAGE = 30;
+
+// Bump when the rules change in a way that should re-extract unchanged pages.
+export const EXTRACTOR_VERSION = 5;
+
+// Everyday low prices count as deals too: food under $10, drinks under $5.
+const CHEAP_FOOD_BELOW = 10;
+const CHEAP_DRINK_BELOW = 5;
+const MAX_CHEAP_ITEMS_PER_PAGE = 60;
+const ITEM_PRICE_RE = /\$\s?(\d{1,3}(?:\.\d{1,2})?)(?![\d.])/;
+// Add-ons, modifiers and things that are not food or drink.
+const NOT_AN_ITEM_RE =
+  /^(?:add|extra|sub|substitute|side of|make it|upgrade)\b|\+\s?\$?\d|\bextra\b|add[\s-]?ons?\b|\bsauces?\b|dressing|\btoppings?\b|shirt|hoodie|sticker|koozie|\btote\b|merch|\boff\b|\bmore\b|\bsave\b|\bcharge\b|\btip\b|per (?:lb|pound|oz|ounce)\b|\badd\b|allergen|\bcal\b|calories/i;
+// A size or portion on its own ("Large", "Half order", "Cup") is not an item.
+const JUST_A_SIZE_RE =
+  /^(?:half|full|large|lg|small|sm|medium|med|cup|bowl|regular|single|double|triple|side|glass|bottle|pitcher|pint|each|one|two|\d+\s?(?:oz|pc|pcs|pieces?|ct)\.?)(?:\s+(?:order|size|portion))?(?:\s*\(.*\))?$/i;
+// A line that reads as a description ("garlic, rosemary, sea salt"), not a name.
+const looksLikeDescription = (l) => l.length > 60 || /^[a-z]/.test(l) || (l.match(/,/g)?.length ?? 0) >= 2;
 
 export function parseDays(text) {
   const found = new Set();
@@ -143,7 +160,8 @@ function isWhenOnly(line) {
 }
 
 // `chain`: the page belongs to a chain, so undated promo lines are national offers.
-export function extractDeals(text, { chain = false } = {}) {
+// `placeType`: when given (page text, not OCR), cheap menu items are included.
+export function extractDeals(text, { chain = false, placeType } = {}) {
   const lines = text.split("\n").map((l) => l.trim()).filter(Boolean);
   // Sites often glue a day to what follows ("Monday$5", "FridayLate night").
   const unglue = (l) => l.replace(/(day)(?=[A-Z$])/g, "$1 ");
@@ -200,7 +218,8 @@ export function extractDeals(text, { chain = false } = {}) {
           ctx.line = i;
         } else if (days.length) {
           // A day with hours and no date is usually an opening-hours row.
-          openContext(i, { days, time, dated: DATED_RE.test(line), hoursLike: Boolean(time) });
+          // `dayHeading`: a bare "Wednesday" or "Friday & Saturday" over a list of specials.
+          openContext(i, { days, time, dated: DATED_RE.test(line), hoursLike: Boolean(time), dayHeading: !time && days.length <= 3 });
         } else if (live) {
           // A bare time under a deal belongs to that deal (or to the block).
           const last = ctx.block.at(-1);
@@ -217,7 +236,9 @@ export function extractDeals(text, { chain = false } = {}) {
         // "Happy Hour" opens a block; keep the day heading it sits under.
         // Only a single-day heading ("Monday October 5th"); a range above it is
         // more likely opening hours.
-        const inherited = live && ctx.days.length === 1 && !ctx.label && !ctx.hoursLike ? ctx.days : [];
+        // ...or a bare day heading directly above ("Friday & Saturday" / "Happy Hour 4 - 7 pm").
+        const directlyUnder = ctx.dayHeading && i - ctx.line <= 2;
+        const inherited = live && !ctx.label && !ctx.hoursLike && (ctx.days.length === 1 || directlyUnder) ? ctx.days : [];
         const label = happyHour ? "Happy Hour" : tidy(line);
         openContext(i, { label, labelLine: i, days: days.length ? days : inherited, time, dated: inherited.length ? ctx.dated : false });
         if (!happyHour) continue;
@@ -245,7 +266,8 @@ export function extractDeals(text, { chain = false } = {}) {
       // "Smash Burger" / "$8.00": the item name is on the line above.
       // Only inside a block with a stated time window; otherwise it is the
       // regular menu.
-      if (!live || !ctx.time) continue;
+      // or under a bare day heading ("Sunday" / "Reubens" / "$12.00").
+      if (!live || !(ctx.time || (ctx.dayHeading && !ctx.dated))) continue;
       const prev = lines[i - 1] ?? "";
       const next = lines[i + 1] ?? "";
       const usable = (l) => l && !OFFER_RE.test(l) && !isWhenOnly(l) && l.length <= 80;
@@ -276,7 +298,8 @@ export function extractDeals(text, { chain = false } = {}) {
     }
     const deal = makeDeal({
       line: quote,
-      title: !days.length && inContext && ctx.label ? ctx.label : null,
+      // A name/price pair is titled by its own name, not the block's.
+      title: isPriceOnly(line) ? null : !days.length && inContext && ctx.label ? ctx.label : null,
       days: lineDays,
       time: timeIsHappyHours ? null : (time ?? (inContext ? ctx.time : null)),
       i,
@@ -284,9 +307,10 @@ export function extractDeals(text, { chain = false } = {}) {
     // What ties this offer to a "when": the line itself, a single-day heading
     // above it, or merely sitting in a block.
     const namesDay = WEEKDAY_NAMED_RE.test(unglue(line)) || (days.length > 0 && DEAL_WORD_RE.test(quote));
-    const underOneDay = !days.length && inContext && ctx.days.length === 1 && !ctx.dated && !ctx.hoursLike;
+    const underOneDay =
+      !days.length && inContext && !ctx.dated && !ctx.hoursLike && (ctx.days.length === 1 || Boolean(ctx.dayHeading));
     deal._ctx = ctx;
-    deal._basis = isPriceOnly(line) ? "block" : namesDay ? "line" : underOneDay ? "heading" : "block";
+    deal._basis = isPriceOnly(line) ? (underOneDay && ctx.dayHeading ? "heading" : "block") : namesDay ? "line" : underOneDay ? "heading" : "block";
     deal._labelled = inContext && BLOCK_LABEL_RE.test(ctx.label ?? "");
     // An undated promo outside any stated window runs every day until withdrawn.
     if ((limited || national) && !lineDays.length) {
@@ -327,7 +351,7 @@ export function extractDeals(text, { chain = false } = {}) {
   }
   const perHeading = new Map();
   for (const d of merged.values()) if (d._basis === "heading") perHeading.set(d._ctx, (perHeading.get(d._ctx) ?? 0) + 1);
-  return [...merged.values()].slice(0, MAX_DEALS_PER_PAGE).map(({ _line, _basis, _timeAdjacent, _ctx, _labelled, ...d }) => {
+  const found = [...merged.values()].slice(0, MAX_DEALS_PER_PAGE).map(({ _line, _basis, _timeAdjacent, _ctx, _labelled, ...d }) => {
     if (_basis === "heading" && perHeading.get(_ctx) > MAX_UNDER_ONE_HEADING) _basis = "block";
     const hasWindow = d.days.length > 0 && Boolean(d.start_time || d.end_time);
     // High confidence: the line names its own day, sits under a single weekday
@@ -343,6 +367,77 @@ export function extractDeals(text, { chain = false } = {}) {
       (_basis === "announcement" && hasWindow && _timeAdjacent);
     return { ...d, confidence: high ? "high" : "low" };
   });
+  if (placeType === undefined) return found;
+  const published = new Set(found.filter((d) => d.confidence === "high").map((d) => d.quote));
+  return [...found, ...cheapItems(lines, placeType).filter((d) => !published.has(d.quote))];
+}
+
+// Priced menu items cheap enough to count as a deal on any day: "Taco $3.50",
+// or a name with its price on the next line.
+function cheapItems(lines, placeType) {
+  const items = [];
+  const seen = new Set();
+  // Food or drink, as last made clear by a heading or an item ("Whiskey",
+  // "Appetizers", "Draft Beer"). It settles items whose own name says nothing.
+  let section = null;
+  const clearCategory = (text) => {
+    const drink = DRINK_RE.test(text);
+    const food = FOOD_RE.test(text);
+    return drink === food ? null : drink ? "drink" : "food";
+  };
+  const usableName = (l) => l && l.length <= 80 && /[a-z]{3}/i.test(l) && !ITEM_PRICE_RE.test(l) && !isPriceOnly(l) && !isWhenOnly(l);
+  for (let i = 0; i < lines.length && items.length < MAX_CHEAP_ITEMS_PER_PAGE; i++) {
+    const line = lines[i];
+    let name;
+    let quote;
+    if (isPriceOnly(line)) {
+      // The name is the line above, or the one above that when a description
+      // sits in between.
+      const prev = lines[i - 1] ?? "";
+      const before = lines[i - 2] ?? "";
+      if (usableName(prev) && !looksLikeDescription(prev)) name = prev;
+      else if (usableName(before) && !looksLikeDescription(before) && prev.length <= 220) name = before;
+      else continue;
+      quote = name === prev ? `${prev} ${line}` : `${before} ${prev} ${line}`;
+    } else if (line.length <= 90 && ITEM_PRICE_RE.test(line)) {
+      name = line.replace(new RegExp(ITEM_PRICE_RE, "g"), " ").replace(/\s+/g, " ");
+      quote = line;
+    } else {
+      // A short unpriced line that is clearly food or drink starts a section.
+      if (line.length <= 40 && !OFFER_RE.test(line)) section = clearCategory(line) ?? section;
+      continue;
+    }
+    name = tidy(name.replace(/[.…·\-–—|:]+\s*$/, ""));
+    if (!/[a-z]{3}/i.test(name) || name.startsWith("(") || JUST_A_SIZE_RE.test(name)) continue;
+    if (NOT_AN_ITEM_RE.test(quote) || NOT_A_DEAL_RE.test(quote) || OTHER_TOWN_RE.test(quote)) continue;
+    const price = Number((quote.match(ITEM_PRICE_RE) ?? quote.match(/(\d+\.\d{2})$/))[1]);
+    const own = clearCategory(name);
+    if (own) section = own;
+    // Known from the name, else from the section. With neither, the item only
+    // counts under the stricter drink limit, so a $7 whiskey cannot slip in as food.
+    const known = own ?? section;
+    const category = known ?? categoryOf(name, placeType);
+    if (price < 1) continue; // toppings and add-ons, not something to go out for
+    const limit = known === "food" ? CHEAP_FOOD_BELOW : known === "drink" ? CHEAP_DRINK_BELOW : Math.min(CHEAP_FOOD_BELOW, CHEAP_DRINK_BELOW);
+    if (!(price > 0 && price < limit) || seen.has(name.toLowerCase())) continue;
+    seen.add(name.toLowerCase());
+    items.push({
+      title: clip(name, 70),
+      description: clip(tidy(quote), 220),
+      price: `$${Number.isInteger(price) ? price : price.toFixed(2)}`,
+      days: [],
+      start_time: null,
+      end_time: null,
+      category,
+      kind: "everyday_price",
+      valid_until: null,
+      conditions: null,
+      platform: "in_house",
+      quote,
+      confidence: "high",
+    });
+  }
+  return items;
 }
 
 function makeDeal({ line, title, days, time, i }) {
