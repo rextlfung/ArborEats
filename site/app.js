@@ -65,7 +65,7 @@ function daysAgo(iso) {
 
 function matches(deal, restaurant) {
   // A deal with no stated days is shown on every day rather than hidden.
-  if (deal.days.length && !deal.days.includes(state.day)) return false;
+  if (state.day !== "all" && deal.days.length && !deal.days.includes(state.day)) return false;
   if (state.category !== "all" && deal.category !== state.category && deal.category !== "both") return false;
   if (state.cap !== null) {
     const price = dollarPrice(deal);
@@ -163,7 +163,7 @@ function render() {
   const shown = inView(all);
   const count = shown.reduce((n, r) => n + r.deals.length, 0);
   $("count").textContent = count;
-  $("summary").textContent = `deal${count === 1 ? "" : "s"} at ${shown.length} place${shown.length === 1 ? "" : "s"} on ${DAY_NAME[state.day]}`;
+  $("summary").textContent = `deal${count === 1 ? "" : "s"} at ${shown.length} place${shown.length === 1 ? "" : "s"} ${state.day === "all" ? "this week" : `on ${DAY_NAME[state.day]}`}`;
 
   const hidden = all.length - shown.length;
   const outside = hidden
@@ -219,7 +219,7 @@ function setUpFilters() {
     }
     // How many filters differ from what the page opens with.
     const changed =
-      (state.day !== today) +
+      (state.day !== today && state.day !== "all") +
       (state.category !== "all") +
       (state.owner !== "all") +
       (state.cap !== null) +
@@ -233,7 +233,8 @@ function setUpFilters() {
   $("days").addEventListener("click", (e) => {
     const day = e.target.closest("button")?.dataset.day;
     if (!day) return;
-    state.day = day;
+    // Pressing the selected day clears it: no day means the whole week.
+    state.day = state.day === day ? "all" : day;
     update();
   });
   $("categories").addEventListener("click", (e) => {
@@ -275,9 +276,9 @@ function setUpFilters() {
   };
   $("filters-open").addEventListener("click", () => setOpen(true));
   $("filters-close").addEventListener("click", () => setOpen(false));
-  // Back to how the page opens: today, nothing else narrowed.
+  // Nothing narrowed at all: every deal, any day.
   $("filters-clear").addEventListener("click", () => {
-    Object.assign(state, { day: annArborNow().day, category: "all", owner: "all", cap: null, query: "" });
+    Object.assign(state, { day: "all", category: "all", owner: "all", cap: null, query: "" });
     $("search").value = "";
     update();
   });
