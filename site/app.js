@@ -226,8 +226,10 @@ function setUpFilters() {
       (state.query !== "");
     $("filters-count").textContent = changed || "";
     // Nothing to clear when no filter is on, the day included.
-    $("filters-clear-wide").hidden =
-      state.day === "all" && state.category === "all" && state.owner === "all" && state.cap === null && state.query === "";
+    $("filters-clear").classList.toggle(
+      "idle",
+      state.day === "all" && state.category === "all" && state.owner === "all" && state.cap === null && state.query === "",
+    );
   };
   const update = () => {
     sync();
@@ -285,8 +287,7 @@ function setUpFilters() {
     $("search").value = "";
     update();
   };
-  $("filters-clear").addEventListener("click", clear); // in the phone sheet
-  $("filters-clear-wide").addEventListener("click", clear); // beside the pills on desktop
+  $("filters-clear").addEventListener("click", clear);
   $("filters").addEventListener("keydown", (e) => {
     if (e.key === "Escape" && document.body.classList.contains("filters-open")) setOpen(false);
   });

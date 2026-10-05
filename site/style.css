@@ -166,7 +166,7 @@ h1 {
 .days {
   display: grid;
   grid-template-columns: repeat(7, minmax(0, 1fr));
-  gap: 4px;
+  gap: 2px;
   padding: 4px;
   border-radius: 12px;
   background: var(--surface);
@@ -181,7 +181,7 @@ h1 {
   background: transparent;
   color: var(--muted);
   font-weight: 600;
-  font-size: 13px;
+  font-size: 12.5px;
 }
 
 .days button:hover {
@@ -232,31 +232,50 @@ h1 {
   border-color: var(--ink);
 }
 
-.pills .clear-wide {
-  border-color: transparent;
-  background: none;
-  color: var(--muted);
-  text-decoration: underline;
-}
-
-.pills .clear-wide:hover {
-  border-color: transparent;
-  color: var(--ink);
-}
-
-.clear-wide[hidden] {
-  display: none;
-}
-
 .pills button.active {
   border-color: var(--strong);
   background: var(--strong);
   color: var(--on-strong);
 }
 
-.filters-head,
-.fab {
+.fab,
+.done {
   display: none;
+}
+
+/* The row above the search bar: a label, and Clear when there is something to clear. */
+.filters-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 32px;
+}
+
+.filters-head h2 {
+  margin: 0;
+  color: var(--muted);
+  font: 600 12px/1 var(--body);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.clear {
+  padding: 4px 0;
+  border: 0;
+  background: none;
+  color: var(--muted);
+  font-weight: 600;
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+.clear:hover {
+  color: var(--ink);
+}
+
+/* Kept in the layout while idle, so the row does not jump when it appears. */
+.clear.idle {
+  visibility: hidden;
 }
 
 .search {
@@ -653,20 +672,11 @@ main {
     display: none;
   }
 
-  .filters-head {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
   .filters-head h2 {
-    margin: 0;
+    color: var(--ink);
     font: 800 19px/1 var(--display);
-  }
-
-  /* The sheet has its own Clear button. */
-  .pills .clear-wide {
-    display: none;
+    letter-spacing: 0;
+    text-transform: none;
   }
 
   .sheet-actions {
@@ -680,10 +690,14 @@ main {
     border: 1.5px solid var(--line-strong);
     border-radius: 999px;
     background: var(--ground);
+    color: var(--ink);
     font-weight: 700;
+    font-size: inherit;
+    text-decoration: none;
   }
 
   .done {
+    display: inline-block;
     min-height: 44px;
     padding: 0 18px;
     border: 0;
@@ -693,18 +707,14 @@ main {
     font-weight: 700;
   }
 
-  .days {
-    gap: 2px;
-  }
-
-  /* Full-size touch targets on a phone, centred in the sheet. */
+  /* Full-size touch targets on a phone, lined up on the right. */
   .pills button {
     min-height: 44px;
   }
 
   .pills,
   .pill-group {
-    justify-content: center;
+    justify-content: flex-end;
   }
 
   .pill-group {
