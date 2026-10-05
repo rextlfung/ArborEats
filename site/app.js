@@ -113,14 +113,14 @@ function restaurantHtml(r) {
   const oldest = r.deals.reduce((a, d) => (d.verified_at < a ? d.verified_at : a), r.deals[0].verified_at);
   const fromImage = r.deals.some((d) => d.from_image) ? " · some read from images" : "";
   return `<div class="place">
-      <div class="place-name"><h2>${escapeHtml(r.name)}</h2>${r.chain ? '<span class="badge">Chain</span>' : ""}</div>
+      <div class="place-name">
+        <h2>${escapeHtml(r.name)}</h2>${r.chain ? '<span class="badge">Chain</span>' : ""}
+        <a class="source" href="${escapeHtml(r.deals[0].source_url)}" target="_blank" rel="noopener">View source</a>
+      </div>
       ${meta ? `<div class="meta">${escapeHtml(meta)}</div>` : ""}
     </div>
     ${r.deals.map(dealHtml).join("")}
-    <div class="checked">
-      <span>Checked ${daysAgo(oldest)}${fromImage}</span>
-      <a href="${escapeHtml(r.deals[0].source_url)}" target="_blank" rel="noopener">View source</a>
-    </div>`;
+    <div class="checked">Checked ${daysAgo(oldest)}${fromImage}</div>`;
 }
 
 function popupHtml(r) {

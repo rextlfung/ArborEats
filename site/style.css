@@ -339,8 +339,11 @@ h1 {
 .place-name {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
   gap: 8px 10px;
+}
+
+.place h2 {
+  min-width: 0;
 }
 
 .place h2 {
@@ -361,8 +364,7 @@ h1 {
 }
 
 .meta,
-.when,
-.checked {
+.when {
   color: var(--muted);
   font-size: 13px;
 }
@@ -403,19 +405,29 @@ h1 {
 }
 
 .checked {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
+  color: var(--muted);
   font-size: 12.5px;
 }
 
-.checked a {
-  color: var(--muted);
+/* On the name's row, pushed to the right edge, sized to be easy to hit. */
+.source {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  margin-left: auto;
+  padding: 0 12px;
+  border: 1.5px solid var(--line-strong);
+  border-radius: 999px;
+  color: var(--ink);
+  font-size: 12.5px;
   font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
 }
 
-.checked a:hover {
-  color: var(--ink);
+.source:hover {
+  border-color: var(--ink);
 }
 
 .outside {
@@ -555,7 +567,7 @@ main {
 @media (max-width: 760px) {
   body {
     grid-template-columns: 1fr;
-    grid-template-rows: 50dvh 50dvh;
+    grid-template-rows: 2fr 1fr;
     height: 100dvh;
     overflow: hidden;
   }
@@ -564,31 +576,31 @@ main {
     order: -1;
   }
 
+  /* Above the map's own controls, so the filter sheet covers them. */
   #panel {
     position: relative;
+    z-index: 3;
     border-right: 0;
     border-top: 1px solid var(--line);
     overflow: hidden;
   }
 
+  /* One row: name on the left, the count in the middle, the theme switch
+     on the right. */
   header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-    padding: 10px 16px;
+    gap: 8px;
+    padding: 8px 8px 8px 16px;
     border-bottom: 1px solid var(--line);
   }
 
-  /* No room for the mark beside the name, the theme switch and the count. */
-  .logo {
-    display: none;
+  .brand {
+    display: contents;
   }
 
-  .theme {
-    width: 40px;
-    height: 40px;
-    margin-left: 0;
+  .logo {
+    display: none;
   }
 
   h1 {
@@ -596,14 +608,30 @@ main {
   }
 
   .summary {
+    flex: 1;
+    order: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0 5px;
     margin: 0;
-    gap: 5px;
     font-size: 12.5px;
-    white-space: nowrap;
+    line-height: 1.25;
+    text-align: center;
   }
 
   .summary strong {
-    font-size: 19px;
+    font-size: 17px;
+  }
+
+  .theme {
+    order: 2;
+    width: 44px;
+    height: 44px;
+    margin-left: 0;
+  }
+
+  .source {
+    min-height: 40px;
   }
 
   .card {
@@ -652,15 +680,22 @@ main {
     font-size: 12.5px;
   }
 
+  /* The list only has a third of the screen, so the sheet rises from the
+     bottom edge to its own height, over the list and part of the map. */
   .filters {
-    position: absolute;
-    inset: 0;
-    z-index: 2;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
     display: none;
     align-content: start;
-    padding: 12px 16px 16px;
+    max-height: 90dvh;
+    padding: 12px 16px 20px;
     border-bottom: 0;
+    border-radius: 20px 20px 0 0;
     background: var(--ground);
+    box-shadow: 0 -6px 24px rgba(14, 27, 46, 0.18);
     overflow-y: auto;
   }
 
