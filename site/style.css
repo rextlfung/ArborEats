@@ -227,8 +227,8 @@ h1 {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  min-height: 44px;
-  padding: 0 16px;
+  min-height: 38px;
+  padding: 0 14px;
   border: 1.5px solid var(--line-strong);
   border-radius: 999px;
   background: var(--ground);
@@ -660,6 +660,11 @@ main {
 
   .days {
     gap: 2px;
+  }
+
+  /* Full-size touch targets on a phone. */
+  .pills button {
+    min-height: 44px;
   }
 
   .days button {

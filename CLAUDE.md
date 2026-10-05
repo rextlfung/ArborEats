@@ -72,3 +72,5 @@ CI starts with an empty `data/cache/` apart from OCR results, and its IP is bloc
 Theme: `data-theme` on `<html>` (set by an inline script before paint from `localStorage`, else the device setting) switches the CSS variables in `style.css`; `THEMES` in `app.js` holds the matching map style and marker colours. Switching calls `map.setStyle(..., { diff: false })`, which discards our layers, so `addLayers()` runs again on every `style.load`.
 
 Phone layout (under 760px): map on the top half, list on the bottom half, and `.filters` becomes a sheet over the list toggled by the `#filters-open` button via the `filters-open` class on `<body>`. "Now" is the first cell of the day bar, not a separate control.
+
+Filter semantics worth knowing: the price cap (`dollarPrice()`) only passes deals with a dollar amount at or under the cap, so discounts ("$2 off", "50% off") and unpriced deals are hidden while it is on; the time-of-day filter (`runsDuring()`) treats a deal with no stated hours as running all day, so it passes every period.

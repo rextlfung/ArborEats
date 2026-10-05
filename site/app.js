@@ -18,7 +18,31 @@ function annArborNow() {
   return { day: parts.weekday.toLowerCase().slice(0, 3), time: `${parts.hour}:${parts.minute}` };
 }
 
-const state = { day: annArborNow().day, category: "all", owner: "all", now: false, query: "", selected: null };
+const state = { day: annArborNow().day, category: "all", owner: "all", cap: null, period: null, now: false, query: "", selected: null };
+
+// Times of day as [start, end) in hours; "late" runs past midnight.
+const PERIODS = { lunch: [11, 15], afternoon: [15, 18], evening: [18, 22], late: [22, 26] };
+
+// The dollar amount you pay, or null for discounts ("$2 off", "25% off",
+// "half off") and deals with no price, which a price cap cannot judge.
+function dollarPrice(deal) {
+  if (!deal.price || /off|%|half|bogo/i.test(deal.price)) return null;
+  const m = deal.price.match(/\$\s?(\d+(?:\.\d+)?)/);
+  return m ? Number(m[1]) : null;
+}
+
+// Whether a deal runs during a time of day. No stated hours means all day;
+// only a start means "until close", only an end means "from opening".
+function runsDuring(deal, [from, to]) {
+  if (!deal.start_time && !deal.end_time) return true;
+  const hours = (t) => Number(t.slice(0, 2)) + Number(t.slice(3)) / 60;
+  const start = deal.start_time ? hours(deal.start_time) : 6;
+  let end = deal.end_time ? hours(deal.end_time) : 26;
+  if (end <= start) end += 24; // past midnight
+  // Compare on a clock that runs 06:00 to 30:00, so "1 AM" counts as late night.
+  const overlaps = (s, e) => s < to && e > from;
+  return overlaps(start, end) || overlaps(start + 24, end + 24) || overlaps(start - 24, end - 24);
+}
 let data = { restaurants: [] };
 let map;
 let popup;
@@ -58,6 +82,11 @@ function matches(deal, restaurant) {
   // A deal with no stated days is shown on every day rather than hidden.
   if (state.day !== "all" && deal.days.length && !deal.days.includes(state.day)) return false;
   if (state.category !== "all" && deal.category !== state.category && deal.category !== "both") return false;
+  if (state.cap !== null) {
+    const price = dollarPrice(deal);
+    if (price === null || price > state.cap) return false;
+  }
+  if (state.period && !runsDuring(deal, PERIODS[state.period])) return false;
   if (state.now) {
     const { day, time } = annArborNow();
     if (deal.days.length && !deal.days.includes(day)) return false;
@@ -182,9 +211,22 @@ function setUpFilters() {
       b.classList.toggle("active", b.dataset.owner === state.owner);
       b.setAttribute("aria-pressed", b.dataset.owner === state.owner);
     }
+    for (const b of $("prices").children) {
+      b.classList.toggle("active", Number(b.dataset.cap) === state.cap);
+      b.setAttribute("aria-pressed", Number(b.dataset.cap) === state.cap);
+    }
+    for (const b of $("times").children) {
+      b.classList.toggle("active", b.dataset.period === state.period);
+      b.setAttribute("aria-pressed", b.dataset.period === state.period);
+    }
     // How many filters differ from what the page opens with.
     const changed =
-      (state.now || state.day !== today) + (state.category !== "all") + (state.owner !== "all") + (state.query !== "");
+      (state.now || state.day !== today) +
+      (state.category !== "all") +
+      (state.owner !== "all") +
+      (state.cap !== null) +
+      (state.period !== null) +
+      (state.query !== "");
     $("filters-count").textContent = changed || "";
   };
   const update = () => {
@@ -209,6 +251,18 @@ function setUpFilters() {
     const owner = e.target.closest("button")?.dataset.owner;
     if (!owner) return;
     state.owner = state.owner === owner ? "all" : owner;
+    update();
+  });
+  $("prices").addEventListener("click", (e) => {
+    const cap = e.target.closest("button")?.dataset.cap;
+    if (!cap) return;
+    state.cap = state.cap === Number(cap) ? null : Number(cap);
+    update();
+  });
+  $("times").addEventListener("click", (e) => {
+    const period = e.target.closest("button")?.dataset.period;
+    if (!period) return;
+    state.period = state.period === period ? null : period;
     update();
   });
   $("search").addEventListener("input", (e) => {
