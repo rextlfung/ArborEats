@@ -71,7 +71,7 @@ CI starts with an empty `data/cache/` apart from OCR results, and its IP is bloc
 
 Theme: `data-theme` on `<html>` (set by an inline script before paint from `localStorage`, else the device setting) switches the CSS variables in `style.css`; `THEMES` in `app.js` holds the matching map style and marker colours. Switching calls `map.setStyle(..., { diff: false })`, which discards our layers, so `addLayers()` runs again on every `style.load`.
 
-Phone layout (under 760px): map on the top half, list on the bottom half, and `.filters` becomes a sheet over the list toggled by the `#filters-open` button via the `filters-open` class on `<body>`. The day bar runs Sunday to Saturday and opens on today; pressing the selected day clears it (`state.day === "all"`), which shows the whole week. The sheet's Clear button clears every filter, the day included.
+Phone layout (under 760px): map on the top half, list on the bottom half, and `.filters` becomes a sheet over the list toggled by the `#filters-open` button via the `filters-open` class on `<body>`. The day bar runs Sunday to Saturday and opens with no day selected (`state.day === "all"`), which shows the whole week; today carries a dot, and pressing the selected day clears it. The sheet's Clear button clears every filter, the day included.
 
 Filter semantics worth knowing: every pill is a toggle (press the active one to clear it). The price cap (`dollarPrice()`) only passes deals with a dollar amount at or under the cap, so discounts ("$2 off", "50% off") and unpriced deals are hidden while it is on. Food/Drinks match a deal's `category`, and `both` (a burger-and-beer combo, a happy hour covering apps and drafts) passes either.
 

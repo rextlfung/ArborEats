@@ -18,7 +18,7 @@ function annArborNow() {
   return { day: parts.weekday.toLowerCase().slice(0, 3), time: `${parts.hour}:${parts.minute}` };
 }
 
-const state = { day: annArborNow().day, category: "all", owner: "all", cap: null, query: "", selected: null };
+const state = { day: "all", category: "all", owner: "all", cap: null, query: "", selected: null };
 
 // The dollar amount you pay, or null for discounts ("$2 off", "25% off",
 // "half off") and deals with no price, which a price cap cannot judge.
@@ -219,7 +219,7 @@ function setUpFilters() {
     }
     // How many filters differ from what the page opens with.
     const changed =
-      (state.day !== today && state.day !== "all") +
+      (state.day !== "all") +
       (state.category !== "all") +
       (state.owner !== "all") +
       (state.cap !== null) +
