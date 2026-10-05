@@ -683,7 +683,9 @@ main {
     --top: 56px;
     grid-template-rows: var(--top) minmax(0, 1fr) calc(var(--drawer, 40dvh) - 16px);
     height: 100dvh;
-    overflow: hidden;
+    /* No "overflow: hidden" here: with it the browser treats the page as
+       unscrollable and turns off its pull-down-to-refresh gesture. The layout
+       fits the screen exactly, so nothing scrolls anyway. */
   }
 
   main {
@@ -721,6 +723,12 @@ main {
     background: var(--line-strong);
   }
 
+  /* Scrolling the list past its top should not reload the page; pulling
+     down on the top bar should. */
+  #list {
+    overscroll-behavior: contain;
+  }
+
   /* The top bar: fixed above the map, with the name on the left, the count
      in the middle and the theme switch on the right. */
   header {
@@ -735,6 +743,7 @@ main {
     padding: 0 8px 0 16px;
     border-bottom: 1px solid var(--line);
     background: var(--ground);
+    touch-action: pan-y;
   }
 
   .brand {
