@@ -232,6 +232,22 @@ h1 {
   border-color: var(--ink);
 }
 
+.pills .clear-wide {
+  border-color: transparent;
+  background: none;
+  color: var(--muted);
+  text-decoration: underline;
+}
+
+.pills .clear-wide:hover {
+  border-color: transparent;
+  color: var(--ink);
+}
+
+.clear-wide[hidden] {
+  display: none;
+}
+
 .pills button.active {
   border-color: var(--strong);
   background: var(--strong);
@@ -646,6 +662,11 @@ main {
   .filters-head h2 {
     margin: 0;
     font: 800 19px/1 var(--display);
+  }
+
+  /* The sheet has its own Clear button. */
+  .pills .clear-wide {
+    display: none;
   }
 
   .sheet-actions {

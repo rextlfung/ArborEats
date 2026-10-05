@@ -225,6 +225,9 @@ function setUpFilters() {
       (state.cap !== null) +
       (state.query !== "");
     $("filters-count").textContent = changed || "";
+    // Nothing to clear when no filter is on, the day included.
+    $("filters-clear-wide").hidden =
+      state.day === "all" && state.category === "all" && state.owner === "all" && state.cap === null && state.query === "";
   };
   const update = () => {
     sync();
@@ -277,11 +280,13 @@ function setUpFilters() {
   $("filters-open").addEventListener("click", () => setOpen(true));
   $("filters-close").addEventListener("click", () => setOpen(false));
   // Nothing narrowed at all: every deal, any day.
-  $("filters-clear").addEventListener("click", () => {
+  const clear = () => {
     Object.assign(state, { day: "all", category: "all", owner: "all", cap: null, query: "" });
     $("search").value = "";
     update();
-  });
+  };
+  $("filters-clear").addEventListener("click", clear); // in the phone sheet
+  $("filters-clear-wide").addEventListener("click", clear); // beside the pills on desktop
   $("filters").addEventListener("keydown", (e) => {
     if (e.key === "Escape" && document.body.classList.contains("filters-open")) setOpen(false);
   });
