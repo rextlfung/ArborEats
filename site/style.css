@@ -100,13 +100,24 @@ header {
 }
 
 .logo {
-  display: grid;
-  place-items: center;
+  flex: none;
   width: 32px;
   height: 32px;
-  border-radius: 10px;
-  background: var(--logo);
-  color: var(--accent);
+  border-radius: 9px;
+}
+
+/* The mark is black; give it an edge against the dark panel. */
+[data-theme="dark"] .logo {
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.22);
+}
+
+/* Two-tone wordmark. The lighter green only has the contrast on dark. */
+.eats {
+  color: #05944f;
+}
+
+[data-theme="dark"] .eats {
+  color: #06c167;
 }
 
 .theme {
@@ -719,7 +730,9 @@ main {
   }
 
   .logo {
-    display: none;
+    width: 26px;
+    height: 26px;
+    border-radius: 7px;
   }
 
   h1 {

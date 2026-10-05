@@ -5,7 +5,7 @@ import path from "node:path";
 import { ROOT } from "./lib/util.js";
 
 const SITE = path.join(ROOT, "site");
-const TYPES = { ".html": "text/html", ".js": "text/javascript", ".css": "text/css", ".json": "application/json", ".geojson": "application/json" };
+const TYPES = { ".html": "text/html", ".js": "text/javascript", ".css": "text/css", ".json": "application/json", ".geojson": "application/json", ".svg": "image/svg+xml", ".png": "image/png" };
 const port = Number(process.env.PORT ?? 5173);
 
 http
