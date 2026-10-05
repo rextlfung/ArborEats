@@ -56,6 +56,15 @@ All page fetches go through `fetchPage` / `cachedFetchPage` in `pipeline/lib/uti
 
 Do not change the user agent to imitate a browser or crawler to get past 403s or login walls. Instagram and Facebook are deliberately not scraped (Instagram serves a login shell to scripted requests); step 2 records the handles only.
 
+## Deployment
+
+The site is on GitHub Pages at https://rextlfung.github.io/ArborEats/. Two workflows:
+
+- `pages.yml` deploys `site/` on any push to `main` that touches it.
+- `refresh.yml` runs the whole pipeline daily at midnight Ann Arbor time, commits `data/` and `site/data/`, and deploys Pages itself (a push made with the workflow token does not trigger `pages.yml`). It has two UTC cron entries, one per daylight/standard offset, and a first step that skips the one that does not apply. Step 1 is allowed to fail there (the Overpass server is often busy); the previous `restaurants.json` is then used.
+
+CI starts with an empty `data/cache/` apart from OCR results, and its IP is blocked by more sites than a home connection. Step 2 therefore keeps a restaurant's previously found pages when its homepage fails to load, so step 3 does not prune that restaurant's deals. `data/pages.json` is a per-run report and is gitignored.
+
 ## Site
 
-`site/` is plain HTML/CSS/JS with MapLibre GL from unpkg and OpenFreeMap tiles (no API key). `app.js` holds one `state` object (day, category, "on right now", search, selection); `visible()` derives the filtered restaurant list, and `render()` redraws both the sidebar and the map's GeoJSON source from it. "Today" and "now" are computed in `America/Detroit` regardless of the visitor's time zone. Deals with an empty `days` array are shown on every day rather than hidden.
+`site/` is plain HTML/CSS/JS with MapLibre GL from unpkg and OpenFreeMap tiles (no API key). The look (ink `#0e1b2e` on white, maize `#ffcb05` price tags and selected marker, Bricolage Grotesque headings over Instrument Sans) was designed on a Claude Design canvas and hand-ported to `style.css`; the canvas is not a build input. `app.js` holds one `state` object (day, category, local/chain, "on right now", search, selection); `visible()` derives the filtered restaurant list, and `render()` redraws both the sidebar and the map's GeoJSON source from it. "Today" and "now" are computed in `America/Detroit` regardless of the visitor's time zone. Deals with an empty `days` array are shown on every day rather than hidden.

@@ -25,6 +25,13 @@ Everything runs locally and for free: no API keys, no accounts.
 | 3 | `pipeline/3-scrape.js` | Fetches those pages, reads text out of deal images (Tesseract OCR), and extracts deals with rules | `data/pages.json`, `data/deals.json`, `data/deals-log.jsonl` |
 | 4 | `pipeline/4-publish.js` | Builds the file the site reads | `site/data/deals.json` |
 
+## Hosting
+
+The site is published with GitHub Pages at https://rextlfung.github.io/ArborEats/.
+A scheduled GitHub Actions workflow (`.github/workflows/refresh.yml`) reruns the
+pipeline every day at midnight Ann Arbor time, commits the new data and
+redeploys. It can also be started by hand from the Actions tab.
+
 ## Correcting the data
 
 `data/overrides.json`, keyed by restaurant name, holds manual corrections:

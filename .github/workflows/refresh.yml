@@ -1,0 +1,101 @@
+# Re-scrapes every restaurant once a day, commits the new data and redeploys
+# the site.
+name: Refresh deals
+
+on:
+  schedule:
+    # Midnight in Ann Arbor. Cron is in UTC, so there is one entry for daylight
+    # time (UTC-4) and one for standard time (UTC-5); the first step skips
+    # whichever does not apply today.
+    - cron: "0 4 * * *"
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: clock
+        name: Is it midnight in Ann Arbor?
+        run: |
+          offset=$(TZ=America/Detroit date +%z)
+          wanted="0 4 * * *"
+          if [ "$offset" = "-0500" ]; then wanted="0 5 * * *"; fi
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "${{ github.event.schedule }}" != "$wanted" ]; then
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.clock.outputs.run == 'true'
+
+      - uses: actions/setup-node@v4
+        if: steps.clock.outputs.run == 'true'
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        if: steps.clock.outputs.run == 'true'
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+
+      # Text already read out of images, and the OCR language data.
+      - uses: actions/cache@v4
+        if: steps.clock.outputs.run == 'true'
+        with:
+          path: |
+            data/cache/ocr-layout
+            data/cache/tesseract
+          key: ocr-${{ github.run_id }}
+          restore-keys: ocr-
+
+      # The public map server is often busy. If it fails, carry on with the
+      # restaurant list from the last successful run.
+      - name: List restaurants
+        if: steps.clock.outputs.run == 'true'
+        continue-on-error: true
+        run: npm run restaurants
+
+      - name: Find sources, scrape and publish
+        if: steps.clock.outputs.run == 'true'
+        run: |
+          npm run sources
+          npm run scrape
+          npm run publish
+
+      - name: Commit the new data
+        if: steps.clock.outputs.run == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data site/data
+          git diff --cached --quiet || git commit -m "Refresh deals"
+          git push
+
+      # A push made by a workflow does not start the "Deploy site" workflow, so
+      # deploy from here.
+      - uses: actions/configure-pages@v5
+        if: steps.clock.outputs.run == 'true'
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.clock.outputs.run == 'true'
+        with:
+          path: site
+      - id: deployment
+        if: steps.clock.outputs.run == 'true'
+        uses: actions/deploy-pages@v4

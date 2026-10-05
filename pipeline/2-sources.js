@@ -80,6 +80,7 @@ function readHomepage(html, baseUrl) {
 const restaurants = readJson(path.join(DATA, "restaurants.json"), []);
 const overrides = readJson(path.join(DATA, "overrides.json"), {});
 const sourcesFile = path.join(DATA, "sources.json");
+const previous = readJson(sourcesFile, {});
 const now = new Date().toISOString();
 
 async function resolve(r) {
@@ -111,6 +112,13 @@ async function resolve(r) {
       ...found.dealPages.slice(0, MAX_DEAL_PAGES),
       ...found.menuPages.slice(0, MAX_MENU_PAGES),
     ];
+  }
+  // A site that is down or blocking us today keeps the pages found last time, so
+  // step 3 holds on to its deals instead of forgetting them.
+  if (!home?.ok && previous[r.id]?.pages?.length) {
+    source.pages = previous[r.id].pages;
+    source.instagram ??= previous[r.id].instagram ?? null;
+    source.facebook ??= previous[r.id].facebook ?? null;
   }
   for (const extra of override.pages ?? []) if (!source.pages.includes(extra)) source.pages.push(extra);
   return [r.id, source];
