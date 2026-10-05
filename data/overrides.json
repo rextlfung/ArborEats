@@ -1,5 +1,5 @@
 {
-  "_comment": "Manual corrections, keyed by restaurant name as it appears in data/restaurants.json. Any of: website, instagram, facebook, pages (extra URLs to scrape), closed (true removes the restaurant from the site). These win over what the map datasets say.",
+  "_comment": "Manual corrections, keyed by restaurant name as it appears in data/restaurants.json. Any of: website, instagram, facebook, pages (extra URLs to scrape), closed (true removes the restaurant from the site; \"keep\" leaves it listed with a 'Permanently closed' badge). These win over what the map datasets say.",
   "Chapala Mexican Restaurant": {
     "website": "https://eatchapala.com/",
     "pages": [
@@ -8,5 +8,8 @@
   },
   "Pizza Cat Max": {
     "closed": true
+  },
+  "The Ravens Club": {
+    "closed": "keep"
   }
 }

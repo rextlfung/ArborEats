@@ -375,6 +375,12 @@ h1 {
   text-transform: uppercase;
 }
 
+.badge.closed {
+  border-color: transparent;
+  background: var(--tag-plain);
+  color: var(--ink);
+}
+
 .meta,
 .when {
   color: var(--muted);
@@ -672,18 +678,21 @@ main {
   body {
     grid-template-columns: 1fr;
     /* The list is a drawer: 40% of the screen until dragged. */
-    /* 16px less than the drawer, which overlaps the map by its rounded corners. */
-    grid-template-rows: minmax(0, 1fr) calc(var(--drawer, 40dvh) - 16px);
+    /* Top bar, map, then the list drawer. The drawer's row is 16px short of
+       its height because it overlaps the map by its rounded corners. */
+    --top: 56px;
+    grid-template-rows: var(--top) minmax(0, 1fr) calc(var(--drawer, 40dvh) - 16px);
     height: 100dvh;
     overflow: hidden;
   }
 
   main {
-    order: -1;
+    grid-row: 2;
   }
 
   /* Above the map's own controls, so the filter sheet covers them. */
   #panel {
+    grid-row: 3;
     position: relative;
     z-index: 3;
     border-radius: 16px 16px 0 0;
@@ -698,7 +707,8 @@ main {
     display: grid;
     place-items: center;
     flex: none;
-    height: 22px;
+    height: 28px;
+    border-bottom: 1px solid var(--line);
     cursor: ns-resize;
     touch-action: none;
   }
@@ -711,18 +721,20 @@ main {
     background: var(--line-strong);
   }
 
+  /* The top bar: fixed above the map, with the name on the left, the count
+     in the middle and the theme switch on the right. */
   header {
-    touch-action: none;
-  }
-
-  /* One row: name on the left, the count in the middle, the theme switch
-     on the right. */
-  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     align-items: center;
     gap: 8px;
-    padding: 0 8px 6px 16px;
+    height: var(--top);
+    padding: 0 8px 0 16px;
     border-bottom: 1px solid var(--line);
+    background: var(--ground);
   }
 
   .brand {

@@ -41,6 +41,7 @@ for (const r of restaurants) {
     lon: r.lon,
     type: r.type,
     chain: Boolean(r.brand),
+    closed: Boolean(s.kept_closed),
     cuisine: r.cuisine,
     address: r.address,
     website: s.website ?? r.website,

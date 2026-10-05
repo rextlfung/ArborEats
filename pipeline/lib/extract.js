@@ -46,7 +46,7 @@ const FOOD_RE =
 
 const TIME = "(\\d{1,2})(?::(\\d{2}))?\\s*(?:([ap])\\.?\\s?m\\.?)?";
 const TIME_RANGE_RE = new RegExp(`${TIME}\\s*(?:-|–|—|to|until|till?)\\s*(?:${TIME}|(close|midnight))`, "i");
-const TIME_UNTIL_RE = /(?:until|till?|before)\s+(\d{1,2})(?::(\d{2}))?\s*([ap])\.?\s?m/i;
+const TIME_UNTIL_RE = /(?:until|till?|before|open (?:to|until|till?|-|–))\s+(\d{1,2})(?::(\d{2}))?\s*([ap])\.?\s?m/i;
 const TIME_FROM_RE = /(?:after|from|starting at|starts at)\s+(\d{1,2})(?::(\d{2}))?\s*([ap])\.?\s?m/i;
 
 const MAX_OFFER_LINE = 180; // longer lines are prose or social captions
@@ -55,7 +55,9 @@ const CONTEXT_LINES = 8; // how far a day heading or "Happy Hour" title reaches
 const MAX_DEALS_PER_PAGE = 30;
 
 // Bump when the rules change in a way that should re-extract unchanged pages.
-export const EXTRACTOR_VERSION = 6;
+export const EXTRACTOR_VERSION = 8;
+// A line step 3 inserts where a page <section> begins.
+export const SECTION_BREAK = "§";
 
 export function parseDays(text) {
   const found = new Set();
@@ -131,7 +133,8 @@ const tidy = (s) =>
     .replace(/^[\s·•✦*\-–—/|:]+|[\s·•✦*\-–—/|:]+$/g, "")
     .replace(/^image of\s+/i, "")
     .replace(/\s+/g, " ");
-const isPriceOnly = (line) => /^\$\s?\d+(?:\.\d{1,2})?$|^\d+\.\d{2}$/.test(line);
+// A price or a discount alone on its line; what it applies to is on the line above.
+const isPriceOnly = (line) => /^\$\s?\d+(?:\.\d{1,2})?(?:\s?off)?$|^\d+\.\d{2}$/i.test(line);
 // A line that only says when: days and/or times and little else.
 function isWhenOnly(line) {
   const rest = line
@@ -159,6 +162,13 @@ export function extractDeals(text, { chain = false } = {}) {
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
+    if (line === SECTION_BREAK) {
+      // A new page section ends a block that already has its offers. A title
+      // still waiting for them is left open: sites often put the title and
+      // the list in neighbouring sections.
+      if (ctx.block.some((d) => d.price !== null)) openContext(-Infinity, {});
+      continue;
+    }
     if (line.length > 400) continue; // paragraphs of prose, not a specials list
     const days = parseDays(unglue(line));
     const time = parseTimes(line);
@@ -214,6 +224,19 @@ export function extractDeals(text, { chain = false } = {}) {
             ctx.time ??= time; // "3-6pm" then "9pm-close": keep the first window
           }
           ctx.line = i;
+        }
+        continue;
+      }
+      // "Available in the bar area • Daily from open to 6:30 pm" right under a
+      // block title: not a pure when-line, but it says when the block runs.
+      if (
+        live && ctx.label && !ctx.days.length && !happyHour &&
+        i - (ctx.labelLine ?? ctx.line) <= LABEL_REACH && line.length <= 100 && days.length && time && spanHours(time) < 8
+      ) {
+        Object.assign(ctx, { days, time, line: i });
+        for (const d of ctx.block) {
+          if (!d.days.length) d.days = days;
+          if (!d.start_time && !d.end_time) Object.assign(d, { start_time: time.start, end_time: time.end });
         }
         continue;
       }

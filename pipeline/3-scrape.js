@@ -10,7 +10,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import * as cheerio from "cheerio";
-import { EXTRACTOR_VERSION, extractDeals } from "./lib/extract.js";
+import { EXTRACTOR_VERSION, OTHER_TOWN_RE, SECTION_BREAK, extractDeals } from "./lib/extract.js";
 import { dealImages, imageText, stopOcr } from "./lib/ocr.js";
 import { CACHE, DATA, cachedFetchPage, closeBrowser, pool, readJson, sha1, writeJson } from "./lib/util.js";
 
@@ -22,6 +22,21 @@ const useOcr = !args.includes("--no-ocr");
 function pageText(html) {
   const $ = cheerio.load(html);
   $("script, style, noscript, svg, iframe, template").remove();
+  // Multi-location sites put every branch's menu on one page behind tabs
+  // ("Ann Arbor Menu | Grand Rapids Menu"). Drop the panes for other towns.
+  $("a, button").each((_, tab) => {
+    const label = $(tab).text();
+    if (!OTHER_TOWN_RE.test(label) || /ann arbor/i.test(label) || label.length > 60) return;
+    const href = $(tab).attr("href") ?? "";
+    const target = $(tab).attr("aria-controls") ?? ($(tab).attr("data-bs-target") ?? $(tab).attr("data-target") ?? href).replace(/^#/, "");
+    if (/^[\w-]+$/.test(target)) $(`[id="${target}"]`).remove();
+    if (/^\d+$/.test(href)) $(`.menu_${href}`).remove(); // tabbed menus keyed by a numeric id
+  });
+  // Mark where each page section starts, so a block of deals cannot run on
+  // into the next section's regular menu.
+  $("section").each((_, el) => {
+    $(el).prepend(`\n${SECTION_BREAK}\n`);
+  });
   // Sites often describe a deal graphic in its alt text.
   $("img[alt]").each((_, img) => {
     const alt = $(img).attr("alt").trim();
@@ -56,7 +71,9 @@ const pages = await pool(jobs, 12, async ({ id, url }) => {
     console.warn(`  ${url}: ${text.length} chars, keeping the first ${MAX_PAGE_CHARS}`);
     text = text.slice(0, MAX_PAGE_CHARS);
   }
-  const hash = sha1(text);
+  // Section marks are left out of the fingerprint, so adding them did not
+  // make every page look changed.
+  const hash = sha1(text.split("\n").filter((l) => l !== SECTION_BREAK).join("\n"));
   const file = path.join(CACHE, "text", hash + ".txt");
   fs.mkdirSync(path.dirname(file), { recursive: true });
   fs.writeFileSync(file, text);

@@ -136,7 +136,7 @@ function restaurantHtml(r) {
   const fromImage = r.deals.some((d) => d.from_image) ? " · some read from images" : "";
   return `<div class="place">
       <div class="place-name">
-        <h2>${escapeHtml(r.name)}</h2>${r.chain ? '<span class="badge">Chain</span>' : ""}
+        <h2>${escapeHtml(r.name)}</h2>${r.chain ? '<span class="badge">Chain</span>' : ""}${r.closed ? '<span class="badge closed">Permanently closed</span>' : ""}
         <a class="source" href="${escapeHtml(r.deals[0].source_url)}" target="_blank" rel="noopener">View source</a>
       </div>
       ${meta ? `<div class="meta">${escapeHtml(meta)}</div>` : ""}
@@ -180,7 +180,9 @@ function drawMarkers(shown) {
   });
 }
 
-function render() {
+// `toTop`: the list's contents changed (a filter, or the map moved), so start
+// it from the top again. Selecting a card or expanding one keeps the position.
+function render({ toTop = false } = {}) {
   const all = filtered();
   const shown = inView(all);
   const count = shown.reduce((n, r) => n + r.deals.length, 0);
@@ -204,6 +206,10 @@ function render() {
     popup?.remove();
   }
   drawMarkers(all);
+  if (toTop) {
+    $("list").scrollTop = 0;
+    document.querySelector(".card.selected")?.scrollIntoView({ block: "nearest" });
+  }
 }
 
 // Zoom the map out to take in every place that passes the filters.
@@ -255,7 +261,7 @@ function setUpFilters() {
   };
   const update = () => {
     sync();
-    render();
+    render({ toTop: true });
   };
   $("days").addEventListener("click", (e) => {
     const day = e.target.closest("button")?.dataset.day;
@@ -409,7 +415,7 @@ function setUpMap(boundary) {
     mapReady = true;
     render();
   });
-  map.on("moveend", () => mapReady && render());
+  map.on("moveend", () => mapReady && render({ toTop: true }));
   for (const layer of ["places", "place-names"]) {
     map.on("click", layer, (e) => {
       const r = filtered().find((x) => x.id === e.features[0].properties.id);
@@ -422,11 +428,12 @@ function setUpMap(boundary) {
   }
 }
 
-// On a phone the list is a drawer: drag its handle (or the header) up and down
-// to trade map for list. The height lives in a CSS variable the grid reads.
+// On a phone the list is a drawer: drag its handle up and down to trade map
+// for list. The height lives in a CSS variable the grid reads.
 function setUpDrawer() {
   const MIN = 96; // the handle and the header stay visible
-  const maxHeight = () => window.innerHeight * 0.9;
+  // Up to 90% of what is left under the top bar.
+  const maxHeight = () => (window.innerHeight - document.querySelector("header").offsetHeight) * 0.9;
   const setHeight = (px) => {
     document.body.style.setProperty("--drawer", `${Math.round(Math.min(maxHeight(), Math.max(MIN, px)))}px`);
   };
@@ -444,12 +451,11 @@ function setUpDrawer() {
     drag = null;
     map?.resize(); // then "moveend" refreshes the list for the new map view
   };
-  for (const el of [$("drawer-handle"), document.querySelector("header")]) {
-    el.addEventListener("pointerdown", start);
-    el.addEventListener("pointermove", move);
-    el.addEventListener("pointerup", end);
-    el.addEventListener("pointercancel", end);
-  }
+  const handle = $("drawer-handle");
+  handle.addEventListener("pointerdown", start);
+  handle.addEventListener("pointermove", move);
+  handle.addEventListener("pointerup", end);
+  handle.addEventListener("pointercancel", end);
   $("drawer-handle").addEventListener("keydown", (e) => {
     if (e.key !== "ArrowUp" && e.key !== "ArrowDown") return;
     e.preventDefault();

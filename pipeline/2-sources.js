@@ -96,11 +96,13 @@ async function resolve(r) {
     checked_at: now,
   };
 
-  if (override.closed) return [r.id, { ...source, closed: "override" }];
+  if (override.closed === true) return [r.id, { ...source, closed: "override" }];
+  // Closed but kept on the site on purpose: still listed, shown with a badge.
+  if (override.closed === "keep") source.kept_closed = true;
   const home = source.website ? await cachedFetchPage(source.website) : null;
 
   if (home) source.website_status = home.ok ? "ok" : (home.error ?? `HTTP ${home.status}`);
-  if (home?.ok && CLOSURE_NOTICE.test(cheerio.load(home.text)("body").text())) {
+  if (home?.ok && !source.kept_closed && CLOSURE_NOTICE.test(cheerio.load(home.text)("body").text())) {
     return [r.id, { ...source, closed: "website says so" }];
   }
   if (home?.ok) {
