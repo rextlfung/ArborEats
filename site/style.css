@@ -178,17 +178,17 @@ h1 {
   display: grid;
   grid-template-columns: repeat(7, minmax(0, 1fr));
   gap: 2px;
-  padding: 4px;
-  border-radius: 12px;
+  padding: 3px;
+  border-radius: 10px;
   background: var(--surface);
 }
 
+/* Only as tall as the label needs. */
 .days button {
-  position: relative;
-  min-height: 44px;
-  padding: 0;
+  padding: 5px 0;
   border: 0;
-  border-radius: 9px;
+  border-radius: 7px;
+  line-height: 1.2;
   background: transparent;
   color: var(--muted);
   font-weight: 600;
@@ -203,19 +203,6 @@ h1 {
   background: var(--strong);
   color: var(--on-strong);
   font-weight: 700;
-}
-
-/* Today gets a dot, so it is findable after switching days. */
-.days button.today::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: 6px;
-  width: 4px;
-  height: 4px;
-  margin-left: -2px;
-  border-radius: 50%;
-  background: currentColor;
 }
 
 .pills,
@@ -651,14 +638,6 @@ main {
     height: 40px;
   }
 
-  .days button {
-    min-height: 34px;
-  }
-
-  .days button.today::after {
-    bottom: 3px;
-  }
-
   .pills,
   .pill-group {
     gap: 6px;
@@ -913,9 +892,6 @@ main {
     min-height: 44px;
   }
 
-  .days button {
-    font-size: 12.5px;
-  }
 }
 
 @media (prefers-reduced-motion: no-preference) {

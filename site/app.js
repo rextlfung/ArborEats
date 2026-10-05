@@ -222,10 +222,9 @@ function showAll() {
 }
 
 function setUpFilters() {
-  const today = annArborNow().day;
-  // The week runs Sunday to Saturday; today carries a dot.
+  // The week runs Sunday to Saturday.
   $("days").innerHTML = ["sun", ...DAYS.slice(0, 6)]
-    .map((d) => `<button data-day="${d}" class="${d === today ? "today" : ""}">${DAY_LABEL[d]}</button>`)
+    .map((d) => `<button data-day="${d}">${DAY_LABEL[d]}</button>`)
     .join("");
   const sync = () => {
     for (const b of $("days").children) {
