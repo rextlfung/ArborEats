@@ -399,6 +399,22 @@ h1 {
   color: var(--ink);
 }
 
+.outside {
+  padding: 16px 24px;
+  color: var(--muted);
+  font-size: 13px;
+  text-align: center;
+}
+
+.outside button {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--ink);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
 .empty {
   padding: 48px 24px;
   color: var(--muted);
@@ -662,8 +678,21 @@ main {
     gap: 2px;
   }
 
-  /* Full-size touch targets on a phone. */
+  /* Full-size touch targets on a phone, centred in the sheet. */
   .pills button {
+    min-height: 44px;
+  }
+
+  .pills,
+  .pill-group {
+    justify-content: center;
+  }
+
+  .pill-group {
+    flex-basis: 100%;
+  }
+
+  .outside button {
     min-height: 44px;
   }
 

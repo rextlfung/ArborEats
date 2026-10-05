@@ -2,6 +2,7 @@
 // Writes site/data/deals.json and site/data/boundary.geojson.
 import fs from "node:fs";
 import path from "node:path";
+import { categoryOf } from "./lib/extract.js";
 import { DATA, ROOT, readJson, writeJson } from "./lib/util.js";
 
 const OUT = path.join(ROOT, "site", "data");
@@ -24,6 +25,9 @@ for (const r of restaurants) {
       const key = `${d.quote.toLowerCase()}|${d.days.join()}|${d.start_time}`;
       if (seen.has(key)) continue;
       seen.add(key);
+      // Categorised here, with the kind of place as a tie-breaker, so a change
+      // to the word lists takes effect without re-scraping.
+      if (page.extracted_by === "rules") d.category = categoryOf(d.description, r.type, d.title);
       list.push({ ...d, source_url: url, verified_at: page.verified_at, reviewed: page.extracted_by !== "rules" });
     }
   }

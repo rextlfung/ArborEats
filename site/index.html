@@ -58,24 +58,17 @@
         <div class="days" id="days" role="group" aria-label="When"></div>
         <div class="pills">
           <div class="pill-group" id="categories" role="group" aria-label="Type of deal">
-            <button data-category="all">Everything</button>
-            <button data-category="food">Food</button>
-            <button data-category="drink">Drinks</button>
+            <button data-category="food" aria-pressed="false">Food</button>
+            <button data-category="drink" aria-pressed="false">Drinks</button>
           </div>
           <div class="pill-group" id="owners" role="group" aria-label="Type of restaurant">
-            <button data-owner="local" aria-pressed="false">Local only</button>
-            <button data-owner="chain" aria-pressed="false">Chains only</button>
+            <button data-owner="local" aria-pressed="false">Local</button>
+            <button data-owner="chain" aria-pressed="false">Chain</button>
           </div>
           <div class="pill-group" id="prices" role="group" aria-label="Price cap">
             <button data-cap="5" aria-pressed="false">$5 or less</button>
             <button data-cap="10" aria-pressed="false">$10 or less</button>
             <button data-cap="15" aria-pressed="false">$15 or less</button>
-          </div>
-          <div class="pill-group" id="times" role="group" aria-label="Time of day">
-            <button data-period="lunch" aria-pressed="false">Lunch</button>
-            <button data-period="afternoon" aria-pressed="false">Afternoon</button>
-            <button data-period="evening" aria-pressed="false">Evening</button>
-            <button data-period="late" aria-pressed="false">Late night</button>
           </div>
         </div>
         <label class="search">

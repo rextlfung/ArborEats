@@ -18,10 +18,7 @@ function annArborNow() {
   return { day: parts.weekday.toLowerCase().slice(0, 3), time: `${parts.hour}:${parts.minute}` };
 }
 
-const state = { day: annArborNow().day, category: "all", owner: "all", cap: null, period: null, now: false, query: "", selected: null };
-
-// Times of day as [start, end) in hours; "late" runs past midnight.
-const PERIODS = { lunch: [11, 15], afternoon: [15, 18], evening: [18, 22], late: [22, 26] };
+const state = { day: annArborNow().day, category: "all", owner: "all", cap: null, now: false, query: "", selected: null };
 
 // The dollar amount you pay, or null for discounts ("$2 off", "25% off",
 // "half off") and deals with no price, which a price cap cannot judge.
@@ -30,21 +27,9 @@ function dollarPrice(deal) {
   const m = deal.price.match(/\$\s?(\d+(?:\.\d+)?)/);
   return m ? Number(m[1]) : null;
 }
-
-// Whether a deal runs during a time of day. No stated hours means all day;
-// only a start means "until close", only an end means "from opening".
-function runsDuring(deal, [from, to]) {
-  if (!deal.start_time && !deal.end_time) return true;
-  const hours = (t) => Number(t.slice(0, 2)) + Number(t.slice(3)) / 60;
-  const start = deal.start_time ? hours(deal.start_time) : 6;
-  let end = deal.end_time ? hours(deal.end_time) : 26;
-  if (end <= start) end += 24; // past midnight
-  // Compare on a clock that runs 06:00 to 30:00, so "1 AM" counts as late night.
-  const overlaps = (s, e) => s < to && e > from;
-  return overlaps(start, end) || overlaps(start + 24, end + 24) || overlaps(start - 24, end - 24);
-}
 let data = { restaurants: [] };
 let map;
+let mapReady = false;
 let popup;
 
 const $ = (id) => document.getElementById(id);
@@ -86,7 +71,6 @@ function matches(deal, restaurant) {
     const price = dollarPrice(deal);
     if (price === null || price > state.cap) return false;
   }
-  if (state.period && !runsDuring(deal, PERIODS[state.period])) return false;
   if (state.now) {
     const { day, time } = annArborNow();
     if (deal.days.length && !deal.days.includes(day)) return false;
@@ -100,11 +84,19 @@ function matches(deal, restaurant) {
   return true;
 }
 
-function visible() {
+// Restaurants with at least one deal passing the filters, anywhere on the map.
+function filtered() {
   return data.restaurants
     .filter((r) => state.owner === "all" || (state.owner === "chain") === r.chain)
     .map((r) => ({ ...r, deals: r.deals.filter((d) => matches(d, r)) }))
     .filter((r) => r.deals.length);
+}
+
+// The list follows the map: only places inside the current view are listed.
+function inView(restaurants) {
+  if (!mapReady) return restaurants;
+  const bounds = map.getBounds();
+  return restaurants.filter((r) => bounds.contains([r.lon, r.lat]));
 }
 
 function dealHtml(d) {
@@ -157,7 +149,7 @@ function select(r, { fly }) {
     state.selected = null;
     render();
   });
-  drawMarkers(visible());
+  drawMarkers(filtered());
   if (fly) map.flyTo({ center: [r.lon, r.lat], zoom: Math.max(map.getZoom(), 15.5) });
 }
 
@@ -173,23 +165,39 @@ function drawMarkers(shown) {
 }
 
 function render() {
-  const shown = visible();
+  const all = filtered();
+  const shown = inView(all);
   const count = shown.reduce((n, r) => n + r.deals.length, 0);
   const dayText = state.now ? "right now" : state.day === "all" ? "this week" : `on ${DAY_NAME[state.day]}`;
   $("count").textContent = count;
   $("summary").textContent = `deal${count === 1 ? "" : "s"} at ${shown.length} place${shown.length === 1 ? "" : "s"} ${dayText}`;
 
-  $("list").innerHTML = shown.length
-    ? shown
-        .map((r) => `<li class="card${r.id === state.selected ? " selected" : ""}" data-id="${escapeHtml(r.id)}">${restaurantHtml(r)}</li>`)
-        .join("")
-    : `<li class="empty">No deals match these filters.</li>`;
+  const hidden = all.length - shown.length;
+  const outside = hidden
+    ? `<li class="outside">${hidden} more place${hidden === 1 ? "" : "s"} outside the map view. <button id="show-all">Show all</button></li>`
+    : "";
+  const none = all.length ? "No deals in this part of the map." : "No deals match these filters.";
+  $("list").innerHTML =
+    (shown.length
+      ? shown
+          .map((r) => `<li class="card${r.id === state.selected ? " selected" : ""}" data-id="${escapeHtml(r.id)}">${restaurantHtml(r)}</li>`)
+          .join("")
+      : `<li class="empty">${none}</li>`) + outside;
 
-  if (state.selected && !shown.some((r) => r.id === state.selected)) {
+  if (state.selected && !all.some((r) => r.id === state.selected)) {
     state.selected = null;
     popup?.remove();
   }
-  drawMarkers(shown);
+  drawMarkers(all);
+}
+
+// Zoom the map out to take in every place that passes the filters.
+function showAll() {
+  const all = filtered();
+  if (!all.length) return;
+  const bounds = new maplibregl.LngLatBounds();
+  for (const r of all) bounds.extend([r.lon, r.lat]);
+  map.fitBounds(bounds, { padding: 48, maxZoom: 15 });
 }
 
 function setUpFilters() {
@@ -206,7 +214,10 @@ function setUpFilters() {
       b.classList.toggle("active", on);
       b.setAttribute("aria-pressed", on);
     }
-    for (const b of $("categories").children) b.classList.toggle("active", b.dataset.category === state.category);
+    for (const b of $("categories").children) {
+      b.classList.toggle("active", b.dataset.category === state.category);
+      b.setAttribute("aria-pressed", b.dataset.category === state.category);
+    }
     for (const b of $("owners").children) {
       b.classList.toggle("active", b.dataset.owner === state.owner);
       b.setAttribute("aria-pressed", b.dataset.owner === state.owner);
@@ -215,17 +226,12 @@ function setUpFilters() {
       b.classList.toggle("active", Number(b.dataset.cap) === state.cap);
       b.setAttribute("aria-pressed", Number(b.dataset.cap) === state.cap);
     }
-    for (const b of $("times").children) {
-      b.classList.toggle("active", b.dataset.period === state.period);
-      b.setAttribute("aria-pressed", b.dataset.period === state.period);
-    }
     // How many filters differ from what the page opens with.
     const changed =
       (state.now || state.day !== today) +
       (state.category !== "all") +
       (state.owner !== "all") +
       (state.cap !== null) +
-      (state.period !== null) +
       (state.query !== "");
     $("filters-count").textContent = changed || "";
   };
@@ -243,10 +249,10 @@ function setUpFilters() {
   $("categories").addEventListener("click", (e) => {
     const category = e.target.closest("button")?.dataset.category;
     if (!category) return;
-    state.category = category;
+    state.category = state.category === category ? "all" : category;
     update();
   });
-  // "Local only" and "Chains only" are toggles: pressing the active one clears it.
+  // Like every pill, "Local" and "Chain" are toggles: pressing the active one clears it.
   $("owners").addEventListener("click", (e) => {
     const owner = e.target.closest("button")?.dataset.owner;
     if (!owner) return;
@@ -259,20 +265,15 @@ function setUpFilters() {
     state.cap = state.cap === Number(cap) ? null : Number(cap);
     update();
   });
-  $("times").addEventListener("click", (e) => {
-    const period = e.target.closest("button")?.dataset.period;
-    if (!period) return;
-    state.period = state.period === period ? null : period;
-    update();
-  });
   $("search").addEventListener("input", (e) => {
     state.query = e.target.value.trim().toLowerCase();
     update();
   });
   $("list").addEventListener("click", (e) => {
+    if (e.target.id === "show-all") return showAll();
     if (e.target.closest("a")) return;
     const card = e.target.closest(".card");
-    const r = card && visible().find((x) => x.id === card.dataset.id);
+    const r = card && filtered().find((x) => x.id === card.dataset.id);
     if (r) select(r, { fly: true });
   });
 
@@ -340,7 +341,7 @@ function addLayers(boundary) {
     },
     paint: { "text-color": c.text, "text-halo-color": c.halo, "text-halo-width": 2 },
   });
-  drawMarkers(visible());
+  drawMarkers(filtered());
 }
 
 function setUpMap(boundary) {
@@ -354,9 +355,15 @@ function setUpMap(boundary) {
   map.addControl(new maplibregl.NavigationControl(), "top-right");
   map.addControl(new maplibregl.GeolocateControl({ trackUserLocation: true }), "top-right");
   map.on("style.load", () => addLayers(boundary));
+  // Keep the list in step with what the map shows.
+  map.on("load", () => {
+    mapReady = true;
+    render();
+  });
+  map.on("moveend", () => mapReady && render());
   for (const layer of ["places", "place-names"]) {
     map.on("click", layer, (e) => {
-      const r = visible().find((x) => x.id === e.features[0].properties.id);
+      const r = filtered().find((x) => x.id === e.features[0].properties.id);
       if (!r) return;
       select(r, { fly: false });
       document.querySelector(".card.selected")?.scrollIntoView({ block: "nearest", behavior: "smooth" });

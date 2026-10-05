@@ -40,9 +40,9 @@ const PROMO_CUE_RE =
 const NATIONAL_NOTE = "Chain-wide offer; price and participation may vary by location";
 const DEAL_WORD_RE = /happy\s?hour|special|\bdeal|discount|late night|industry night|ladies night|student/i;
 const DRINK_RE =
-  /beer|draft|draught|pint|pitcher|wine|cocktail|marg|drink|shot|mule|well|whiske?y|tequila|sangria|mimosa|bloody|lager|ale\b|ipa\b|spirits?|fishbowl|boot|bottle|mug|seltzer|vodka|bourbon|old fashioned|gin\b/i;
+  /beers?\b|draft|draught|pints?\b|pitcher|wines?\b|cocktail|mocktail|martini|marg(?:arita)?s?\b|drinks?\b|shots?\b|shooters?\b|mules?\b|wells?\b|whiske?y|tequila|sangria|mimosa|bloody|lager|\bales?\b|\bipa\b|spirits?|fishbowl|\bboots?\b|bottles?\b|\bmugs?\b|seltzer|vodka|bourbon|\brum\b|old fashioned|\bgin\b|spritz|daiquiri|manhattan|negroni|julep|\bsips?\b|\bcans?\b|high life|high noon|keystone|modelo|corona|\bbud\b|\bpbr\b|coffee|latte|espresso|\bchai\b|\bteas?\b|smoothie|juice|\bsoda\b|milkshake|\bshakes?\b/i;
 const FOOD_RE =
-  /burger|taco|pizza|wing|app(?:etizer)?s?\b|nacho|fries|sandwich|burrito|quesadilla|oyster|sushi|roll|brat|bread|slider|dog\b|salad|bowl|entree|entrée|shareable|chicken|pasta|steak|food|plate|dinner|lunch|brunch|breakfast/i;
+  /burger|taco|pizza|wings?\b|app(?:etizer)?s?\b|nacho|fries|sandwich|\bsubs?\b|burrito|quesadilla|chimichanga|oyster|sushi|\brolls?\b|brats?\b|bread|slider|\bdogs?\b|salad|\bbowls?\b|entree|entrée|shareable|chicken|pasta|steak|\bfood\b|\bplates?\b|dinner|lunch|brunch|breakfast|\bmeal|calzone|chipati|tender|pretzel|cheese|boards?\b|soup|noodle|bagel|donut|cookie|dessert|ice cream|creation|wrap\b|bundle/i;
 
 const TIME = "(\\d{1,2})(?::(\\d{2}))?\\s*(?:([ap])\\.?\\s?m\\.?)?";
 const TIME_RANGE_RE = new RegExp(`${TIME}\\s*(?:-|–|—|to|until|till?)\\s*(?:${TIME}|(close|midnight))`, "i");
@@ -106,10 +106,20 @@ function spanHours(time) {
   return ((minutes(time.end) - minutes(time.start) + 1440) % 1440) / 60;
 }
 
-function categoryOf(text) {
-  const drink = DRINK_RE.test(text);
-  const food = FOOD_RE.test(text);
-  return drink && !food ? "drink" : food && !drink ? "food" : "both";
+// Food, drink, or both. When the wording gives no clue, the kind of place
+// decides: a bar's unnamed special is a drink, a restaurant's is food.
+// `heading` (the block title, e.g. "Taco Tuesday") is consulted only when the
+// deal's own words say nothing, so a margarita under it stays a drink.
+export function categoryOf(text, placeType, heading = "") {
+  const own = DRINK_RE.test(text) || FOOD_RE.test(text);
+  const judged = own ? text : `${heading} ${text}`;
+  const drink = DRINK_RE.test(judged);
+  const food = FOOD_RE.test(judged);
+  text = judged;
+  if (drink !== food) return drink ? "drink" : "food";
+  if (drink && food) return "both";
+  if (HAPPY_HOUR_RE.test(text) || placeType === "cafe") return "both";
+  return ["bar", "pub", "biergarten"].includes(placeType) ? "drink" : "food";
 }
 
 const clip = (s, n) => (s.length > n ? s.slice(0, n - 1).trimEnd() + "…" : s);

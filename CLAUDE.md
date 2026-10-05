@@ -73,4 +73,8 @@ Theme: `data-theme` on `<html>` (set by an inline script before paint from `loca
 
 Phone layout (under 760px): map on the top half, list on the bottom half, and `.filters` becomes a sheet over the list toggled by the `#filters-open` button via the `filters-open` class on `<body>`. "Now" is the first cell of the day bar, not a separate control.
 
-Filter semantics worth knowing: the price cap (`dollarPrice()`) only passes deals with a dollar amount at or under the cap, so discounts ("$2 off", "50% off") and unpriced deals are hidden while it is on; the time-of-day filter (`runsDuring()`) treats a deal with no stated hours as running all day, so it passes every period.
+Filter semantics worth knowing: every pill is a toggle (press the active one to clear it). The price cap (`dollarPrice()`) only passes deals with a dollar amount at or under the cap, so discounts ("$2 off", "50% off") and unpriced deals are hidden while it is on. Food/Drinks match a deal's `category`, and `both` (a burger-and-beer combo, a happy hour covering apps and drafts) passes either.
+
+The list follows the map: `filtered()` is every restaurant passing the filters and feeds the markers; `inView()` narrows that to the map's current bounds and feeds the list and the count, re-run on every `moveend`. A closing line offers "Show all", which fits the map to every filtered place.
+
+Category is assigned at publish time for rule-extracted deals (`categoryOf()` in `extract.js`, called from step 4) from the deal's own words, then its block title, then the place type (a bar's unnamed special is a drink), so word-list changes need only `npm run publish`, not a re-scrape.
