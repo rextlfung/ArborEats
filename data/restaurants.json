@@ -3805,6 +3805,26 @@
     ]
   },
   {
+    "id": "node/14256081702",
+    "name": "Korner Kitchen",
+    "lat": 42.24552,
+    "lon": -83.6978363,
+    "type": "restaurant",
+    "brand": null,
+    "cuisine": [
+      "asian"
+    ],
+    "address": "3111 Packard Street",
+    "phone": "+1-734-531-6760",
+    "opening_hours": "Mo-Su 11:30-20:15",
+    "website": "https://kornerkitchenannarbor.com",
+    "instagram": null,
+    "facebook": null,
+    "sources": [
+      "osm"
+    ]
+  },
+  {
     "id": "node/5919368087",
     "name": "Kosmo's BopShop",
     "lat": 42.2793366,
