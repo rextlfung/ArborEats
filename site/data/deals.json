@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-07T11:06:34.905Z",
-  "restaurants_checked": 425,
+  "generated_at": "2026-11-06T11:39:48.117Z",
+  "restaurants_checked": 426,
   "restaurants": [
     {
       "id": "node/4787322481",
@@ -33,7 +33,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.a2alleybar.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -54,7 +54,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.a2alleybar.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -75,7 +75,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.a2alleybar.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -96,7 +96,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.a2alleybar.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -117,7 +117,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.a2alleybar.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -138,7 +138,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.a2alleybar.com/weekly-lineup",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -159,7 +159,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.a2alleybar.com/weekly-lineup",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -180,7 +180,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.a2alleybar.com/weekly-lineup",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -201,7 +201,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.a2alleybar.com/weekly-lineup",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -222,7 +222,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.a2alleybar.com/weekly-lineup",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -243,7 +243,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.a2alleybar.com/weekly-lineup",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -264,7 +264,7 @@
           "confidence": "high",
           "from_image": "https://images.squarespace-cdn.com/content/v1/60dc71a8927a991c5db276ea/70282f53-5b2c-44d0-a7cb-8629b9823fd6/2652342_AlleyBarMenu8-28-25_A-Front_082825.jpg",
           "source_url": "https://www.a2alleybar.com/menu",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -285,7 +285,7 @@
           "confidence": "high",
           "from_image": "https://images.squarespace-cdn.com/content/v1/60dc71a8927a991c5db276ea/616b9df5-2920-4268-abc1-5a8fa27764f0/2652342_AlleyBarMenu8-28-25_Back_082825.jpg",
           "source_url": "https://www.a2alleybar.com/menu",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -321,7 +321,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://restaurants.applebees.com/en-us/mi/ann-arbor/1005-w.-eisenhower-parkway-80061",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -340,7 +340,26 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://restaurants.applebees.com/en-us/mi/ann-arbor/1005-w.-eisenhower-parkway-80061",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        },
+        {
+          "title": "Applebee's Sizzlin' Skillets - $12.99 Cheddar Bacon & Chicken Skillet",
+          "description": "Applebee's Sizzlin' Skillets - $12.99 Cheddar Bacon & Chicken Skillet",
+          "price": "$12.99",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Image of Applebee's Sizzlin' Skillets - $12.99 Cheddar Bacon & Chicken Skillet",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://restaurants.applebees.com/en-us/mi/ann-arbor/1005-w.-eisenhower-parkway-80061",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -376,7 +395,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://ashleys.com/ann-arbor-state-street-district-ashley-s-events",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -401,7 +420,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://ashleys.com/ann-arbor-state-street-district-ashley-s-food-menu",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -426,7 +445,74 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://ashleys.com/ann-arbor-state-street-district-ashley-s-food-menu",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        },
+        {
+          "title": "Happy Hour",
+          "description": "Happy Hour All Day Sundays!",
+          "price": null,
+          "days": [
+            "sun"
+          ],
+          "start_time": "11:30",
+          "end_time": "00:00",
+          "category": "both",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Happy Hour All Day Sundays!",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://ashleys.com/ann-arbor-state-street-district-ashley-s-happy-hours-specials",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        },
+        {
+          "title": "$8 Lunch Specials until 3pm, M-F",
+          "description": "$8 Lunch Specials until 3pm, M-F",
+          "price": "$8",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start_time": null,
+          "end_time": "15:00",
+          "category": "food",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$8 Lunch Specials until 3pm, M-F",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://ashleys.com/ann-arbor-state-street-district-ashley-s-happy-hours-specials",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        },
+        {
+          "title": "Join us every Wednesday for Steak Night. Enjoy a perfectly grilled 8…",
+          "description": "Join us every Wednesday for Steak Night. Enjoy a perfectly grilled 8 oz NY Strip steak for just $9.99.",
+          "price": "$9.99",
+          "days": [
+            "wed"
+          ],
+          "start_time": "11:30",
+          "end_time": "15:00",
+          "category": "food",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Join us every Wednesday for Steak Night. Enjoy a perfectly grilled 8 oz NY Strip steak for just $9.99.",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://ashleys.com/ann-arbor-state-street-district-ashley-s-happy-hours-specials",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -447,8 +533,8 @@
       "instagram": "bwwings",
       "deals": [
         {
-          "title": "$17.99 Boneless Bundle",
-          "description": "$17.99 Boneless Bundle",
+          "title": "For a limited time, try it with 20 boneless wings + large fries + 4 d…",
+          "description": "For a limited time, try it with 20 boneless wings + large fries + 4 dips for $17.99.",
           "price": "$17.99",
           "days": [],
           "start_time": null,
@@ -458,30 +544,30 @@
           "valid_until": null,
           "conditions": "Chain-wide offer; price and participation may vary by location",
           "platform": "in_house",
-          "quote": "$17.99 Boneless Bundle",
+          "quote": "For a limited time, try it with 20 boneless wings + large fries + 4 dips for $17.99.",
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.buffalowildwings.com/promos",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
-          "title": "20 Bone-In Wing Bundle for $21.99",
-          "description": "20 Bone-In Wing Bundle for $21.99",
-          "price": "$21.99",
+          "title": "You can't miss with 2 entrees + 2 sides + 2 drinks for $19.99.View De…",
+          "description": "You can't miss with 2 entrees + 2 sides + 2 drinks for $19.99.View Details",
+          "price": "$19.99",
           "days": [],
           "start_time": null,
           "end_time": null,
-          "category": "food",
+          "category": "both",
           "kind": "limited_time",
           "valid_until": null,
           "conditions": "Chain-wide offer; price and participation may vary by location",
           "platform": "in_house",
-          "quote": "20 Bone-In Wing Bundle for $21.99",
+          "quote": "You can't miss with 2 entrees + 2 sides + 2 drinks for $19.99.View Details",
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.buffalowildwings.com/promos",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -502,7 +588,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.buffalowildwings.com/promos",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -540,61 +626,14 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://cantinaannarbor.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
-          "title": "Happy Hour",
-          "description": "HALF-OFF FISHBOWLS 🐠",
-          "price": "HALF-OFF",
-          "days": [
-            "thu",
-            "fri",
-            "sat"
-          ],
-          "start_time": "20:00",
-          "end_time": "22:00",
-          "category": "drink",
-          "kind": "recurring",
-          "valid_until": null,
-          "conditions": null,
-          "platform": "in_house",
-          "quote": "HALF-OFF FISHBOWLS 🐠",
-          "confidence": "high",
-          "from_image": null,
-          "source_url": "https://cantinaannarbor.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
-          "reviewed": false
-        },
-        {
-          "title": "Happy Hour",
-          "description": "$3 MARGS 🍋‍🟩",
-          "price": "$3",
-          "days": [
-            "thu",
-            "fri",
-            "sat"
-          ],
-          "start_time": "20:00",
-          "end_time": "22:00",
-          "category": "drink",
-          "kind": "recurring",
-          "valid_until": null,
-          "conditions": null,
-          "platform": "in_house",
-          "quote": "$3 MARGS 🍋‍🟩",
-          "confidence": "high",
-          "from_image": null,
-          "source_url": "https://cantinaannarbor.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
-          "reviewed": false
-        },
-        {
-          "title": "Happy Hour",
-          "description": "$1.50 DRAFTS (CORONA, MODELO, BUD) 🍺",
+          "title": "WEekly Lineup & Specials",
+          "description": "$1.50 Draft Beers",
           "price": "$1.50",
           "days": [
-            "thu",
             "fri",
             "sat"
           ],
@@ -605,11 +644,55 @@
           "valid_until": null,
           "conditions": null,
           "platform": "in_house",
-          "quote": "$1.50 DRAFTS (CORONA, MODELO, BUD) 🍺",
+          "quote": "$1.50 Draft Beers",
           "confidence": "high",
           "from_image": null,
           "source_url": "https://cantinaannarbor.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        },
+        {
+          "title": "WEekly Lineup & Specials",
+          "description": "$3.00 Margaritas",
+          "price": "$3.00",
+          "days": [
+            "fri",
+            "sat"
+          ],
+          "start_time": "20:00",
+          "end_time": "22:00",
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$3.00 Margaritas",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://cantinaannarbor.com/",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        },
+        {
+          "title": "WEekly Lineup & Specials",
+          "description": "Half-off All Fishbowls",
+          "price": "Half-off",
+          "days": [
+            "fri",
+            "sat"
+          ],
+          "start_time": "20:00",
+          "end_time": "22:00",
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Half-off All Fishbowls",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://cantinaannarbor.com/",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -631,7 +714,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://cantinaannarbor.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -653,7 +736,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://cantinaannarbor.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -674,14 +757,35 @@
       "instagram": "chapalaannarbor",
       "deals": [
         {
+          "title": "MONSTER Burrito Mondays! $12 Monster Burritos ! Dine in or take out o…",
+          "description": "MONSTER Burrito Mondays! $12 Monster Burritos ! Dine in or take out only at Chapala !",
+          "price": "$12",
+          "days": [
+            "mon"
+          ],
+          "start_time": "15:00",
+          "end_time": "18:00",
+          "category": "food",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "MONSTER Burrito Mondays! $12 Monster Burritos ! Dine in or take out only at Chapala !",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://eatchapala.com/ann-arbor-ann-arbor-chapala-mexican-restaurant-specials-ann-arbor",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        },
+        {
           "title": "Taco Tuesday - $3.00 tacos Mexicanos.",
           "description": "Taco Tuesday - $3.00 tacos Mexicanos.",
           "price": "$3.00",
           "days": [
             "tue"
           ],
-          "start_time": "11:00",
-          "end_time": "22:00",
+          "start_time": "15:00",
+          "end_time": "18:00",
           "category": "food",
           "kind": "recurring",
           "valid_until": null,
@@ -691,7 +795,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://eatchapala.com/ann-arbor-ann-arbor-chapala-mexican-restaurant-specials-ann-arbor",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -712,28 +816,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://eatchapala.com/ann-arbor-ann-arbor-chapala-mexican-restaurant-specials-ann-arbor",
-          "verified_at": "2026-10-07T11:01:07.672Z",
-          "reviewed": false
-        },
-        {
-          "title": "MONSTER Burrito Mondays! $12 Monster Burritos ! Dine in or take out o…",
-          "description": "MONSTER Burrito Mondays! $12 Monster Burritos ! Dine in or take out only at Chapala !",
-          "price": "$12",
-          "days": [
-            "mon"
-          ],
-          "start_time": "15:00",
-          "end_time": "18:00",
-          "category": "food",
-          "kind": "recurring",
-          "valid_until": null,
-          "conditions": null,
-          "platform": "in_house",
-          "quote": "MONSTER Burrito Mondays! $12 Monster Burritos ! Dine in or take out only at Chapala !",
-          "confidence": "high",
-          "from_image": null,
-          "source_url": "https://eatchapala.com/ann-arbor-ann-arbor-chapala-mexican-restaurant-specials-ann-arbor",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -769,7 +852,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.chilis.com/menu",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -805,7 +888,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.coldstonecreamery.com/stores/ice-cream-near-ann-arbor/21095",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -844,7 +927,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.corattispizzeria.com/ann-arbor",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -866,7 +949,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.corattispizzeria.com/ann-arbor",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -888,7 +971,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.corattispizzeria.com/ann-arbor",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -907,7 +990,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.corattispizzeria.com/u-of-m-hospital-staff-discount",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -926,7 +1009,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.corattispizzeria.com/u-of-m-hospital-staff-discount",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -945,7 +1028,79 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.corattispizzeria.com/u-of-m-hospital-staff-discount",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/14353063701",
+      "name": "Cottage Inn Pizza",
+      "lat": 42.2452102,
+      "lon": -83.7410665,
+      "type": "restaurant",
+      "chain": false,
+      "closed": false,
+      "cuisine": [
+        "pizza"
+      ],
+      "address": "2900 South State Street",
+      "website": "https://order.cottageinn.com/?uniqueStoreIdentifier=STATEST#/",
+      "instagram": "cottageinnpizza",
+      "deals": [
+        {
+          "title": "TrifectaLarge 3-Topping Pizza $12.99. Limited time offer.",
+          "description": "TrifectaLarge 3-Topping Pizza $12.99. Limited time offer.",
+          "price": "$12.99",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "TrifectaLarge 3-Topping Pizza $12.99. Limited time offer.",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://order.cottageinn.com/?uniqueStoreIdentifier=STATEST#/",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/3014819390",
+      "name": "Cottage Inn Pizza",
+      "lat": 42.2761275,
+      "lon": -83.7783412,
+      "type": "restaurant",
+      "chain": false,
+      "closed": false,
+      "cuisine": [
+        "pizza"
+      ],
+      "address": "2301 West Stadium Boulevard",
+      "website": "https://order.cottageinn.com/?uniqueStoreIdentifier=STADIUM#/",
+      "instagram": "cottageinnpizza",
+      "deals": [
+        {
+          "title": "TrifectaLarge 3-Topping Pizza $12.99. Limited time offer.",
+          "description": "TrifectaLarge 3-Topping Pizza $12.99. Limited time offer.",
+          "price": "$12.99",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "TrifectaLarge 3-Topping Pizza $12.99. Limited time offer.",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://order.cottageinn.com/?uniqueStoreIdentifier=STADIUM#/",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -985,7 +1140,30 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.thedesiruchulu.com/menu-card",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        },
+        {
+          "title": "Boxed Lunch",
+          "description": "$12.99 – $14.99",
+          "price": "$12.99",
+          "days": [
+            "tue",
+            "wed",
+            "thu"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "$12.99 – $14.99",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.thedesiruchulu.com/menu-card",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -1022,12 +1200,12 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.dunkindonuts.com/locations/us/mi/ann-arbor/342-south-state-street/store-365091/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
-          "title": "Enjoy a medium Coffee; a Bacon, Egg, and Cheese Breakfast Sandwich; a…",
-          "description": "Enjoy a medium Coffee; a Bacon, Egg, and Cheese Breakfast Sandwich; and Hash Browns for $6! Terms & excl. apply.",
+          "title": "Whether you're an early bird or a late riser, win the day with a medi…",
+          "description": "Whether you're an early bird or a late riser, win the day with a medium Hot or Iced Coffee; Bacon, Egg, and Cheese Breakfast Sandwich; and Hash Browns for just $6.",
           "price": "$6",
           "days": [],
           "start_time": null,
@@ -1037,47 +1215,11 @@
           "valid_until": null,
           "conditions": "Chain-wide offer; price and participation may vary by location",
           "platform": "in_house",
-          "quote": "Enjoy a medium Coffee; a Bacon, Egg, and Cheese Breakfast Sandwich; and Hash Browns for $6! Terms & excl. apply.",
+          "quote": "Whether you're an early bird or a late riser, win the day with a medium Hot or Iced Coffee; Bacon, Egg, and Cheese Breakfast Sandwich; and Hash Browns for just $6.",
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.dunkindonuts.com/locations/us/mi/ann-arbor/342-south-state-street/store-365091/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
-          "reviewed": false
-        }
-      ]
-    },
-    {
-      "id": "overture/66ff9b53-6233-4c5c-a40a-62fad4b72cd4",
-      "name": "Einstein Bros. Bagels",
-      "lat": 42.25371551513672,
-      "lon": -83.7519760131836,
-      "type": "fast_food",
-      "chain": false,
-      "closed": false,
-      "cuisine": [],
-      "address": "2260 South Main Street",
-      "website": "https://locations.einsteinbros.com/us/mi/ann-arbor/2260-south-main-street",
-      "instagram": "einsteinbros",
-      "deals": [
-        {
-          "title": "Special Features Menu",
-          "description": "$8 Breakfast & Brew​",
-          "price": "$8",
-          "days": [
-            "sun"
-          ],
-          "start_time": "06:00",
-          "end_time": "14:00",
-          "category": "food",
-          "kind": "recurring",
-          "valid_until": null,
-          "conditions": null,
-          "platform": "in_house",
-          "quote": "$8 Breakfast & Brew​",
-          "confidence": "high",
-          "from_image": null,
-          "source_url": "https://locations.einsteinbros.com/us/mi/ann-arbor/2260-south-main-street",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -1113,7 +1255,66 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.firehousesubs.com/store-locator/store/1ZSPnXZDeYJU9TycMBnFfk",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/2040178562",
+      "name": "Gandy Dancer",
+      "lat": 42.287186,
+      "lon": -83.7416864,
+      "type": "restaurant",
+      "chain": false,
+      "closed": false,
+      "cuisine": [
+        "seafood"
+      ],
+      "address": "401 Depot Street",
+      "website": "https://www.gandydancerrestaurant.com/",
+      "instagram": null,
+      "deals": [
+        {
+          "title": "We honor those who have served and invite Veterans to enjoy 20% off*…",
+          "description": "We honor those who have served and invite Veterans to enjoy 20% off* when they dine with us Wednesday, November 11, 2026.",
+          "price": "20% off",
+          "days": [
+            "wed"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "We honor those who have served and invite Veterans to enjoy 20% off* when they dine with us Wednesday, November 11, 2026.",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.gandydancerrestaurant.com/event/veterans-day/",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        },
+        {
+          "title": "(ORDER BY NOVEMBER 5th TO RECEIVE A $25 BONUS CARD!)",
+          "description": "(ORDER BY NOVEMBER 5th TO RECEIVE A $25 BONUS CARD!)",
+          "price": "$25",
+          "days": [
+            "sun"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "(ORDER BY NOVEMBER 5th TO RECEIVE A $25 BONUS CARD!)",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.gandydancerrestaurant.com/event/thanksgiving/",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -1150,7 +1351,7 @@
           "platform": "in_house",
           "quote": "25% off ALL DRINKS AND APPS 3-5pm",
           "source_url": "https://www.charleysannarbor.com/happy-hour",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": true
         },
         {
@@ -1169,7 +1370,7 @@
           "platform": "in_house",
           "quote": "$15 mug purchase & first drink fill up",
           "source_url": "https://www.charleysannarbor.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": true
         },
         {
@@ -1188,7 +1389,7 @@
           "platform": "in_house",
           "quote": "$6.99 Burger, Fries, and a soda.",
           "source_url": "https://www.charleysannarbor.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": true
         },
         {
@@ -1213,7 +1414,7 @@
           "from_image": null,
           "auto": true,
           "source_url": "https://www.charleysannarbor.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -1235,7 +1436,7 @@
           "from_image": null,
           "auto": true,
           "source_url": "https://www.charleysannarbor.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -1257,7 +1458,7 @@
           "from_image": null,
           "auto": true,
           "source_url": "https://www.charleysannarbor.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -1279,7 +1480,7 @@
           "from_image": null,
           "auto": true,
           "source_url": "https://www.charleysannarbor.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -1301,7 +1502,7 @@
           "from_image": null,
           "auto": true,
           "source_url": "https://www.charleysannarbor.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -1323,7 +1524,7 @@
           "from_image": null,
           "auto": true,
           "source_url": "https://www.charleysannarbor.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -1457,7 +1658,7 @@
           "platform": "in_house",
           "quote": "$12 1L Das Boots, $4 Well Drinks",
           "source_url": "https://heidelbergannarbor.com/ann-arbor-heidelberg-restaurant-food-menu",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": true
         },
         {
@@ -1479,7 +1680,7 @@
           "from_image": null,
           "auto": true,
           "source_url": "https://heidelbergannarbor.com/ann-arbor-heidelberg-restaurant-food-menu",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -1501,7 +1702,7 @@
           "from_image": null,
           "auto": true,
           "source_url": "https://heidelbergannarbor.com/ann-arbor-heidelberg-restaurant-food-menu",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -1523,7 +1724,7 @@
           "from_image": null,
           "auto": true,
           "source_url": "https://heidelbergannarbor.com/ann-arbor-heidelberg-restaurant-food-menu",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -1545,7 +1746,7 @@
           "from_image": null,
           "auto": true,
           "source_url": "https://heidelbergannarbor.com/ann-arbor-heidelberg-restaurant-food-menu",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -1568,7 +1769,7 @@
           "from_image": null,
           "auto": true,
           "source_url": "https://heidelbergannarbor.com/ann-arbor-heidelberg-restaurant-food-menu",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -1591,7 +1792,7 @@
           "from_image": null,
           "auto": true,
           "source_url": "https://heidelbergannarbor.com/ann-arbor-heidelberg-restaurant-food-menu",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -1614,7 +1815,7 @@
           "from_image": null,
           "auto": true,
           "source_url": "https://heidelbergannarbor.com/ann-arbor-heidelberg-restaurant-food-menu",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -1636,7 +1837,7 @@
           "from_image": null,
           "auto": true,
           "source_url": "https://heidelbergannarbor.com/ann-arbor-heidelberg-restaurant-food-menu",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -1658,7 +1859,100 @@
           "from_image": null,
           "auto": true,
           "source_url": "https://heidelbergannarbor.com/ann-arbor-heidelberg-restaurant-food-menu",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/8662328602",
+      "name": "Honey Baked Ham",
+      "lat": 42.2554159,
+      "lon": -83.6912013,
+      "type": "fast_food",
+      "chain": true,
+      "closed": false,
+      "cuisine": [
+        "american"
+      ],
+      "address": "3446 Washtenaw Avenue",
+      "website": "https://www.honeybaked.com/stores/2130",
+      "instagram": "honeybaked_ham",
+      "deals": [
+        {
+          "title": "HoneyBaked Deals, Rewards & Services",
+          "description": "$10 off any $100+ Holiday Meal",
+          "price": "$10 off",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "$10 off any $100+ Holiday Meal",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.honeybaked.com/stores/2130",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        },
+        {
+          "title": "HoneyBaked Deals, Rewards & Services",
+          "description": "Thanksgiving Gold Pickup Days: $10 off any $100+ Holiday Meal - Use code GOLD10OFF.",
+          "price": "$10 off",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "Thanksgiving Gold Pickup Days: $10 off any $100+ Holiday Meal - Use code GOLD10OFF.",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.honeybaked.com/stores/2130",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        },
+        {
+          "title": "HoneyBaked Deals, Rewards & Services",
+          "description": "$7 off any Bone-In Half Ham or Boneless Ham",
+          "price": "$7 off",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "$7 off any Bone-In Half Ham or Boneless Ham",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.honeybaked.com/stores/2130",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        },
+        {
+          "title": "HoneyBaked Deals, Rewards & Services",
+          "description": "Thanksgiving Gold Pickup Days: $7 off any bone-in half ham or boneless ham (6 lb+) - Use code GOLD7OFF.",
+          "price": "$7 off",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "Thanksgiving Gold Pickup Days: $7 off any bone-in half ham or boneless ham (6 lb+) - Use code GOLD7OFF.",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.honeybaked.com/stores/2130",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -1700,7 +1994,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.hopcat.com/ann-arbor/happy-hour",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -1725,7 +2019,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.hopcat.com/ann-arbor/happy-hour",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -1750,7 +2044,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.hopcat.com/ann-arbor/happy-hour",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -1775,7 +2069,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.hopcat.com/ann-arbor/happy-hour",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -1796,7 +2090,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.hopcat.com/ann-arbor/home",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -1817,8 +2111,8 @@
       "instagram": "LittleCaesars",
       "deals": [
         {
-          "title": "DEAL ALERT!",
-          "description": "20% OFF YOUR DELIVERY ORDER OF $20 OR MORE",
+          "title": "20% OFF ANY PIZZA WITH YOUR DELIVERY ORDER OF ANOTHER PIZZA",
+          "description": "20% OFF ANY PIZZA WITH YOUR DELIVERY ORDER OF ANOTHER PIZZA",
           "price": "20% OFF",
           "days": [],
           "start_time": null,
@@ -1828,30 +2122,11 @@
           "valid_until": null,
           "conditions": "Chain-wide offer; price and participation may vary by location",
           "platform": "in_house",
-          "quote": "20% OFF YOUR DELIVERY ORDER OF $20 OR MORE",
+          "quote": "20% OFF ANY PIZZA WITH YOUR DELIVERY ORDER OF ANOTHER PIZZA",
           "confidence": "high",
           "from_image": null,
           "source_url": "https://littlecaesars.com/en-us/store/1213/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
-          "reviewed": false
-        },
-        {
-          "title": "DEAL ALERT!",
-          "description": "$2 OFF WEBBERONI WITH YOUR ORDER OF $10 OR MORE",
-          "price": "$2 OFF",
-          "days": [],
-          "start_time": null,
-          "end_time": null,
-          "category": "food",
-          "kind": "limited_time",
-          "valid_until": null,
-          "conditions": "Chain-wide offer; price and participation may vary by location",
-          "platform": "in_house",
-          "quote": "$2 OFF WEBBERONI WITH YOUR ORDER OF $10 OR MORE",
-          "confidence": "high",
-          "from_image": null,
-          "source_url": "https://littlecaesars.com/en-us/store/1213/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -1872,8 +2147,8 @@
       "instagram": "LittleCaesars",
       "deals": [
         {
-          "title": "DEAL ALERT!",
-          "description": "20% OFF YOUR DELIVERY ORDER OF $20 OR MORE",
+          "title": "20% OFF ANY PIZZA WITH YOUR DELIVERY ORDER OF ANOTHER PIZZA",
+          "description": "20% OFF ANY PIZZA WITH YOUR DELIVERY ORDER OF ANOTHER PIZZA",
           "price": "20% OFF",
           "days": [],
           "start_time": null,
@@ -1883,30 +2158,11 @@
           "valid_until": null,
           "conditions": "Chain-wide offer; price and participation may vary by location",
           "platform": "in_house",
-          "quote": "20% OFF YOUR DELIVERY ORDER OF $20 OR MORE",
+          "quote": "20% OFF ANY PIZZA WITH YOUR DELIVERY ORDER OF ANOTHER PIZZA",
           "confidence": "high",
           "from_image": null,
           "source_url": "https://littlecaesars.com/en-us/store/101/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
-          "reviewed": false
-        },
-        {
-          "title": "DEAL ALERT!",
-          "description": "$2 OFF WEBBERONI WITH YOUR ORDER OF $10 OR MORE",
-          "price": "$2 OFF",
-          "days": [],
-          "start_time": null,
-          "end_time": null,
-          "category": "food",
-          "kind": "limited_time",
-          "valid_until": null,
-          "conditions": "Chain-wide offer; price and participation may vary by location",
-          "platform": "in_house",
-          "quote": "$2 OFF WEBBERONI WITH YOUR ORDER OF $10 OR MORE",
-          "confidence": "high",
-          "from_image": null,
-          "source_url": "https://littlecaesars.com/en-us/store/101/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -1948,44 +2204,43 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://mediterrano.com/menu",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
     },
     {
-      "id": "node/13970658549",
-      "name": "MilkShake Factory",
-      "lat": 42.2785249,
-      "lon": -83.7809468,
-      "type": "restaurant",
+      "id": "node/2873352844",
+      "name": "Moe's Southwest Grill",
+      "lat": 42.2447808,
+      "lon": -83.7576245,
+      "type": "fast_food",
       "chain": true,
       "closed": false,
       "cuisine": [
-        "milkshake",
-        "chocolate"
+        "mexican"
       ],
-      "address": "326 South Maple Road",
-      "website": "https://www.milkshakefactory.com/locations/mi-ann-arbor-326-south-maple-road/",
-      "instagram": "themilkshakefactory",
+      "address": "857 West Eisenhower Parkway",
+      "website": "https://locations.moes.com/mi/ann-arbor/857-w-eisenhower-pky",
+      "instagram": "moessouthwestgrill",
       "deals": [
         {
-          "title": "Thank you for your continued support. Join us as we commemorate this…",
-          "description": "Thank you for your continued support. Join us as we commemorate this milestone with BUY ONE GET ONE FREE on any of our handspun milkshakes…all day long!",
-          "price": "BUY ONE GET",
+          "title": "Moe Value Meal – only $9.95",
+          "description": "Moe Value Meal – only $9.95",
+          "price": "$9.95",
           "days": [],
           "start_time": null,
           "end_time": null,
-          "category": "drink",
+          "category": "food",
           "kind": "limited_time",
           "valid_until": null,
           "conditions": "Chain-wide offer; price and participation may vary by location",
           "platform": "in_house",
-          "quote": "Thank you for your continued support. Join us as we commemorate this milestone with BUY ONE GET ONE FREE on any of our handspun milkshakes…all day long!",
+          "quote": "Moe Value Meal – only $9.95",
           "confidence": "high",
           "from_image": null,
-          "source_url": "https://www.milkshakefactory.com/locations/mi-ann-arbor-326-south-maple-road/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "source_url": "https://locations.moes.com/mi/ann-arbor/857-w-eisenhower-pky",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -2023,7 +2278,7 @@
           "platform": "in_house",
           "quote": "$5 Monty's Margariitas & $6 Nachos [half] order both and save $1",
           "source_url": "https://montyspuba2.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": true
         },
         {
@@ -2042,7 +2297,7 @@
           "platform": "in_house",
           "quote": "$2 Tacos [a la carte]",
           "source_url": "https://montyspuba2.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": true
         },
         {
@@ -2061,7 +2316,7 @@
           "platform": "in_house",
           "quote": "All Day Happy Hour, 20% off apps, cocktails, drafts & wine",
           "source_url": "https://montyspuba2.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": true
         },
         {
@@ -2080,7 +2335,7 @@
           "platform": "in_house",
           "quote": "$4 Monty's Pub Lager $7 Monty's Burger [single], order both and save $1",
           "source_url": "https://montyspuba2.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": true
         },
         {
@@ -2099,7 +2354,7 @@
           "platform": "in_house",
           "quote": "Late night specials 8pm-close: $4 wolverine & Slow Coast Beers & Spirits",
           "source_url": "https://montyspuba2.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": true
         },
         {
@@ -2119,7 +2374,7 @@
           "platform": "in_house",
           "quote": "Happy Hour 3-6 pm",
           "source_url": "https://montyspuba2.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": true
         },
         {
@@ -2140,7 +2395,7 @@
           "confidence": "high",
           "from_image": "https://montyspuba2.com/wp-content/uploads/2026/01/Daily-Specials-2-734x1024.png",
           "source_url": "https://montyspuba2.com/drink-menu/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -2161,7 +2416,7 @@
           "confidence": "high",
           "from_image": "https://montyspuba2.com/wp-content/uploads/2026/01/Daily-Specials-2-734x1024.png",
           "source_url": "https://montyspuba2.com/drink-menu/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -2182,7 +2437,7 @@
           "confidence": "high",
           "from_image": "https://montyspuba2.com/wp-content/uploads/2026/01/Daily-Specials-2-734x1024.png",
           "source_url": "https://montyspuba2.com/drink-menu/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -2203,7 +2458,7 @@
           "confidence": "high",
           "from_image": "https://montyspuba2.com/wp-content/uploads/2026/01/Daily-Specials-2-734x1024.png",
           "source_url": "https://montyspuba2.com/drink-menu/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -2224,7 +2479,7 @@
           "confidence": "high",
           "from_image": "https://montyspuba2.com/wp-content/uploads/2026/01/Daily-Specials-2-734x1024.png",
           "source_url": "https://montyspuba2.com/drink-menu/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -2245,7 +2500,43 @@
           "confidence": "high",
           "from_image": "https://montyspuba2.com/wp-content/uploads/2026/01/Daily-Specials-2-734x1024.png",
           "source_url": "https://montyspuba2.com/drink-menu/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/749007099",
+      "name": "Noodles & Company",
+      "lat": 42.2786287,
+      "lon": -83.7409386,
+      "type": "restaurant",
+      "chain": true,
+      "closed": false,
+      "cuisine": [
+        "pasta"
+      ],
+      "address": "320 South State Street",
+      "website": "https://www.noodles.com/locations/ann-arbor-state-street/",
+      "instagram": "noodlescompany",
+      "deals": [
+        {
+          "title": "Don't miss out! Opt in to receive email offers and deals.",
+          "description": "2 Culinary Classics for just $12 through 11/10!",
+          "price": "$12",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "2 Culinary Classics for just $12 through 11/10!",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.noodles.com/offers-terms-conditions",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -2266,9 +2557,9 @@
       "instagram": "noodlescompany",
       "deals": [
         {
-          "title": "$3 off any",
-          "description": "$3 off any",
-          "price": "$3 off",
+          "title": "for just $12.",
+          "description": "for just $12.",
+          "price": "$12",
           "days": [],
           "start_time": null,
           "end_time": null,
@@ -2277,17 +2568,17 @@
           "valid_until": null,
           "conditions": "Chain-wide offer; price and participation may vary by location",
           "platform": "in_house",
-          "quote": "$3 off any",
+          "quote": "for just $12.",
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.noodles.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
-          "title": "Spicy Korean Steak Noodles, Rigatoni Rosa, BBQ Pork Mac. National Noo…",
-          "description": "Spicy Korean Steak Noodles, Rigatoni Rosa, BBQ Pork Mac. National Noodle Day $3 off with candle doodles",
-          "price": "$3 off",
+          "title": "15% off",
+          "description": "15% off",
+          "price": "15% off",
           "days": [],
           "start_time": null,
           "end_time": null,
@@ -2296,11 +2587,66 @@
           "valid_until": null,
           "conditions": "Chain-wide offer; price and participation may vary by location",
           "platform": "in_house",
-          "quote": "Spicy Korean Steak Noodles, Rigatoni Rosa, BBQ Pork Mac. National Noodle Day $3 off with candle doodles",
+          "quote": "15% off",
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.noodles.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        },
+        {
+          "title": "Don't miss out! Opt in to receive email offers and deals.",
+          "description": "2 Culinary Classics for just $12 through 11/10!",
+          "price": "$12",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "2 Culinary Classics for just $12 through 11/10!",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.noodles.com/offers-terms-conditions",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/1280307458",
+      "name": "Olive Garden",
+      "lat": 42.2445716,
+      "lon": -83.7417536,
+      "type": "restaurant",
+      "chain": true,
+      "closed": false,
+      "cuisine": [
+        "italian"
+      ],
+      "address": "445 E Eisenhower Pkwy",
+      "website": "https://www.olivegarden.com/locations/mi/ann-arbor/ann-arbor-briarwood-mall/1110?cmpid=br%3Aog_ag%3Aie_ch%3Asoc_ca%3AOGFB_sn%3Afacebook_gt%3Aann-arbor-mi-1110_pl%3Alocurl_rd%3A1073",
+      "instagram": "olivegarden",
+      "deals": [
+        {
+          "title": "Purchase any entrée online or in-restaurant and take home a freshly p…",
+          "description": "Purchase any entrée online or in-restaurant and take home a freshly prepared and chilled classic for only $6.",
+          "price": "$6",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "Purchase any entrée online or in-restaurant and take home a freshly prepared and chilled classic for only $6.",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.olivegarden.com/specials",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -2336,7 +2682,43 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://locations.pfchangs.com/mi/annarbor/720-briarwood-circle.html",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/4802256328",
+      "name": "Pancheros Mexican Grill",
+      "lat": 42.2749006,
+      "lon": -83.734263,
+      "type": "restaurant",
+      "chain": true,
+      "closed": false,
+      "cuisine": [
+        "mexican"
+      ],
+      "address": "1208 South University Avenue",
+      "website": "https://www.pancheros.com",
+      "instagram": "pancheros",
+      "deals": [
+        {
+          "title": "give thanks. get $5 off!",
+          "description": "give thanks. get $5 off!",
+          "price": "$5 off",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "give thanks. get $5 off!",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://pancheros.com/",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -2357,9 +2739,9 @@
       "instagram": "papajohns",
       "deals": [
         {
-          "title": "Limited Time",
-          "description": "From$6.99/each",
-          "price": "$6.99",
+          "title": "20% Off",
+          "description": "20% Off",
+          "price": "20% Off",
           "days": [],
           "start_time": null,
           "end_time": null,
@@ -2368,15 +2750,53 @@
           "valid_until": null,
           "conditions": "Chain-wide offer; price and participation may vary by location",
           "platform": "in_house",
-          "quote": "From$6.99/each",
+          "quote": "20% Off",
           "confidence": "high",
           "from_image": null,
-          "source_url": "https://www.papajohns.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "source_url": "https://www.papajohns.com/specials",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
-          "title": "2 or More for $6.99 Each, Papa Pairings",
+          "title": "Enjoy 20% off regular menu-price items in your order at participating…",
+          "description": "Enjoy 20% off regular menu-price items in your order at participating Papa Johns locations.",
+          "price": "20% off",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "Enjoy 20% off regular menu-price items in your order at participating Papa Johns locations.",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.papajohns.com/specials",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        },
+        {
+          "title": "View Deal",
+          "description": "20% Off Regular Menu Price Items",
+          "price": "20% Off",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "20% Off Regular Menu Price Items",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.papajohns.com/specials",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        },
+        {
+          "title": "1-Topping Carryout Special",
           "description": "2 or More for $6.99 Each, Papa Pairings",
           "price": "$6.99",
           "days": [],
@@ -2391,7 +2811,26 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.papajohns.com/specials",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        },
+        {
+          "title": "1-Topping Carryout Special",
+          "description": "Starting at $6.99 each",
+          "price": "$6.99",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "Starting at $6.99 each",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.papajohns.com/specials",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -2430,7 +2869,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.pizzabobs.net/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -2452,7 +2891,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.pizzabobs.net/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -2473,7 +2912,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.pizzabobs.net/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -2494,7 +2933,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.pizzabobs.net/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -2515,7 +2954,43 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.pizzabobs.net/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/5293901739",
+      "name": "Playa Bowls",
+      "lat": 42.2748808,
+      "lon": -83.7344312,
+      "type": "fast_food",
+      "chain": true,
+      "closed": false,
+      "cuisine": [
+        "açaí"
+      ],
+      "address": "1200 South University Avenue",
+      "website": "https://www.playabowls.com/location/ann-arbor",
+      "instagram": "playabowls",
+      "deals": [
+        {
+          "title": "Veterans Day 50% Off Any Bowl",
+          "description": "Veterans Day 50% Off Any Bowl",
+          "price": "50% Off",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "Veterans Day 50% Off Any Bowl",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.playabowls.com/policies/current-promotions",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -2794,7 +3269,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.rappourt.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -2815,60 +3290,91 @@
       "instagram": "redrobinburgers",
       "deals": [
         {
-          "title": "Faves and deals",
-          "description": "$9.99 Big Yummm Burger Deal",
+          "title": "Big Yummm Deal with Haystack Double and Orange Soda",
+          "description": "New Big Yummm Deals starting at $9.99",
           "price": "$9.99",
           "days": [],
           "start_time": null,
           "end_time": null,
-          "category": "food",
+          "category": "drink",
           "kind": "limited_time",
           "valid_until": null,
           "conditions": "Chain-wide offer; price and participation may vary by location",
           "platform": "in_house",
-          "quote": "$9.99 Big Yummm Burger Deal",
+          "quote": "New Big Yummm Deals starting at $9.99",
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.redrobin.com/locations/mi/annarbor/ann-arbor-499",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
-          "title": "Faves and deals",
-          "description": "Big Yummm Deals starting at $9.99",
+          "title": "Big Yummm Deal with Haystack Double and Orange Soda",
+          "description": "More of what you love for less! With new choices, and more YUMMM® than ever, you can’t go wrong when you go BIG. Starting at only $9.99.",
           "price": "$9.99",
           "days": [],
           "start_time": null,
           "end_time": null,
-          "category": "food",
+          "category": "drink",
           "kind": "limited_time",
           "valid_until": null,
           "conditions": "Chain-wide offer; price and participation may vary by location",
           "platform": "in_house",
-          "quote": "Big Yummm Deals starting at $9.99",
+          "quote": "More of what you love for less! With new choices, and more YUMMM® than ever, you can’t go wrong when you go BIG. Starting at only $9.99.",
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.redrobin.com/locations/mi/annarbor/ann-arbor-499",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
-          "title": "Faves and deals",
-          "description": "The best burger deal in town just got better. With more choices, and more YUMMM® than ever, you can’t go wrong when you go BIG. Starting at only $9.99.",
-          "price": "$9.99",
-          "days": [],
-          "start_time": null,
-          "end_time": null,
+          "title": "Happy Hour Monday through Friday 3-6pm. $5-$7 Drinks & Bites.",
+          "description": "Happy Hour Monday through Friday 3-6pm. $5-$7 Drinks & Bites.",
+          "price": "$5",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start_time": "15:00",
+          "end_time": "18:00",
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "Happy Hour Monday through Friday 3-6pm. $5-$7 Drinks & Bites.",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://www.redrobin.com/happy-hour",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        },
+        {
+          "title": "Happy Hour",
+          "description": "Enjoy Happy hour 3-6pm",
+          "price": null,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start_time": "15:00",
+          "end_time": "18:00",
           "category": "both",
-          "kind": "limited_time",
+          "kind": "recurring",
           "valid_until": null,
-          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "conditions": null,
           "platform": "in_house",
-          "quote": "The best burger deal in town just got better. With more choices, and more YUMMM® than ever, you can’t go wrong when you go BIG. Starting at only $9.99.",
+          "quote": "Enjoy Happy hour 3-6pm",
           "confidence": "high",
           "from_image": null,
-          "source_url": "https://www.redrobin.com/locations/mi/annarbor/ann-arbor-499",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "source_url": "https://www.redrobin.com/happy-hour",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -2902,7 +3408,7 @@
           "platform": "in_house",
           "quote": "Tequila Tuesday during the school year for half-off tequila drink specials",
           "source_url": "https://www.ricksamericancafe.com/specials",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": true
         },
         {
@@ -2921,7 +3427,7 @@
           "platform": "in_house",
           "quote": "Thursdays for $3 drinks of all kinds and $6 beer pitchers",
           "source_url": "https://www.ricksamericancafe.com/specials",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": true
         }
       ]
@@ -2957,7 +3463,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "http://scorekeepersa2.com/specials/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -2978,7 +3484,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "http://scorekeepersa2.com/specials/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -2999,7 +3505,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "http://scorekeepersa2.com/specials/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -3020,7 +3526,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "http://scorekeepersa2.com/specials/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -3041,7 +3547,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "http://scorekeepersa2.com/restaurant-menu/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -3062,7 +3568,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "http://scorekeepersa2.com/restaurant-menu/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -3083,7 +3589,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "http://scorekeepersa2.com/restaurant-menu/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -3104,7 +3610,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "http://scorekeepersa2.com/restaurant-menu/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -3125,7 +3631,223 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "http://scorekeepersa2.com/restaurant-menu/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/3129643013",
+      "name": "Subway",
+      "lat": 42.2946792,
+      "lon": -83.7813137,
+      "type": "fast_food",
+      "chain": true,
+      "closed": false,
+      "cuisine": [
+        "sandwich"
+      ],
+      "address": "1251 North Maple",
+      "website": "https://restaurants.subway.com/united-states/mi/ann-arbor/1251-north-maple",
+      "instagram": "subway",
+      "deals": [
+        {
+          "title": "$6.99 Meal of the Day",
+          "description": "$6.99 Meal of the Day",
+          "price": "$6.99",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "$6.99 Meal of the Day",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://restaurants.subway.com/united-states/mi/ann-arbor/1251-north-maple",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/3874139685",
+      "name": "Subway",
+      "lat": 42.2435765,
+      "lon": -83.7003825,
+      "type": "fast_food",
+      "chain": true,
+      "closed": false,
+      "cuisine": [
+        "sandwich"
+      ],
+      "address": "3098 Platt Road",
+      "website": "https://restaurants.subway.com/united-states/mi/ann-arbor/3098-platt-rd",
+      "instagram": "subway",
+      "deals": [
+        {
+          "title": "$6.99 Meal of the Day",
+          "description": "$6.99 Meal of the Day",
+          "price": "$6.99",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "$6.99 Meal of the Day",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://restaurants.subway.com/united-states/mi/ann-arbor/3098-platt-rd",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/4764017793",
+      "name": "Subway",
+      "lat": 42.2751523,
+      "lon": -83.7325537,
+      "type": "fast_food",
+      "chain": true,
+      "closed": false,
+      "cuisine": [
+        "sandwich"
+      ],
+      "address": "1315 South University Avenue",
+      "website": "https://restaurants.subway.com/united-states/mi/ann-arbor/1315-s-university-ave",
+      "instagram": "subway",
+      "deals": [
+        {
+          "title": "$6.99 Meal of the Day",
+          "description": "$6.99 Meal of the Day",
+          "price": "$6.99",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "$6.99 Meal of the Day",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://restaurants.subway.com/united-states/mi/ann-arbor/1315-s-university-ave",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/4856507602",
+      "name": "Subway",
+      "lat": 42.2708246,
+      "lon": -83.7407886,
+      "type": "fast_food",
+      "chain": true,
+      "closed": false,
+      "cuisine": [
+        "sandwich"
+      ],
+      "address": "902 South State Street",
+      "website": "https://restaurants.subway.com/united-states/mi/ann-arbor/902-south-state-st",
+      "instagram": "subway",
+      "deals": [
+        {
+          "title": "$6.99 Meal of the Day",
+          "description": "$6.99 Meal of the Day",
+          "price": "$6.99",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "$6.99 Meal of the Day",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://restaurants.subway.com/united-states/mi/ann-arbor/902-south-state-st",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "node/5262813316",
+      "name": "Subway",
+      "lat": 42.3054417,
+      "lon": -83.6943847,
+      "type": "fast_food",
+      "chain": true,
+      "closed": false,
+      "cuisine": [
+        "sandwich"
+      ],
+      "address": "3395 Plymouth Road",
+      "website": "https://restaurants.subway.com/united-states/mi/ann-arbor/3395-a-plymouth-road",
+      "instagram": "subway",
+      "deals": [
+        {
+          "title": "$6.99 Meal of the Day",
+          "description": "$6.99 Meal of the Day",
+          "price": "$6.99",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "$6.99 Meal of the Day",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://restaurants.subway.com/united-states/mi/ann-arbor/3395-a-plymouth-road",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "way/441362667",
+      "name": "Subway",
+      "lat": 42.2781509,
+      "lon": -83.779049,
+      "type": "fast_food",
+      "chain": true,
+      "closed": false,
+      "cuisine": [
+        "sandwich"
+      ],
+      "address": "2410 West Stadium Boulevard",
+      "website": "https://restaurants.subway.com/united-states/mi/ann-arbor/2410-w-stadium-blvd",
+      "instagram": "subway",
+      "deals": [
+        {
+          "title": "$6.99 Meal of the Day",
+          "description": "$6.99 Meal of the Day",
+          "price": "$6.99",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "$6.99 Meal of the Day",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://restaurants.subway.com/united-states/mi/ann-arbor/2410-w-stadium-blvd",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -3161,45 +3883,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://locations.tacobell.com/mi/ann-arbor/1655-plymouth-rd.html",
-          "verified_at": "2026-10-07T11:01:07.672Z",
-          "reviewed": false
-        }
-      ]
-    },
-    {
-      "id": "node/4997286409",
-      "name": "TeaHaus",
-      "lat": 42.2825043,
-      "lon": -83.7470367,
-      "type": "cafe",
-      "chain": false,
-      "closed": false,
-      "cuisine": [
-        "tea"
-      ],
-      "address": "200 North Fourth Avenue",
-      "website": "https://teahaus.com/",
-      "instagram": "teahaus_annarbor",
-      "deals": [
-        {
-          "title": "SPECIAL EVENTS",
-          "description": "All artwork is priced at $30; proceeds will support Food Gatherers Community Kitchen.",
-          "price": "$30",
-          "days": [
-            "mon"
-          ],
-          "start_time": null,
-          "end_time": null,
-          "category": "food",
-          "kind": "recurring",
-          "valid_until": null,
-          "conditions": null,
-          "platform": "in_house",
-          "quote": "All artwork is priced at $30; proceeds will support Food Gatherers Community Kitchen.",
-          "confidence": "high",
-          "from_image": null,
-          "source_url": "https://teahaus.com/pages/coming-events-calendar",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -3240,7 +3924,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://texasdebrazil.com/locations/ann-arbor/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -3264,7 +3948,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://texasdebrazil.com/locations/ann-arbor/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -3288,7 +3972,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://texasdebrazil.com/locations/ann-arbor/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -3312,7 +3996,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://texasdebrazil.com/locations/ann-arbor/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -3348,7 +4032,7 @@
           "platform": "in_house",
           "quote": "25% off oysters all night long",
           "source_url": "https://www.blackpearlannarbor.com/weekly-specials",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": true
         },
         {
@@ -3367,7 +4051,7 @@
           "platform": "in_house",
           "quote": "$7 a la carte tacos",
           "source_url": "https://www.blackpearlannarbor.com/weekly-specials",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": true
         },
         {
@@ -3386,7 +4070,7 @@
           "platform": "in_house",
           "quote": "50% off Select bottles of wine",
           "source_url": "https://www.blackpearlannarbor.com/weekly-specials",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": true
         },
         {
@@ -3405,7 +4089,7 @@
           "platform": "in_house",
           "quote": "Offering 15% off your bill if you currently work in the restaurant industry.",
           "source_url": "https://www.blackpearlannarbor.com/weekly-specials",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": true
         },
         {
@@ -3427,7 +4111,7 @@
           "platform": "in_house",
           "quote": "Happy Hour is Monday through Thursday from 5-6PM and Friday & Saturday from 4-5PM.",
           "source_url": "https://www.blackpearlannarbor.com/weekly-specials",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": true
         },
         {
@@ -3447,7 +4131,7 @@
           "platform": "in_house",
           "quote": "Happy Hour is Monday through Thursday from 5-6PM and Friday & Saturday from 4-5PM.",
           "source_url": "https://www.blackpearlannarbor.com/weekly-specials",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": true
         },
         {
@@ -3469,7 +4153,7 @@
           "from_image": null,
           "auto": true,
           "source_url": "https://www.blackpearlannarbor.com/weekly-specials",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -3488,9 +4172,9 @@
       "instagram": "blindpig_annarbor",
       "deals": [
         {
-          "title": "All Ages | $35.30",
-          "description": "All Ages | $35.30",
-          "price": "$35.30",
+          "title": "All Ages | $40.45",
+          "description": "All Ages | $40.45",
+          "price": "$40.45",
           "days": [
             "fri"
           ],
@@ -3501,11 +4185,11 @@
           "valid_until": null,
           "conditions": null,
           "platform": "in_house",
-          "quote": "All Ages | $35.30",
+          "quote": "All Ages | $40.45",
           "confidence": "high",
           "from_image": null,
           "source_url": "https://blindpigmusic.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -3513,7 +4197,7 @@
           "description": "All Ages | $25.00",
           "price": "$25.00",
           "days": [
-            "sat"
+            "tue"
           ],
           "start_time": null,
           "end_time": null,
@@ -3526,7 +4210,28 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://blindpigmusic.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        },
+        {
+          "title": "All Ages | $129.03",
+          "description": "All Ages | $129.03",
+          "price": "$129.03",
+          "days": [
+            "thu"
+          ],
+          "start_time": null,
+          "end_time": null,
+          "category": "drink",
+          "kind": "recurring",
+          "valid_until": null,
+          "conditions": null,
+          "platform": "in_house",
+          "quote": "All Ages | $129.03",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://blindpigmusic.com/",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -3534,7 +4239,7 @@
           "description": "All Ages | $22.94",
           "price": "$22.94",
           "days": [
-            "thu"
+            "sat"
           ],
           "start_time": null,
           "end_time": null,
@@ -3547,7 +4252,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://blindpigmusic.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -3555,8 +4260,7 @@
           "description": "All Ages | $30.15",
           "price": "$30.15",
           "days": [
-            "fri",
-            "sun"
+            "fri"
           ],
           "start_time": null,
           "end_time": null,
@@ -3569,7 +4273,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://blindpigmusic.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -3613,7 +4317,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://thechophouserestaurant.com/ann-arbor-the-chop-house-ann-arbor-food-menu",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -3640,7 +4344,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://thechophouserestaurant.com/ann-arbor-the-chop-house-ann-arbor-food-menu",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -3667,7 +4371,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://thechophouserestaurant.com/ann-arbor-the-chop-house-ann-arbor-food-menu",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -3694,7 +4398,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://thechophouserestaurant.com/ann-arbor-the-chop-house-ann-arbor-food-menu",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -3721,7 +4425,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://thechophouserestaurant.com/ann-arbor-the-chop-house-ann-arbor-food-menu",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -3748,7 +4452,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://thechophouserestaurant.com/ann-arbor-the-chop-house-ann-arbor-food-menu",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -3775,7 +4479,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://thechophouserestaurant.com/ann-arbor-the-chop-house-ann-arbor-food-menu",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -3811,7 +4515,7 @@
           "confidence": "high",
           "from_image": "https://images.squarespace-cdn.com/content/v1/5886158e8419c2220e164049/f1316277-ab0b-438e-8ee8-84b1a0c9a48e/TLW+Weekly+Lineup.jpg",
           "source_url": "https://thelastword.com/weekly",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -3832,7 +4536,7 @@
           "confidence": "high",
           "from_image": "https://images.squarespace-cdn.com/content/v1/5886158e8419c2220e164049/f1316277-ab0b-438e-8ee8-84b1a0c9a48e/TLW+Weekly+Lineup.jpg",
           "source_url": "https://thelastword.com/weekly",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -3853,7 +4557,7 @@
           "confidence": "high",
           "from_image": "https://images.squarespace-cdn.com/content/v1/5886158e8419c2220e164049/f1316277-ab0b-438e-8ee8-84b1a0c9a48e/TLW+Weekly+Lineup.jpg",
           "source_url": "https://thelastword.com/weekly",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -3874,7 +4578,7 @@
           "confidence": "high",
           "from_image": "https://images.squarespace-cdn.com/content/v1/5886158e8419c2220e164049/f1316277-ab0b-438e-8ee8-84b1a0c9a48e/TLW+Weekly+Lineup.jpg",
           "source_url": "https://thelastword.com/weekly",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -3895,7 +4599,7 @@
           "confidence": "high",
           "from_image": "https://images.squarespace-cdn.com/content/v1/5886158e8419c2220e164049/f1316277-ab0b-438e-8ee8-84b1a0c9a48e/TLW+Weekly+Lineup.jpg",
           "source_url": "https://thelastword.com/weekly",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -3914,72 +4618,6 @@
       "instagram": "theravensclub",
       "deals": [
         {
-          "title": "Happy Hour",
-          "description": "It’s happy hour · until 6:00 PMHappy hour · Monday through Thursday, 4:00 PM - 6:00 PM",
-          "price": null,
-          "days": [
-            "mon",
-            "tue",
-            "wed",
-            "thu"
-          ],
-          "start_time": "16:00",
-          "end_time": "18:00",
-          "category": "both",
-          "kind": "recurring",
-          "valid_until": null,
-          "conditions": null,
-          "platform": "in_house",
-          "quote": "It’s happy hour · until 6:00 PMHappy hour · Monday through Thursday, 4:00 PM - 6:00 PM",
-          "confidence": "high",
-          "from_image": null,
-          "source_url": "https://www.theravensclub.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
-          "reviewed": false
-        },
-        {
-          "title": "Whiskey pours 25% off",
-          "description": "Whiskey pours 25% off",
-          "price": "25% off",
-          "days": [
-            "wed"
-          ],
-          "start_time": null,
-          "end_time": null,
-          "category": "drink",
-          "kind": "recurring",
-          "valid_until": null,
-          "conditions": null,
-          "platform": "in_house",
-          "quote": "Whiskey pours 25% off",
-          "confidence": "high",
-          "from_image": null,
-          "source_url": "https://www.theravensclub.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
-          "reviewed": false
-        },
-        {
-          "title": "$6 select wines",
-          "description": "$6 select wines",
-          "price": "$6",
-          "days": [
-            "wed"
-          ],
-          "start_time": null,
-          "end_time": null,
-          "category": "drink",
-          "kind": "recurring",
-          "valid_until": null,
-          "conditions": null,
-          "platform": "in_house",
-          "quote": "$6 select wines",
-          "confidence": "high",
-          "from_image": null,
-          "source_url": "https://www.theravensclub.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
-          "reviewed": false
-        },
-        {
           "title": "Industry Night",
           "description": "25% off for industry workers",
           "price": "25% off",
@@ -3997,7 +4635,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.theravensclub.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4018,7 +4656,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.theravensclub.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4039,7 +4677,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.theravensclub.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4060,7 +4698,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.theravensclub.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4081,7 +4719,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.theravensclub.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4102,7 +4740,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.theravensclub.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4123,7 +4761,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.theravensclub.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4144,7 +4782,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.theravensclub.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4165,7 +4803,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.theravensclub.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4189,7 +4827,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.theravensclub.com/happy-hour",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4213,7 +4851,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.theravensclub.com/happy-hour",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4237,7 +4875,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.theravensclub.com/happy-hour",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4258,7 +4896,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.theravensclub.com/specials",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4279,7 +4917,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.theravensclub.com/specials",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4300,7 +4938,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.theravensclub.com/specials",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4321,7 +4959,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.theravensclub.com/specials",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4342,7 +4980,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.theravensclub.com/specials",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4363,7 +5001,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.theravensclub.com/specials",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4384,7 +5022,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.theravensclub.com/specials",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4405,7 +5043,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.theravensclub.com/specials",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4426,7 +5064,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.theravensclub.com/specials",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4447,7 +5085,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.theravensclub.com/specials",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4468,7 +5106,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.theravensclub.com/specials",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4492,7 +5130,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.theravensclub.com/menu",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4516,7 +5154,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.theravensclub.com/menu",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4537,7 +5175,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.theravensclub.com/menu",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4558,7 +5196,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.theravensclub.com/menu",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -4594,7 +5232,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.timhortons.com/offer-terms",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -4633,7 +5271,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://locations.tropicalsmoothiecafe.com/mi/ann-arbor/3400-washtenaw-avenue",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4655,7 +5293,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://locations.tropicalsmoothiecafe.com/mi/ann-arbor/3400-washtenaw-avenue",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -4691,7 +5329,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.upliftannarbor.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -4730,7 +5368,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.experience4m.com/menus/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4754,7 +5392,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.experience4m.com/menus/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4778,7 +5416,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.experience4m.com/menus/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4802,7 +5440,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.experience4m.com/menus/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4826,7 +5464,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.experience4m.com/menus/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4850,7 +5488,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.experience4m.com/menus/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -4874,7 +5512,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.experience4m.com/menus/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -4910,7 +5548,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.vertex-coffee.com/menus",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -4923,7 +5561,9 @@
       "type": "restaurant",
       "chain": false,
       "closed": false,
-      "cuisine": [],
+      "cuisine": [
+        "american"
+      ],
       "address": "110 South Main Street",
       "website": "https://vinologya2.com/",
       "instagram": "vinologya2",
@@ -4950,7 +5590,62 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://vinologya2.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "way/339695055",
+      "name": "Wendy's",
+      "lat": 42.2418097,
+      "lon": -83.7352208,
+      "type": "fast_food",
+      "chain": true,
+      "closed": false,
+      "cuisine": [
+        "burger"
+      ],
+      "address": "3100 Boardwalk",
+      "website": "https://locations.wendys.com/united-states/mi/ann-arbor/3100-boardwalk",
+      "instagram": "wendys",
+      "deals": [
+        {
+          "title": "Get the Dave’s Single Combo for Just $7.99",
+          "description": "Get the Dave’s Single Combo for Just $7.99",
+          "price": "$7.99",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "food",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "Get the Dave’s Single Combo for Just $7.99",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://locations.wendys.com/united-states/mi/ann-arbor/3100-boardwalk",
+          "verified_at": "2026-11-06T11:30:01.005Z",
+          "reviewed": false
+        },
+        {
+          "title": "drink for only $7.99. It’s the full Wendy’s experience, minus",
+          "description": "drink for only $7.99. It’s the full Wendy’s experience, minus",
+          "price": "$7.99",
+          "days": [],
+          "start_time": null,
+          "end_time": null,
+          "category": "drink",
+          "kind": "limited_time",
+          "valid_until": null,
+          "conditions": "Chain-wide offer; price and participation may vary by location",
+          "platform": "in_house",
+          "quote": "drink for only $7.99. It’s the full Wendy’s experience, minus",
+          "confidence": "high",
+          "from_image": null,
+          "source_url": "https://locations.wendys.com/united-states/mi/ann-arbor/3100-boardwalk",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -4988,7 +5683,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.yorka2.com/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]
@@ -5030,7 +5725,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.zingermansroadhouse.com/menus/happy-hour/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -5055,7 +5750,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.zingermansroadhouse.com/menus/happy-hour/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -5080,7 +5775,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.zingermansroadhouse.com/menus/happy-hour/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -5105,7 +5800,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.zingermansroadhouse.com/menus/happy-hour/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -5130,7 +5825,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.zingermansroadhouse.com/menus/happy-hour/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -5155,7 +5850,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.zingermansroadhouse.com/menus/happy-hour/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -5180,7 +5875,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.zingermansroadhouse.com/menus/happy-hour/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -5205,7 +5900,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.zingermansroadhouse.com/menus/happy-hour/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -5230,7 +5925,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.zingermansroadhouse.com/menus/happy-hour/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         },
         {
@@ -5255,7 +5950,7 @@
           "confidence": "high",
           "from_image": null,
           "source_url": "https://www.zingermansroadhouse.com/menus/happy-hour/",
-          "verified_at": "2026-10-07T11:01:07.672Z",
+          "verified_at": "2026-11-06T11:30:01.005Z",
           "reviewed": false
         }
       ]

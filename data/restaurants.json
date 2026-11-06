@@ -110,7 +110,7 @@
     "brand": null,
     "cuisine": [],
     "address": "2505 Dexter Rd",
-    "phone": "(734) 998-4445",
+    "phone": "+17349984445",
     "opening_hours": null,
     "website": "https://ahmos.com/",
     "instagram": null,
@@ -118,7 +118,8 @@
     "sources": [
       "osm",
       "overture"
-    ]
+    ],
+    "overture_says_closed": true
   },
   {
     "id": "node/7041626486",
@@ -1048,27 +1049,6 @@
     ]
   },
   {
-    "id": "node/4802256330",
-    "name": "Blue Leprechaun",
-    "lat": 42.2749042,
-    "lon": -83.7335958,
-    "type": "pub",
-    "brand": null,
-    "cuisine": [
-      "irish"
-    ],
-    "address": "1220 South University Avenue",
-    "phone": "+17349295944",
-    "opening_hours": null,
-    "website": "http://www.theblueleprechaun.com",
-    "instagram": null,
-    "facebook": "121410035647",
-    "sources": [
-      "osm",
-      "overture"
-    ]
-  },
-  {
     "id": "node/9905975063",
     "name": "Blue Nile Ethiopian",
     "lat": 42.2805508,
@@ -1202,7 +1182,7 @@
     "opening_hours": "Mo-Su 08:00-14:00",
     "website": "https://locations.brueggers.com/us/mi/ann-arbor/709-n-university-ave",
     "instagram": null,
-    "facebook": null,
+    "facebook": "176729425796204",
     "sources": [
       "osm",
       "overture"
@@ -1304,9 +1284,9 @@
     "instagram": null,
     "facebook": null,
     "sources": [
-      "osm",
-      "overture"
-    ]
+      "osm"
+    ],
+    "overture_says_closed": true
   },
   {
     "id": "node/4997286406",
@@ -1466,6 +1446,26 @@
     "website": "https://caseys-tavern.com/caseys-tavern-east/",
     "instagram": "caseystavern_annarbor",
     "facebook": "caseystavern",
+    "sources": [
+      "osm"
+    ]
+  },
+  {
+    "id": "node/4802256330",
+    "name": "Champs Lounge",
+    "lat": 42.2749042,
+    "lon": -83.7335958,
+    "type": "pub",
+    "brand": null,
+    "cuisine": [
+      "irish"
+    ],
+    "address": "1220 South University Avenue",
+    "phone": null,
+    "opening_hours": null,
+    "website": null,
+    "instagram": null,
+    "facebook": null,
     "sources": [
       "osm"
     ]
@@ -1847,7 +1847,7 @@
   },
   {
     "id": "node/2760098977",
-    "name": "Connor O'Neils",
+    "name": "Conor O'Neill's",
     "lat": 42.2789126,
     "lon": -83.7488378,
     "type": "pub",
@@ -1860,7 +1860,8 @@
     "instagram": "conorspubannarbor",
     "facebook": "conoroneills",
     "sources": [
-      "osm"
+      "osm",
+      "overture"
     ]
   },
   {
@@ -1939,7 +1940,27 @@
     "opening_hours": "10:00-23:00",
     "website": "https://locations.cottageinn.com/cottage-inn-pizza-24a881696402",
     "instagram": null,
-    "facebook": "104940576215242",
+    "facebook": null,
+    "sources": [
+      "osm"
+    ]
+  },
+  {
+    "id": "node/14353063701",
+    "name": "Cottage Inn Pizza",
+    "lat": 42.2452102,
+    "lon": -83.7410665,
+    "type": "restaurant",
+    "brand": null,
+    "cuisine": [
+      "pizza"
+    ],
+    "address": "2900 South State Street",
+    "phone": "+1-734-663-4500",
+    "opening_hours": "Fr-Sa 10:00-23:00; Su-Th 10:00-22:00",
+    "website": "https://order.cottageinn.com/?uniqueStoreIdentifier=STATEST#/",
+    "instagram": null,
+    "facebook": "120161797996543",
     "sources": [
       "osm",
       "overture"
@@ -3087,26 +3108,6 @@
     ]
   },
   {
-    "id": "way/1288443647",
-    "name": "Hibachi-san",
-    "lat": 42.2909971,
-    "lon": -83.7176948,
-    "type": "restaurant",
-    "brand": null,
-    "cuisine": [
-      "asian"
-    ],
-    "address": null,
-    "phone": null,
-    "opening_hours": "Mo-Su 09:00-21:00",
-    "website": null,
-    "instagram": null,
-    "facebook": null,
-    "sources": [
-      "osm"
-    ]
-  },
-  {
     "id": "node/4923016825",
     "name": "Hillel Cafe",
     "lat": 42.2727031,
@@ -3717,7 +3718,7 @@
     "opening_hours": "Mo-Su 11:30-21:30",
     "website": "https://www.kanbusushidowntown.com/",
     "instagram": null,
-    "facebook": "101533958514916",
+    "facebook": "171043270142855",
     "sources": [
       "osm",
       "overture"
@@ -4389,13 +4390,13 @@
     "address": "300 South Thayer Street",
     "phone": "+1 734 996 3729",
     "opening_hours": null,
-    "website": "http://www.mercysrestaurant.com",
+    "website": null,
     "instagram": null,
     "facebook": null,
     "sources": [
-      "osm",
-      "overture"
-    ]
+      "osm"
+    ],
+    "overture_says_closed": true
   },
   {
     "id": "node/2874423246",
@@ -6044,7 +6045,7 @@
     "type": "restaurant",
     "brand": null,
     "cuisine": [],
-    "address": "2252 S Main St Ann Arbor",
+    "address": "2252 S Main St",
     "phone": "+17343321489",
     "opening_hours": null,
     "website": "https://locations.qdoba.com/us/mi/ann-arbor/2252-s-main-st",
@@ -6927,7 +6928,7 @@
     "opening_hours": null,
     "website": "https://www.starbucks.com/store-locator/store/14031/arborland-washtenaw-us-23-3601-washtenaw-ave-ann-arbor-mi-481045277-us",
     "instagram": null,
-    "facebook": "748920944962419",
+    "facebook": null,
     "sources": [
       "osm",
       "overture"
@@ -7363,6 +7364,27 @@
     "sources": [
       "osm",
       "overture"
+    ]
+  },
+  {
+    "id": "way/1288443647",
+    "name": "Sweetwaters Coffee & Tea UM Pierpont",
+    "lat": 42.2909971,
+    "lon": -83.7176948,
+    "type": "cafe",
+    "brand": null,
+    "cuisine": [
+      "coffee shop",
+      "tea"
+    ],
+    "address": null,
+    "phone": null,
+    "opening_hours": "Mo-Fr 07:00-21:00; Sa-Su 12:00-21:00",
+    "website": null,
+    "instagram": null,
+    "facebook": null,
+    "sources": [
+      "osm"
     ]
   },
   {
@@ -8218,7 +8240,7 @@
     "cuisine": [
       "juice"
     ],
-    "address": "885 W Eisenhower Pkwy",
+    "address": "885 W. Eisenhower Parkway",
     "phone": "+17348822971",
     "opening_hours": null,
     "website": "https://locations.tropicalsmoothiecafe.com/mi/ann-arbor/885-w.-eisenhower-parkway?y_source=1_MTA5MDM5NzktNTU5LWxvY2F0aW9uLndlYnNpdGU%3D",
@@ -8326,9 +8348,10 @@
     "opening_hours": "Mo-Fr 08:00-17:00; Sa-Su 11:00-17:00",
     "website": "https://dining.umich.edu/menus-locations/cafes/umma-cafe/?menuDate=2025-11-10",
     "instagram": null,
-    "facebook": null,
+    "facebook": "214541351889446",
     "sources": [
-      "osm"
+      "osm",
+      "overture"
     ]
   },
   {
@@ -8480,10 +8503,12 @@
     "lon": -83.7487121,
     "type": "restaurant",
     "brand": null,
-    "cuisine": [],
+    "cuisine": [
+      "american"
+    ],
     "address": "110 South Main Street",
-    "phone": "+17342229841",
-    "opening_hours": null,
+    "phone": "+1-734-222-9841",
+    "opening_hours": "Mo-Th 16:00-22:00; Fr,Sa 16:00-23:00; Su 15:30-21:00",
     "website": "https://vinologya2.com/",
     "instagram": null,
     "facebook": "167642321576",
