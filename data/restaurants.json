@@ -160,6 +160,26 @@
     ]
   },
   {
+    "id": "node/14363987898",
+    "name": "Alloush Grill",
+    "lat": 42.279461,
+    "lon": -83.7480813,
+    "type": "restaurant",
+    "brand": null,
+    "cuisine": [
+      "mediterranean"
+    ],
+    "address": "106 East Liberty Street",
+    "phone": "1-734-492-3378",
+    "opening_hours": "Mo-Su 11:00-23:00",
+    "website": "https://www.alloushgrill.com/",
+    "instagram": null,
+    "facebook": null,
+    "sources": [
+      "osm"
+    ]
+  },
+  {
     "id": "node/4995373012",
     "name": "aMa Bistro",
     "lat": 42.2798054,
@@ -1186,6 +1206,24 @@
     "sources": [
       "osm",
       "overture"
+    ]
+  },
+  {
+    "id": "node/14363815078",
+    "name": "BTB Buritto",
+    "lat": 42.2747802,
+    "lon": -83.7348137,
+    "type": "restaurant",
+    "brand": null,
+    "cuisine": [],
+    "address": null,
+    "phone": null,
+    "opening_hours": null,
+    "website": null,
+    "instagram": null,
+    "facebook": null,
+    "sources": [
+      "osm"
     ]
   },
   {
@@ -6750,6 +6788,26 @@
     ]
   },
   {
+    "id": "node/14363863116",
+    "name": "Slurping Turtle",
+    "lat": 42.2792543,
+    "lon": -83.7411008,
+    "type": "restaurant",
+    "brand": null,
+    "cuisine": [
+      "japanese"
+    ],
+    "address": "608 East Liberty Street",
+    "phone": null,
+    "opening_hours": null,
+    "website": null,
+    "instagram": null,
+    "facebook": null,
+    "sources": [
+      "osm"
+    ]
+  },
+  {
     "id": "way/756106889",
     "name": "Smoothie King",
     "lat": 42.2808562,
@@ -7453,8 +7511,8 @@
   {
     "id": "node/9018638843",
     "name": "TAQ Taqueria Restaurant & Bar",
-    "lat": 42.2794629,
-    "lon": -83.7480911,
+    "lat": 42.2794328,
+    "lon": -83.7475815,
     "type": "restaurant",
     "brand": null,
     "cuisine": [
@@ -7941,6 +7999,26 @@
     ]
   },
   {
+    "id": "node/14363818775",
+    "name": "The Seoul",
+    "lat": 42.2792491,
+    "lon": -83.7410079,
+    "type": "restaurant",
+    "brand": null,
+    "cuisine": [
+      "korean"
+    ],
+    "address": "602 East Liberty Street",
+    "phone": null,
+    "opening_hours": null,
+    "website": null,
+    "instagram": null,
+    "facebook": null,
+    "sources": [
+      "osm"
+    ]
+  },
+  {
     "id": "node/14106120636",
     "name": "The Stubborn Brother",
     "lat": 42.2777585,
@@ -8249,26 +8327,6 @@
     "sources": [
       "osm",
       "overture"
-    ]
-  },
-  {
-    "id": "node/4837097556",
-    "name": "Turkish Village Cafe",
-    "lat": 42.2794256,
-    "lon": -83.7475453,
-    "type": "cafe",
-    "brand": null,
-    "cuisine": [
-      "turkish"
-    ],
-    "address": "120 East Liberty Street",
-    "phone": null,
-    "opening_hours": "Mo-Su 08:00-22:00",
-    "website": "https://www.turkishvillagecuisine.com/",
-    "instagram": "turkishvillagecuisine",
-    "facebook": null,
-    "sources": [
-      "osm"
     ]
   },
   {
