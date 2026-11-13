@@ -990,26 +990,6 @@
     ]
   },
   {
-    "id": "node/2873352845",
-    "name": "Blaze Pizza",
-    "lat": 42.2473528,
-    "lon": -83.7585912,
-    "type": "restaurant",
-    "brand": "Blaze Pizza",
-    "cuisine": [
-      "pizza"
-    ],
-    "address": "980A West Eisenhower Parkway",
-    "phone": "+1 734 773 3198",
-    "opening_hours": "Su-Th 10:30-23:00; Fr,Sa 10:30-24:00",
-    "website": "https://www.blazepizza.com/locations/ann-arbor-cranbrook-village",
-    "instagram": null,
-    "facebook": null,
-    "sources": [
-      "osm"
-    ]
-  },
-  {
     "id": "node/13463287901",
     "name": "Blazin Coop’s Nashville Hot Chicken",
     "lat": 42.2977903,
@@ -1062,6 +1042,24 @@
     "phone": null,
     "opening_hours": "Mo-Th 07:00-01:00; Fr 07:00-23:00; Sa 09:00-23:00; Su 09:00-01:00",
     "website": null,
+    "instagram": null,
+    "facebook": null,
+    "sources": [
+      "osm"
+    ]
+  },
+  {
+    "id": "node/14371697472",
+    "name": "Blue Cafe and Market",
+    "lat": 42.2715096,
+    "lon": -83.745518,
+    "type": "cafe",
+    "brand": null,
+    "cuisine": [],
+    "address": "310 Hill Street",
+    "phone": "734-763-9777",
+    "opening_hours": "Mo-Fri 7:30-22:30; Sa-Su 10:00-17:00",
+    "website": "https://dining.umich.edu/menus-locations/markets/blue-market-and-cafe/wolverine-village/",
     "instagram": null,
     "facebook": null,
     "sources": [
@@ -2841,6 +2839,25 @@
     "website": "https://fritabatidos.com/ann-arbor/",
     "instagram": "fritabatidos",
     "facebook": "FritaBatidos",
+    "sources": [
+      "osm",
+      "overture"
+    ]
+  },
+  {
+    "id": "node/2873352845",
+    "name": "Fueld",
+    "lat": 42.2473528,
+    "lon": -83.7585912,
+    "type": "restaurant",
+    "brand": null,
+    "cuisine": [],
+    "address": "980A West Eisenhower Parkway",
+    "phone": "+17345855831",
+    "opening_hours": null,
+    "website": "https://order.toasttab.com/online/fuel-d-food-expansion-2-980-w-eisenhower-pkwy",
+    "instagram": null,
+    "facebook": "556938850827327",
     "sources": [
       "osm",
       "overture"
@@ -6663,28 +6680,6 @@
     ]
   },
   {
-    "id": "node/8775043747",
-    "name": "Shawarma Shop",
-    "lat": 42.2445548,
-    "lon": -83.7386185,
-    "type": "restaurant",
-    "brand": null,
-    "cuisine": [
-      "lebanese",
-      "mediterranean"
-    ],
-    "address": "2993 South State Street",
-    "phone": "+1-734-369-6552",
-    "opening_hours": "Mo-Sa 10:00-21:00",
-    "website": "https://shawarmashopaa.com/",
-    "instagram": null,
-    "facebook": "106592755056062",
-    "sources": [
-      "osm",
-      "overture"
-    ]
-  },
-  {
     "id": "node/12588785338",
     "name": "Siam Square",
     "lat": 42.2448822,
@@ -6808,10 +6803,10 @@
     ]
   },
   {
-    "id": "way/756106889",
+    "id": "node/14371689753",
     "name": "Smoothie King",
-    "lat": 42.2808562,
-    "lon": -83.7828388,
+    "lat": 42.2808645,
+    "lon": -83.7829557,
     "type": "fast_food",
     "brand": "Smoothie King",
     "cuisine": [
