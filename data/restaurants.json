@@ -6700,6 +6700,27 @@
     ]
   },
   {
+    "id": "node/14407764293",
+    "name": "Shawarma Shop & Bakery",
+    "lat": 42.2445774,
+    "lon": -83.7375364,
+    "type": "restaurant",
+    "brand": null,
+    "cuisine": [
+      "middle eastern"
+    ],
+    "address": "777 E Eisenhower Pkwy #110",
+    "phone": "(734) 369-6552",
+    "opening_hours": "Mo-Fr 11:00-19:00; Sa 10:00-15:00",
+    "website": "https://www.shawarmashopandbakery.com/",
+    "instagram": null,
+    "facebook": "106592755056062",
+    "sources": [
+      "osm",
+      "overture"
+    ]
+  },
+  {
     "id": "node/12588785338",
     "name": "Siam Square",
     "lat": 42.2448822,
